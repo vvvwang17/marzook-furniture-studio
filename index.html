@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="WAVE INTERIORS 家具搭配工作室 · MARZOOK 客户空间与选款。">
+  <title>WAVE INTERIORS · 家具搭配工作室</title>
+  <link rel="stylesheet" href="styles.css?v=20261023-pages1">
+  <link rel="stylesheet" href="scene-studio.css">
+  <link rel="stylesheet" href="immersive.css?v=20261023-pages1">
+  <script src="catalog.js?v=20261023-pages1" defer></script>
+  <script src="scenes.js" defer></script>
+  <script src="project-files.js" defer></script>
+  <script src="app.js?v=20261023-pages1" defer></script>
+  <script src="scene-studio.js" defer></script>
+  <script type="module" src="immersive.js?v=20261023-pages1"></script>
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand wave-brand" href="#" aria-label="WAVE INTERIORS 家具搭配工作室"><span class="wave-logo"><img src="branding/wave-interiors.png" alt="Wave Interiors"></span><span class="wave-studio-name">家具搭配工作室</span></a>
+    <div class="header-note"><span class="status-dot"></span>本地私享 · 自动保存</div>
+    <button id="help-button" class="quiet">使用说明</button>
+  </header>
+  <nav class="studio-tabs" aria-label="工作室模式">
+    <a href="moodboard.html" class="mode-tab" style="display:flex;flex-direction:column;justify-content:center;text-decoration:none;border-bottom:3px solid #a56c4e">区域 Moodboard <span>按图纸分区 · 自由拖拽搭配 ↗</span></a>
+    <button id="mode-immersive" data-studio-mode="immersive" class="mode-tab">空间漫游 <span>3D 家具自由摆放</span></button>
+    <button id="mode-site" data-studio-mode="site" class="mode-tab">现场图片试搭 <span>原图与单视角预览</span></button>
+    <button id="mode-board" data-studio-mode="board" class="mode-tab">白底搭配 <span>比较家具与材质</span></button>
+    <button id="mode-drawings" data-studio-mode="drawings" class="mode-tab">客户图纸 <span>CAD / SketchUp</span></button>
+  </nav>
+  <main class="workspace">
+    <section class="library panel" aria-label="家具选款库">
+      <div class="panel-heading"><div><p class="eyebrow">01 / EXPLORE</p><h1>客户家具库</h1></div><span id="library-count" class="count">0 件</span></div>
+      <p id="catalog-summary" class="muted small">正在读取家具清单…</p>
+      <label class="search"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="搜索名称、颜色或编号" aria-label="搜索家具"></label>
+      <div id="category-filters" class="filters" aria-label="按类别筛选"></div>
+      <div class="library-options"><label class="checkline"><input id="ready-only" type="checkbox"> 白底已完成</label><label class="checkline"><input id="models-only" type="checkbox"> 可用三维</label><label class="checkline"><input id="priority-only" type="checkbox"> 客户优先</label><button id="clear-picks" class="text-button">取消勾选</button></div>
+      <p class="library-drag-tip">拖动家具卡片到空间地面，即可摆放；选中后可旋转。</p><div id="library-grid" class="library-grid"></div>
+      <div class="library-footer"><span id="picked-count">已选 0 款</span><button id="add-picked" class="primary">加入画布 <span aria-hidden="true">＋</span></button></div>
+    </section>
+
+    <section class="studio" aria-label="搭配画布">
+      <div class="studio-heading"><div><p class="eyebrow">02 / COMPOSE</p><label class="title-label"><input id="board-title" maxlength="80" value="我的搭配 · Option 01" aria-label="方案名称"><span aria-hidden="true">✎</span></label></div><span id="save-status" class="small muted">自动保存</span></div>
+      <div class="canvas-toolbar"><div class="toolbar-group"><button id="quick-compose" title="按家具类别快速组织搭配">快速试搭</button><button id="auto-layout" title="均匀排开，避免家具相互遮挡">自动排开</button><button id="undo" title="撤销上一步（Ctrl / ⌘ Z）">撤销</button></div><div class="toolbar-group backgrounds" aria-label="画布底色"><button id="bg-white" class="swatch active" aria-label="白色底" title="白色底"></button><button id="bg-cream" class="swatch cream" aria-label="米色底" title="米色底"></button><span class="small muted">背景</span></div><button id="clear-board" class="text-button">清空画布</button></div>
+      <div class="stage-viewport"><div id="stage" class="stage" tabindex="0" aria-label="家具画布，可拖动家具或使用方向键移动">
+        <div id="stage-empty" class="stage-empty"><div class="empty-symbol" aria-hidden="true">＋</div><h2>从一件喜欢的家具开始</h2><p>在左侧勾选白底单品，加入画布。<br>再拖动、缩放，慢慢找到合适的组合。</p></div>
+      </div></div>
+      <div id="object-toolbar" class="object-toolbar" hidden><span id="active-name" class="active-name"></span><div class="toolbar-group"><button id="scale-down" title="缩小 10%">−</button><span id="scale-value" class="small muted"></span><button id="scale-up" title="放大 10%">＋</button></div><div class="toolbar-group"><button id="to-back">置后</button><button id="to-front">置前</button><button id="duplicate">复制</button><button id="delete-item" class="danger">移除</button></div></div>
+      <div class="canvas-bottom"><p class="small muted">拖动移动 · 右下角缩放 · 可重复添加同款<br><span>白底立体图 / 透明素材，均为 2D；不代表真实尺寸或可旋转的三维模型。</span></p><button id="export-png" class="primary export-button">导出高清 PNG <span aria-hidden="true">↗</span></button></div>
+    </section>
+
+    <aside class="selection panel" aria-label="选款与方案">
+      <div class="panel-heading"><div><p class="eyebrow">03 / COLLABORATE</p><h2>一起搭配</h2></div></div>
+      <label class="field-label" for="design-note">告诉我你想怎么搭配</label><textarea id="design-note" rows="4" placeholder="例如：客厅，沙发为主，配两张单椅；地毯安静一点，保留酒红点缀。"></textarea>
+      <button id="copy-brief" class="primary full-width">复制选款与搭配要求</button><p class="small muted brief-hint">粘贴回聊天，我就能按稳定编号继续帮你组合。</p>
+      <div class="selection-title"><h3>当前画布</h3><span id="canvas-count" class="small muted">0 件</span></div>
+      <div id="selection-list" class="selection-list"></div>
+      <details class="picked-details"><summary>勾选清单 <span id="basket-count">0</span></summary><div id="basket-list"></div></details>
+      <div class="file-actions"><button id="export-text">导出选款文字</button><button id="export-json">保存方案 JSON</button><button id="import-json">导入方案 JSON</button><input id="import-file" type="file" accept=".json,application/json" hidden></div>
+      <p class="small muted footer-note">你的选款和排版只保存在此浏览器。<br>保存 JSON，可备份或继续协作。</p>
+    </aside>
+    <section id="site-studio" class="site-studio" aria-label="客户现场搭配" hidden>
+      <div class="site-heading"><div><p class="eyebrow">CLIENT SPACE / MARZOOK</p><h1>现场图片试搭</h1><p class="muted">选择单一视角，用家具图片快速比较配色和组合。</p></div><span class="site-status" id="site-save-status" role="status">自动保存</span></div>
+      <div id="site-scenes" class="scene-strip" aria-label="选择客户现场视角"></div>
+      <div class="site-workbench">
+        <div class="site-canvas-column">
+          <div class="site-canvas-header"><div><h2 id="site-scene-name">正在读取现场空景</h2><p id="site-scene-description" class="small muted"></p></div><a id="site-download-background" class="button-link" download>下载空景</a></div>
+          <div class="site-actions"><div class="toolbar-group"><button id="site-arrange">自动排开</button><button id="site-undo">撤销</button><button id="site-clear">清空家具</button></div><div class="toolbar-group"><button id="site-original" aria-pressed="false">查看现场原图</button><button id="site-hide-pieces" aria-pressed="false">暂隐家具</button></div></div>
+          <div class="site-stage-shell"><div id="site-stage" class="site-stage" tabindex="0" aria-label="现场搭配画布，可拖动家具，方向键微调"><img id="site-background" alt="客户现场还原空景" draggable="false"><div id="site-pieces"></div><span id="site-view-label" class="site-view-label">现场还原空景</span><div id="site-loading" class="site-loading" role="status">正在读取场景…</div></div></div>
+          <div id="site-piece-tools" class="site-piece-tools" hidden><span id="site-active-name"></span><div class="toolbar-group"><button id="site-scale-down" aria-label="缩小家具">−</button><span id="site-scale-label"></span><button id="site-scale-up" aria-label="放大家具">＋</button><button id="site-flip" aria-pressed="false">镜像</button></div><div class="toolbar-group"><button id="site-back">置后</button><button id="site-front">置前</button><button id="site-duplicate">复制</button><button id="site-delete" class="danger">移除</button></div></div>
+          <div class="site-caption"><p id="site-scene-note"></p><p>当前为可拖放的二维试摆；比例、光影与透视可在下一步精修。空景为依据现场资料制作的视觉还原。</p></div>
+          <div class="site-export-bar"><button id="site-export-png" class="primary">导出现场搭配 PNG ↗</button><button id="site-copy-brief">复制精修要求</button><button id="site-export-json">导出方案 JSON</button><button id="site-import-json">导入方案</button><input id="site-import-file" type="file" accept=".json,application/json" hidden></div>
+        </div>
+        <aside class="site-editor-panel" aria-label="现场家具与方案">
+          <p class="eyebrow">YOUR FURNITURE SET</p><h2>这组搭配</h2><p class="small muted">左侧勾选单品，再加入当前现场。同款可以重复添加。</p>
+          <button id="site-add-picked" class="primary full-width">加入已勾选家具 <span id="site-picked-count">0</span></button><button id="site-from-board" class="full-width">使用白底画布的家具组</button>
+          <label for="site-option-name" class="field-label">方案名称</label><input id="site-option-name" maxlength="80" value="现场搭配 · Option 01">
+          <label for="site-note" class="field-label">这一区域的搭配要求</label><textarea id="site-note" rows="3" placeholder="例如：保留通道，桌边柜选小、薄的款式；餐区增加 dessert bar 和 buffet。"></textarea>
+          <div class="selection-title"><h3>家具图层</h3><span id="site-piece-count" class="small muted">0 件</span></div><div id="site-layer-list" class="site-layer-list"></div>
+          <div class="site-options-block"><button id="site-save-option" class="full-width">保存为一个 Option</button><label for="site-saved-options" class="field-label">此视角已保存的方案</label><select id="site-saved-options" aria-label="选择保存的现场方案"><option value="">选择一个 Option</option></select><div class="site-option-actions"><button id="site-load-option">载入</button><button id="site-delete-option" class="text-button">删除已选 Option</button></div></div>
+          <p class="small muted">每个视角单独记住家具和排版。导出 PNG + JSON 后发回聊天，即可继续精修材质、透视和光影。</p>
+        </aside>
+      </div>
+      <div id="site-no-scenes" class="site-empty" hidden><h2>现场空景正在接入</h2><p>家具库与白底搭配可以继续使用。空景就绪后会显示在这里。</p><button data-studio-mode="board" class="primary">先去白底搭配</button></div>
+    </section>
+    <section id="project-drawings" class="project-drawings" aria-label="客户 CAD 与 SketchUp 图纸" hidden><div class="project-heading"><div><p class="eyebrow">PROJECT LIBRARY / MARZOOK</p><h1>客户图纸</h1><p class="muted">查看平面与模型总览，下载 CAD 和 SketchUp 源文件继续编辑。</p></div><span id="project-updated" class="small muted"></span></div><div id="project-file-grid" class="project-file-grid"></div><p class="project-footnote muted">页面展示图纸预览；CAD / SU 源文件下载后使用电脑里的相应软件打开。</p></section>
+  </main>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <dialog id="detail-dialog"><button id="detail-close" class="dialog-close quiet" aria-label="关闭单品预览">×</button><p id="detail-id" class="eyebrow"></p><h2 id="detail-name"></h2><div class="detail-images"><figure><img id="detail-product" alt="白底单品"><figcaption id="detail-product-label">白底立体图</figcaption></figure><figure><img id="detail-source" alt="客户原始参考"><figcaption>客户原始参考</figcaption></figure></div><p id="detail-model-status" class="detail-model-status" role="status"></p><p id="detail-note" class="muted"></p><div id="detail-links" class="detail-links"></div><div class="detail-actions"><button id="detail-add" class="primary">加入画布</button><button id="detail-white">下载白底图</button><button id="detail-transparent">下载透明 PNG</button></div></dialog>
+  <dialog id="message-dialog"><form method="dialog"><button class="dialog-close quiet" aria-label="关闭">×</button><h2 id="dialog-title"></h2><p id="dialog-message"></p><textarea id="dialog-copy" rows="12" readonly hidden></textarea><button class="primary">知道了</button></form></dialog>
+  <dialog id="help-dialog"><form method="dialog"><button class="dialog-close quiet" aria-label="关闭">×</button><p class="eyebrow">WAVE INTERIORS / YOUR LOCAL STUDIO</p><h2>选款、试摆，再一起精修</h2><ol><li><b>空间漫游：</b>选择图纸对应的区域进入现场空间。拖动空白处转头，用 WASD 或方向按钮行走；“摆正视角”恢复水平。</li><li>从左侧家具卡片直接拖到空间地面，或勾选后点“加入空间”。选择家具后可调整旋转角度、宽深高和离地；“俯视布置”便于移动和检查间距。列表右侧可逐件删除，也可撤销。</li><li>“另存为一个 Option”保留不同搭配。导出当前视角 PNG 和空间方案 JSON，发回聊天继续精修；JSON 可再次导入。</li><li><b>白底搭配 / 现场图片试搭：</b>用单品图片快速叠放、缩放、比较配色。两种模式各自保存。</li><li><b>客户图纸：</b>查看平面和模型总览，下载 CAD 与 SketchUp 源文件。</li></ol><p class="muted">默认使用已核对并接入的同款三维模型；尚未匹配的款式会提示，白底图不会自动变成模型。原有简模明确标注，仍可单独试摆。可导入已有的 GLB 对应到家具款式，导入后请核对尺寸与原图。选款只保存在当前浏览器，请定期导出 JSON 备份。</p><button class="primary">开始搭配</button></form></dialog>
+</body>
+</html>
