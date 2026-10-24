@@ -1,0 +1,157 @@
+{
+  "title": "MARZOOK圆厅两版软装提案",
+  "date": "2026-10-24",
+  "rug": {
+    "name": "Goose Eye Icon 881 Queens",
+    "designer": "Gunilla Lagerhem Ullberg / Kasthall",
+    "productUrl": "https://www.kasthall.com/en-us/products/goose-eye-icon-881-queens-woven",
+    "imageUrl": "https://www.kasthall.com/cdn/shop/files/42909881_3.png?width=1920",
+    "localImage": "goose-eye-queens881-flat.webp",
+    "composition": "Flatwoven 100% wool weft and 100% linen warp, approximate total thickness 5mm; no shag, no boucle.",
+    "imageEditing": "Only transparent outside margins cropped; official product image pixels are unaltered. No AI generation.",
+    "dimensionsNote": "3660 x 2740mm shown is a proposed custom size, not an asserted stock SKU. Official page allows custom sizes; manufacturer tolerance +/-5%. Backing recommended for this area and width."
+  },
+  "items": [
+    {
+      "id": "LT23_07",
+      "name": "原石背光六件壁灯组",
+      "libraryImage": "assets/LT23_07.webp",
+      "customerSourceUrls": [],
+      "customerReferenceImage": "sources/2e8999c33b08bb75.jpg",
+      "libraryNotes": "六颗独立原石壁灯按原照片组合保留；文字遮盖处纹理经AI补全，局部造型与实际尺寸待核。",
+      "customerPriority": true
+    },
+    {
+      "id": "N42_chair",
+      "name": "赭黄棕双色泡芙单椅",
+      "libraryImage": "assets/N42_chair.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1zOEuTjSDCWyVFgE2d5yV_xUewrmEl8PK/view"
+      ],
+      "customerReferenceImage": "sources/6eb0e101717c64c3.jpg",
+      "libraryNotes": "",
+      "customerPriority": true
+    },
+    {
+      "id": "V07_bowl",
+      "name": "奶白波口高脚碗",
+      "libraryImage": "assets/V07_bowl.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1bSJOLqFrBEY_OTYmcyXeOI5ZwaNxQ1x9/view"
+      ],
+      "customerReferenceImage": "sources/c1ba1c9372877b0d.jpg",
+      "libraryNotes": "视频补查新增；仅按可见外观还原，尺寸与材质未核实。",
+      "customerPriority": true
+    },
+    {
+      "id": "W23_03",
+      "name": "酒红皮带三灯组合吊灯",
+      "libraryImage": "assets/W23_03_combination.webp",
+      "customerSourceUrls": [],
+      "customerReferenceImage": "sources/ca5389712b4e140b.png",
+      "libraryNotes": "按用户确认作为同一组灯具；保留皮带连接与三灯错落关系。AI白底整理，原图可对照。",
+      "customerPriority": true
+    },
+    {
+      "id": "N13_side",
+      "name": "彩色斜纹金框边几",
+      "libraryImage": "assets/N13_side.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/17X4y87SBCaUAPtw07UwTSRFH-pErBKdw/view",
+        "https://drive.google.com/file/d/1FWashRCd1VTzWR4RCVsfHxThEPpv_RjI/view"
+      ],
+      "customerReferenceImage": "sources/930536126ffbbc4d.jpg",
+      "libraryNotes": "",
+      "customerPriority": true
+    },
+    {
+      "id": "P01_sofa",
+      "name": "灰绿云纹圆臂双人沙发",
+      "libraryImage": "assets/P01_sofa.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1nZp4wCg_EJyT4JaGuT3KX2bo3Ud16hKM/view"
+      ],
+      "customerReferenceImage": "sources/ef3cd5fb2c699db4.jpg",
+      "libraryNotes": "视频两端略裁切；整体宽度为概念补全，后续需实测。",
+      "customerPriority": true
+    },
+    {
+      "id": "P08_sofafabric",
+      "name": "灰金织面绑带框双座模块",
+      "libraryImage": "assets/P08_sofafabric.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1XqEyfaNLoMwu0g6lOExKUSJHd0XfHjjY/view"
+      ],
+      "customerReferenceImage": "sources/e805469518356ff4.jpg",
+      "libraryNotes": "整体端部不全，按视频中可见双座模块补全。",
+      "customerPriority": true
+    },
+    {
+      "id": "P08_sofagreen",
+      "name": "橄榄皮感绑带框座模块",
+      "libraryImage": "assets/P08_sofagreen.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1XqEyfaNLoMwu0g6lOExKUSJHd0XfHjjY/view"
+      ],
+      "customerReferenceImage": "sources/d3cfed9ac78294ce.jpg",
+      "libraryNotes": "视频缺少整体正面，以可见单模块呈现；不可作为整套尺寸依据。",
+      "customerPriority": true
+    },
+    {
+      "id": "N36_coffee",
+      "name": "酒红白棋盘石茶几",
+      "libraryImage": "assets/N36_coffee.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1-jb3O22FSWL0zKOh2TyopQKS9nUxjLGG/view"
+      ],
+      "customerReferenceImage": "sources/14dd10d202590060.jpg",
+      "libraryNotes": "",
+      "customerPriority": false
+    },
+    {
+      "id": "O50_coffee",
+      "name": "烟绿弧腿黑圆茶几",
+      "libraryImage": "assets/O50_coffee.webp",
+      "customerSourceUrls": [
+        "https://drive.google.com/file/d/1GXVRxEurn34T4N1Bp3Bn1dPKJGovEnmd/view"
+      ],
+      "customerReferenceImage": "sources/74010e921334a646.jpg",
+      "libraryNotes": "",
+      "customerPriority": false
+    }
+  ],
+  "customSofa": {
+    "a": {
+      "sourceIds": [
+        "P01_sofa"
+      ],
+      "outerRadiusMm": 2500,
+      "depthMm": 1000,
+      "angleDegrees": 100,
+      "outerChordMm": 3830,
+      "seatCount": 3
+    },
+    "b": {
+      "sourceIds": [
+        "P08_sofafabric",
+        "P08_sofagreen"
+      ],
+      "outerRadiusMm": 2450,
+      "depthMm": 1000,
+      "angleDegrees": 104,
+      "outerChordMm": 3861,
+      "seatCount": 3
+    },
+    "status": "定制设计试摆，非原厂可直接采购的弧形SKU；尺寸、分段、结构和面料需厂家深化。"
+  },
+  "renderMethod": "Three.js deterministic rendering of existing client architecture, original product models and hand-modelled geometry textured from library images. Product boards use existing catalogue and official product pixels. No AI images generated in this task.",
+  "materialExclusions": [
+    "洞石",
+    "羊羔绒",
+    "boucle",
+    "长毛绒",
+    "毛皮"
+  ],
+  "siteCheck": "圆厅原CAD内径约5996mm，现模型低顶2890mm，后者待现场复核。家具几何/灯具吊带为试摆尺寸。",
+  "supplierCheck": "未知品牌的库款保留原编号及参考来源；不冒用相似款品牌。六颗原石灯的石种及尺寸须供应商确认，排除洞石。"
+}

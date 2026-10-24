@@ -1,0 +1,51 @@
+{
+  "method": "hand modelled THREE.js layout geometry; source photo crops only; no image generation",
+  "materialConstraints": [
+    "no travertine",
+    "no shag",
+    "no boucle"
+  ],
+  "items": [
+    {
+      "id": "N42_chair",
+      "originalImage": "assets/N42_chair.webp",
+      "derivedTextures": [
+        "N42-seat-crop.jpg",
+        "N42-back-crop.jpg"
+      ],
+      "cropBoxesPixels": [
+        [
+          430,
+          770,
+          710,
+          970
+        ],
+        [
+          520,
+          370,
+          800,
+          570
+        ]
+      ],
+      "geometry": "Manual rounded forms for placement only; overall 1020x1050x800mm estimated; fine flat weave, no boucle."
+    },
+    {
+      "id": "W23_03",
+      "originalImage": "assets/W23_03_combination.webp",
+      "geometry": "Manual five leather strap segments, three canopies and three distinct lamp shades; width about1220mm, drop738mm; smooth burgundy leather and painted metal, no travertine, no fur."
+    },
+    {
+      "id": "LT23_07",
+      "originalImage": "assets/LT23_07.webp",
+      "derivedTextures": [
+        "rock-01.png",
+        "rock-02.png",
+        "rock-03.png",
+        "rock-04.png",
+        "rock-05.png",
+        "rock-06.png"
+      ],
+      "geometry": "Six independent source-image cards with 35mm thick manually traced backs, locally curved at2.94m radius. Existing library image contains earlier reconstructed pixels per catalog note; this task created no AI pixels. Stone species unverified; not specified as travertine."
+    }
+  ]
+}

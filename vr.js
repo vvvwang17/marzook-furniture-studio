@@ -29,6 +29,8 @@ let savedWalk = null, loadedPlan = null, sourceMode = 'photo', moveTween = null;
 let topSpan = 22, topCentre = new THREE.Vector3(9.25,0,-8.8), needRender = true;
 const controllers = [], aimPoints = new Map(), lightState = {mode:'day'};
 let userMarker;
+let roundDesign=null, roundDesignKey=null, roundLoading=false, designView=false;
+const roundDesignCache=new Map();
 scene.add(rig, furniture, lights); rig.add(camera); camera.rotation.order='YXZ';
 scene.background = new THREE.Color('#e4e8e1');
 
@@ -46,6 +48,7 @@ function applyCamera() {
 }
 function setPreset(id) {
   if(!ready||activeSession)return;
+  designView=false;
   const c=data.cameras.find(p=>p.id===id)||data.cameras[0];
   const valid=nearestWalkable(data,c.position[0],c.position[2],1.5);
   if(!valid){toast('此视点暂不可进入，请选择相邻区域');return;}
@@ -54,6 +57,42 @@ function setPreset(id) {
   setWalkPose({x:valid[0],z:valid[1],yaw:Math.atan2(-dx,-dz),pitch:0,fov:c.fov||68});
   updateHeading(c.id);feedback('拖动转头 · 点击地面移动 · WASD / 方向按钮行走');updateMap();
   try{const url=new URL(location.href);url.searchParams.set('area',c.id);history.replaceState(null,'',url);}catch{}
+}
+function roundView(view='front') {
+  if(!ready||activeSession)return;
+  if(topMode)setOverview(false,false);
+  const poses={front:[14.28,-11.00,14.36,-15.15,-.12,58],side:[11.15,-12.15,14.45,-15.25,-.10,60],detail:[12.30,-13.80,14.60,-15.30,-.10,58]};
+  const p=poses[view]||poses.front;
+  designView=true;setWalkPose({x:p[0],z:p[1],yaw:Math.atan2(-(p[2]-p[0]),-(p[3]-p[1])),pitch:p[4],fov:p[5]});updateHeading('round');updateMap();needRender=true;
+}
+async function showRoundScheme(key) {
+  if(!ready||roundLoading)return;
+  if(!['a','b','empty'].includes(key))return;
+  if(key==='empty'){
+    if(roundDesign)roundDesign.visible=false;roundDesignKey=null;
+    furniture.visible=false;furnitureVisible=false;$('show-furniture').setAttribute('aria-pressed','false');if(furnitureLoaded)$('show-furniture').textContent=`显示家具 · ${furniture.children.length} 件`;
+    const url=new URL(location.href);url.searchParams.delete('scheme');history.replaceState(null,'',url);
+    document.querySelectorAll('[data-scheme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scheme===key)));
+    $('scheme-status').textContent='建筑空场';needRender=true;return;
+  }
+  roundLoading=true;$('scheme-status').textContent='正在布置圆厅…';
+  document.querySelectorAll('[data-scheme]').forEach(b=>b.disabled=true);
+  try{
+    const {buildRoundScheme,ROUND_SCHEMES}=await import('./round-hall-design.js');
+    let next=roundDesignCache.get(key);
+    if(!next){next=await buildRoundScheme(key);roundDesignCache.set(key,next);scene.add(next);}
+    if(roundDesign&&roundDesign!==next)roundDesign.visible=false;
+    roundDesign=next;roundDesign.visible=true;roundDesignKey=key;
+    furniture.visible=false;furnitureVisible=false;
+    if(furnitureLoaded)$('show-furniture').textContent=`显示家具 · ${furniture.children.length} 件`;
+    $('show-furniture').setAttribute('aria-pressed','false');
+    $('scheme-status').textContent=ROUND_SCHEMES[key].subtitle;
+    document.querySelectorAll('[data-scheme]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.scheme===key)));
+    const url=new URL(location.href);url.searchParams.set('scheme',key);history.replaceState(null,'',url);
+    roundView();setLighting('warm');needRender=true;
+    toast('已载入圆厅方案 '+key.toUpperCase()+' · 可转头、行走及保存视角');
+  }catch(e){$('scheme-status').textContent='方案读取失败，请重试';toast(e.message);console.error(e);}
+  finally{roundLoading=false;document.querySelectorAll('[data-scheme]').forEach(b=>b.disabled=false);}
 }
 function updateFov() {$('fov').value=String(Math.round(camera.fov));$('fov-value').value=Math.round(camera.fov)+'°';}
 function resize() {
@@ -86,7 +125,7 @@ function updateMap() {
   const p=activeSession?xrEyePosition():rig.position;
   if(userMarker)userMarker.setAttribute('transform',`translate(${p.x} ${-p.z}) rotate(${-yaw*180/Math.PI})`);
   const zone=data.zones.find(z=>pointInRing(p.x,p.z,z.outer)&&!(z.holes||[]).some(h=>pointInRing(p.x,p.z,h)));
-  if(zone&&currentId!=='entry'&&!topMode){const s=stops.find(s=>s.zone===zone.id);if(s&&s.id!==currentId)updateHeading(s.id);}
+  if(zone&&currentId!=='entry'&&!topMode&&!designView){const s=stops.find(s=>s.zone===zone.id);if(s&&s.id!==currentId)updateHeading(s.id);}
   document.querySelectorAll('[data-map-zone]').forEach(el=>el.classList.toggle('active',el.dataset.mapZone===zone?.id));
   if(!topMode)feedback(`${activeSession?'VR':'人视'} · 视高 ${activeSession?'随头显': '1.60 m'} · 地面 +${Math.round(floorAt(data,p.x,p.z)*1000)} mm · 拖动转头，点击地面移动`);
 }
@@ -122,6 +161,7 @@ function floorHit(clientX,clientY) {
 function teleportTo(point,allowJump=false) {
   if(!isWalkable(data,point.x,point.z,.18)){toast('这里靠近墙柱，请选择空地');return false;}
   if(!allowJump&&!canTraverse(data,[rig.position.x,rig.position.z],[point.x,point.z],.18)){toast('中间有墙或固定结构，请沿通道移动，也可用区域编号切换');return false;}
+  designView=false;
   if(topMode){setOverview(false,false);rig.position.set(point.x,0,point.z);applyCamera();}
   else moveTween={from:rig.position.clone(),to:new THREE.Vector3(point.x,0,point.z),start:performance.now()};
   needRender=true;updateMap();return true;
@@ -141,6 +181,7 @@ function bindPointer() {
 }
 function moveWalk(dt) {
   if(topMode||activeSession||!keys.size)return;
+  designView=false;
   let dx=Number(keys.has('d'))-Number(keys.has('a')),dz=Number(keys.has('s'))-Number(keys.has('w'));
   const n=Math.hypot(dx,dz);if(!n)return;const distance=(keys.has('shift')?2.8:1.45)*dt/n,c=Math.cos(yaw),s=Math.sin(yaw);
   const x=rig.position.x+(dx*c+dz*s)*distance,z=rig.position.z+(-dx*s+dz*c)*distance;
@@ -193,13 +234,16 @@ async function loadFurniture(raw) {
     for(const p of items){try{const obj=await FurnitureModels.load(p.itemId,p.modelRef),size=obj.userData.proxyDimensions;obj.scale.set(p.w/size[0],p.h/size[2],p.d/size[1]);obj.position.set(p.x,p.y+floorAt(data,p.x,p.z),p.z);obj.rotation.y=p.rotation*Math.PI/180;pending.add(obj);}catch{errors++;}}
     if(!pending.children.length)throw new Error('方案中的模型版本暂不可读取；请在家具试摆中更新后再保存');
     furniture.clear();furniture.add(...[...pending.children]);furnitureLoaded=true;furnitureVisible=true;furniture.visible=true;loadedPlan=raw;
+    if(roundDesign)roundDesign.visible=false;roundDesignKey=null;
+    document.querySelectorAll('[data-scheme]').forEach(b=>b.setAttribute('aria-pressed','false'));$('scheme-status').textContent='当前显示你导入的家具方案';
+    const url=new URL(location.href);url.searchParams.delete('scheme');history.replaceState(null,'',url);
     $('show-furniture').textContent=`暂隐家具 · ${furniture.children.length} 件`;$('show-furniture').setAttribute('aria-pressed','true');needRender=true;
     toast(`已显示 ${furniture.children.length} 件家具${errors?`，${errors} 件暂不可用`:''}；原方案保持保存`);
   }catch(e){toast(e.message);}finally{furnitureLoading=false;$('show-furniture').disabled=false;}
 }
 async function toggleFurniture() {
   if(!ready)return;
-  if(furnitureLoaded){furnitureVisible=!furnitureVisible;furniture.visible=furnitureVisible;$('show-furniture').textContent=`${furnitureVisible?'暂隐':'显示'}家具 · ${furniture.children.length} 件`;$('show-furniture').setAttribute('aria-pressed',String(furnitureVisible));needRender=true;return;}
+  if(furnitureLoaded){furnitureVisible=!furnitureVisible;furniture.visible=furnitureVisible;if(furnitureVisible&&roundDesign){roundDesign.visible=false;roundDesignKey=null;document.querySelectorAll('[data-scheme]').forEach(b=>b.setAttribute('aria-pressed','false'));$('scheme-status').textContent='当前显示你保存的家具方案';const url=new URL(location.href);url.searchParams.delete('scheme');history.replaceState(null,'',url);}$('show-furniture').textContent=`${furnitureVisible?'暂隐':'显示'}家具 · ${furniture.children.length} 件`;$('show-furniture').setAttribute('aria-pressed',String(furnitureVisible));needRender=true;return;}
   try{const raw=JSON.parse(localStorage.getItem('marzook-immersive-v1')||'null');if(!raw)throw new Error('此浏览器暂无三维家具方案；请先在家具试摆保存，或导入方案 JSON');await loadFurniture(raw);}catch(e){toast(e.message);}
 }
 async function detectXR() {
@@ -282,6 +326,7 @@ function updateXR() {
 async function init() {
   try{
     renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true,powerPreference:'high-performance'});
+    renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
     renderer.setPixelRatio(Math.min(devicePixelRatio,1.6));renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.localClippingEnabled=true;
     renderer.domElement.tabIndex=0;renderer.domElement.setAttribute('aria-label','客户空间 VR：拖动转头，点击地面移动，WASD或方向键行走');stage.prepend(renderer.domElement);
     room=await loadVRRoom({onProgress:p=>{$('loading-message').textContent=p.message;$('loading-progress').value=p.ratio;}});data=room.data;scene.add(room.group);
@@ -291,6 +336,7 @@ async function init() {
     const triangles=data.meshes.reduce((n,m)=>n+(m.indices?.length?m.indices.length/3:m.positions.length/9),0);
     $('build-statistics').textContent=`当前版本：${data.meshes.length} 个建筑网格，${triangles.toLocaleString()} 个三角面，7 张原模型／图纸贴图。GLB 内嵌贴图，单位为米，Y 轴向上。`;
     new ResizeObserver(resize).observe(stage);renderer.setAnimationLoop(frame);await detectXR();
+    const scheme=new URLSearchParams(location.search).get('scheme');if(['a','b'].includes(scheme))await showRoundScheme(scheme);
   }catch(e){console.error(e);$('loading-message').textContent='空间暂时无法打开：'+e.message+'。请刷新重试，或返回家具工作室。';$('loading').insertAdjacentHTML('beforeend','<a href="index.html">返回家具与图纸 ↗</a>');}
 }
 
@@ -302,6 +348,20 @@ $('fov').oninput=()=>{if(!ready||activeSession)return;camera.fov=+$('fov').value
 document.querySelectorAll('[data-light]').forEach(b=>b.onclick=()=>{if(ready)setLighting(b.dataset.light);});
 $('fullscreen').onclick=async()=>{try{if(document.fullscreenElement)await document.exitFullscreen();else await stage.requestFullscreen();}catch{toast('此浏览器不支持全屏，可放大窗口查看');}};
 $('snapshot').onclick=snapshot;$('show-furniture').onclick=toggleFurniture;$('enter-vr').onclick=enterXR;
+document.querySelectorAll('[data-scheme]').forEach(b=>b.onclick=()=>showRoundScheme(b.dataset.scheme));
+document.querySelectorAll('[data-round-view]').forEach(b=>b.onclick=()=>roundView(b.dataset.roundView));
+// A small public surface also powers the proposal page's same-origin preview.
+window.RoundHallVR={
+  show:showRoundScheme,view:roundView,
+  get status(){return {ready,scheme:roundDesignKey,loading:roundLoading,objects:roundDesign?.children.length||0};},
+  capture(width=2400,height=1500){
+    if(!ready||roundLoading||activeSession)throw new Error('请待方案就绪后保存视角');
+    const ratio=renderer.getPixelRatio(),aspect=camera.aspect;
+    renderer.setPixelRatio(1);renderer.setSize(width,height,false);camera.aspect=width/height;camera.updateProjectionMatrix();
+    renderer.render(scene,topMode?topCamera:camera);const result=renderer.domElement.toDataURL('image/png');
+    renderer.setPixelRatio(ratio);camera.aspect=aspect;camera.updateProjectionMatrix();resize();needRender=true;return result;
+  }
+};
 $('import-plan').onclick=()=>$('plan-file').click();$('plan-file').onchange=async()=>{const file=$('plan-file').files[0];if(!file)return;try{if(file.size>2e6)throw new Error('方案文件过大，请选择家具方案 JSON');await loadFurniture(JSON.parse(await file.text()));}catch(e){toast('方案未载入：'+e.message);}$('plan-file').value='';};
 document.querySelectorAll('[data-reference]').forEach(b=>b.onclick=()=>{sourceMode=b.dataset.reference;updateSource();});
 document.querySelectorAll('[data-close]').forEach(b=>b.onclick=()=>b.closest('dialog').close());

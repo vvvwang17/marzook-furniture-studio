@@ -4,9 +4,9 @@
   <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
   <meta name="description" content="MARZOOK 客户现场 VR 空间，依据现有图纸、SketchUp 与现场资料建立，支持区域漫游、头显与模型下载。">
   <meta name="theme-color" content="#232a28"><title>客户空间 VR · WAVE INTERIORS</title>
-  <link rel="stylesheet" href="vr.css?v=20261024-1">
+  <link rel="stylesheet" href="vr.css?v=20261024-round1">
   <script src="catalog.js?v=20261023-pages1" defer></script>
-  <script type="module" src="vr.js?v=20261024-1"></script>
+  <script type="module" src="vr.js?v=20261024-round1"></script>
 </head>
 <body>
   <header class="masthead"><a href="index.html" class="brand">WAVE <span>INTERIORS</span></a><div class="project"><span>MARZOOK / GROUND FLOOR</span><h1>客户空间 VR</h1></div><nav aria-label="网站页面"><a href="index.html">家具试摆</a><a href="moodboard.html">Moodboard</a><a href="models.html">家具模型</a></nav><button id="help" class="icon-button" aria-label="漫游使用说明">?</button></header>
@@ -21,6 +21,7 @@
       <div class="walk-controls" aria-label="漫游方向"><button data-move="w" aria-label="前进">↑</button><button data-move="a" aria-label="左移">←</button><button data-move="s" aria-label="后退">↓</button><button data-move="d" aria-label="右移">→</button></div>
       <div class="bottom-tools"><div class="segmented" aria-label="空间光照预览"><button data-light="day" class="active" aria-pressed="true">日间</button><button data-light="warm" aria-pressed="false">暖光</button></div><button id="level">摆正视角</button><label class="fov-label">视角 <input id="fov" type="range" min="45" max="85" value="68" aria-label="视角广度"><output id="fov-value">68°</output></label><button id="snapshot">保存此视角 ↘</button><button id="enter-vr" class="primary" disabled>检测 VR 设备…</button></div>
     </section>
+    <section class="round-scheme-bar" aria-label="圆厅软装方案"><div><span class="eyebrow">ROUND HALL / TWO STUDIES</span><strong>圆厅软装</strong></div><div class="scheme-switch"><button data-scheme="a" aria-pressed="false">A 云绿与酒红</button><button data-scheme="b" aria-pressed="false">B 橄榄与烟金</button><button data-scheme="empty" aria-pressed="true">看空场</button></div><div class="scheme-views"><button data-round-view="front">正面</button><button data-round-view="side">连接口视角</button></div><a href="round-hall.html">选款、尺寸与产品来源 ↗</a><p id="scheme-status">按客户约 Ø6m 圆厅布置 · 定制沙发需厂家深化</p></section>
     <section class="explore-bar" aria-label="选择漫游区域"><div class="explore-label"><span class="eyebrow">01 — 06</span><h2>走进现场</h2><p>一个连续的建筑空间</p></div><div id="stops" class="stops"></div></section>
     <section class="project-footer"><div><span id="model-summary">正在读取建筑信息</span><p>按客户图纸、当前 SU 与现场影像复原。局部柱梁、窗及吊顶标高含推定，尺寸待现场复核。</p></div><div class="footer-actions"><button id="show-furniture" aria-pressed="false">载入我的家具方案</button><button id="import-plan">导入家具方案</button><input id="plan-file" type="file" accept=".json,application/json" hidden><a href="space-assets/client-space.glb" download>下载空间模型 GLB ↘</a><button id="details">模型依据</button></div></section>
   </main>

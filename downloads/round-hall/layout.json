@@ -1,0 +1,176 @@
+{
+  "title": "MARZOOK 圆厅弧形软装布局",
+  "version": 1,
+  "units": "metres",
+  "coordinateSystem": "Y-up; X=CAD X, Z=-CAD Y",
+  "source": {
+    "cad": "project-files/floor-ceiling-plan.dxf",
+    "model": "space-assets/room-scene.json",
+    "notice": "CAD、模型和定制尺寸均需现场及厂家复核；不是生产图。"
+  },
+  "room": {
+    "circleCentreXZ": [
+      14.357672,
+      -14.354757
+    ],
+    "cadInnerRadius": 2.997853,
+    "walkableBoundaryInset": 0.065,
+    "modelCeilingHeight": 2.89,
+    "ceilingStatus": "provisional, not surveyed",
+    "opening": "southwest, continuous connection to adjacent lounge"
+  },
+  "customSofa": {
+    "outerRadius": 2.5,
+    "innerRadius": 1.5,
+    "radialDepth": 1.0,
+    "angleDegrees": 100,
+    "outerChord": 3.83022221559489,
+    "centrelineArcLength": 3.490658503988659,
+    "seats": 3,
+    "circleCentreXZ": [
+      14.357672,
+      -14.354757
+    ],
+    "frontDirection": "+Z",
+    "rotation": 0,
+    "backGapApprox": 0.498
+  },
+  "placements": [
+    {
+      "itemId": "N36_coffee",
+      "x": 14.36,
+      "z": -14.75,
+      "w": 1.05,
+      "d": 1.05,
+      "rotation": 0,
+      "option": "A"
+    },
+    {
+      "itemId": "N42_chair",
+      "x": 13.2,
+      "z": -13.1,
+      "w": 1.02,
+      "d": 1.05,
+      "rotation": 165
+    },
+    {
+      "itemId": "N42_chair",
+      "x": 15.22,
+      "z": -13.1,
+      "w": 1.02,
+      "d": 1.05,
+      "rotation": 195
+    },
+    {
+      "itemId": "N13_side",
+      "x": 12.32,
+      "z": -15.1,
+      "w": 0.45,
+      "d": 0.45,
+      "rotation": 0
+    },
+    {
+      "itemId": "LT23_07",
+      "x": 16.061,
+      "y": 1.9,
+      "z": -16.788,
+      "w": 1.45,
+      "h": 1.1,
+      "rotation": 325,
+      "mounting": "wrap individual lights along curved wall, CAD angular band41..69deg; dimensions provisional"
+    },
+    {
+      "product": "Kasthall Goose Eye Icon 881 Queens",
+      "x": 14.36,
+      "z": -14.65,
+      "w": 3.66,
+      "d": 2.74,
+      "rotation": 0,
+      "sourceUrl": "https://www.kasthall.com/en-us/products/goose-eye-icon-881-queens-woven",
+      "dimensionStatus": "custom quotation size, confirm manufacturer tolerance and availability"
+    },
+    {
+      "itemId": "O50_coffee",
+      "x": 14.36,
+      "z": -14.68,
+      "w": 1.05,
+      "d": 1.05,
+      "h": 0.38,
+      "shape": "circular",
+      "rotation": 0,
+      "option": "B"
+    }
+  ],
+  "clearancesApprox": {
+    "optionA": {
+      "sofaToCoffeeMinimumAtCorner": 0.44,
+      "sofaToCoffeeAtCentre": 0.58
+    },
+    "optionB": {
+      "sofaToCircularCoffeeMinimum": 0.45
+    },
+    "chairsToCoffee": 0.5,
+    "southwestPrimaryRouteMinimum": 1.2,
+    "eastSecondaryRoute": [
+      0.75,
+      0.85
+    ],
+    "status": "design estimates; verify with final product envelopes and measured site"
+  },
+  "selectionBoards": {
+    "A": [
+      "P01_sofa",
+      "N42_chair",
+      "N36_coffee",
+      "N13_side",
+      "LT23_07",
+      "W23_03",
+      "V07_bowl"
+    ],
+    "B": [
+      "P08_sofafabric",
+      "P08_sofagreen",
+      "N42_chair",
+      "O50_coffee",
+      "N13_side",
+      "LT23_07",
+      "W23_03",
+      "V07_bowl"
+    ]
+  },
+  "imageMethod": "Existing catalog product pixels and official Kasthall flat rug image composited with Pillow. No AI image generation. Product selection boards, not a simulated room photograph.",
+  "customSofaOptions": {
+    "A": {
+      "outerRadius": 2.5,
+      "innerRadius": 1.5,
+      "radialDepth": 1.0,
+      "angleDegrees": 100,
+      "outerChord": 3.83022221559489,
+      "centrelineArcLength": 3.490658503988659,
+      "seats": 3,
+      "circleCentreXZ": [
+        14.357672,
+        -14.354757
+      ],
+      "frontDirection": "+Z",
+      "rotation": 0,
+      "backGapApprox": 0.498
+    },
+    "B": {
+      "outerRadius": 2.45,
+      "innerRadius": 1.45,
+      "radialDepth": 1.0,
+      "angleDegrees": 104,
+      "outerChord": 3.861252692672938,
+      "centrelineArcLength": 3.5395277230445004,
+      "seats": 3,
+      "circleCentreXZ": [
+        14.357672,
+        -14.354757
+      ],
+      "frontDirection": "+Z",
+      "rotation": 0,
+      "backGapApprox": 0.548
+    }
+  }
+}
