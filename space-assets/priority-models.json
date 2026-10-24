@@ -1,0 +1,321 @@
+{
+  "version": 1,
+  "date": "2026-10-23",
+  "items": [
+    {
+      "id": "V05_stool",
+      "order": 1,
+      "group": "tables",
+      "reference": "space-assets/priority-references/V05_stool.webp",
+      "url": "space-assets/models/V05_stool_reference.glb",
+      "description": "实木主体与两侧透明树脂独立实体，木芯边界随高度和前后变化。",
+      "dimensionsCm": [
+        43.0,
+        43.0,
+        43.0
+      ],
+      "triangles": 36864,
+      "bytes": 1167432
+    },
+    {
+      "id": "U05_chair",
+      "order": 2,
+      "group": "seating",
+      "reference": "space-assets/priority-references/U05_chair.webp",
+      "url": "space-assets/models/U05_chair_photo_reconstruction.glb",
+      "description": "黄米格纹圆座、喇叭形软包底座、弧形靠背与金属球端。",
+      "dimensionsCm": [
+        60.4,
+        56.4,
+        89.34
+      ],
+      "triangles": 10416,
+      "bytes": 662508
+    },
+    {
+      "id": "U03_chair",
+      "order": 3,
+      "group": "seating",
+      "reference": "space-assets/priority-references/U03_chair.webp",
+      "url": "space-assets/models/U03_chair_photo_reconstruction.glb",
+      "description": "锈色细条纹低模块座椅，独立软靠枕、拉缝坐垫及包边。",
+      "dimensionsCm": [
+        113.38,
+        105.39,
+        92.97
+      ],
+      "triangles": 34704,
+      "bytes": 1428532
+    },
+    {
+      "id": "N39_chair",
+      "order": 4,
+      "group": "seating",
+      "reference": "space-assets/priority-references/N39_chair.webp",
+      "url": "space-assets/models/N39_chair_photo_reconstruction.glb",
+      "description": "黑白编织方座与横向圆柱滚枕靠背。",
+      "dimensionsCm": [
+        87.0,
+        80.7,
+        78.7
+      ],
+      "triangles": 8240,
+      "bytes": 696996
+    },
+    {
+      "id": "U01_sofa",
+      "order": 5,
+      "group": "seating",
+      "reference": "space-assets/priority-references/U01_sofa.webp",
+      "url": "space-assets/models/U01_sofa_photo_reconstruction.glb",
+      "description": "完整模块组合：左侧双座、石材连接几、右侧贵妃位及纤细黑色支架。",
+      "dimensionsCm": [
+        419.0,
+        155.75,
+        91.7
+      ],
+      "triangles": 58476,
+      "bytes": 3159956
+    },
+    {
+      "id": "P01_sofa",
+      "order": 6,
+      "group": "seating",
+      "reference": "space-assets/priority-references/P01_sofa.webp",
+      "url": "space-assets/models/P01_sofa_photo_reconstruction.glb",
+      "description": "灰绿云纹双座软包沙发，圆润扶手、两块坐垫和靠枕。",
+      "dimensionsCm": [
+        248.0,
+        103.5,
+        83.48
+      ],
+      "triangles": 31360,
+      "bytes": 1788108
+    },
+    {
+      "id": "N07_sofa",
+      "order": 7,
+      "group": "seating",
+      "reference": "space-assets/priority-references/N07_sofa.webp",
+      "url": "space-assets/models/N07_sofa_photo_reconstruction.glb",
+      "description": "深酒红三座软垫、独立腰枕及外露古铜细框。",
+      "dimensionsCm": [
+        270.2,
+        85.9,
+        93.07
+      ],
+      "triangles": 44392,
+      "bytes": 1686668
+    },
+    {
+      "id": "V07_sofa",
+      "order": 8,
+      "group": "seating",
+      "reference": "space-assets/priority-references/V07_sofa.webp",
+      "url": "space-assets/models/V07_sofa_photo_reconstruction.glb",
+      "description": "焦糖皮流线长座，左侧卷臂、右侧延伸座面和两只白色靠枕。",
+      "dimensionsCm": [
+        312.0,
+        110.68,
+        100.95
+      ],
+      "triangles": 31588,
+      "bytes": 1784516
+    },
+    {
+      "id": "N13_side",
+      "order": 9,
+      "group": "tables",
+      "reference": "space-assets/priority-references/N13_side.webp",
+      "url": "space-assets/models/N13_side_reference.glb",
+      "description": "斜置方形彩色嵌面、金色折面台体及后侧抬起的金框；单图未示背侧按可见折面延续。",
+      "dimensionsCm": [
+        67.95,
+        63.4,
+        57.85
+      ],
+      "triangles": 60,
+      "bytes": 1088380
+    },
+    {
+      "id": "P02_coffeepattern",
+      "order": 10,
+      "group": "tables",
+      "reference": "space-assets/priority-references/P02_coffeepattern.webp",
+      "url": "space-assets/models/P02_coffeepattern_reference.glb",
+      "description": "厚圆环织纹软包外圈、内嵌赤陶皮圆盘、内沿缝线及隐藏底座。",
+      "dimensionsCm": [
+        140.0,
+        140.0,
+        27.8
+      ],
+      "triangles": 5760,
+      "bytes": 346820
+    },
+    {
+      "id": "N36_coffee",
+      "order": 11,
+      "group": "tables",
+      "reference": "space-assets/priority-references/N36_coffee.webp",
+      "url": "space-assets/models/N36_coffee_reference.glb",
+      "description": "8×8酒红白大理石实体拼块，厚度立面延续棋盘结构，黑色内收底座。",
+      "dimensionsCm": [
+        127.97,
+        127.97,
+        34.5
+      ],
+      "triangles": 780,
+      "bytes": 335548
+    },
+    {
+      "id": "N43_table",
+      "order": 12,
+      "group": "tables",
+      "reference": "space-assets/priority-references/N43_table.webp",
+      "url": "space-assets/models/N43_table_reference.glb",
+      "description": "方形赤陶亮釉长砖，50块独立微起伏砖面、砖缝和立面收边，内收黑底。",
+      "dimensionsCm": [
+        134.9,
+        134.9,
+        24.1
+      ],
+      "triangles": 21984,
+      "bytes": 776560
+    },
+    {
+      "id": "O37_coffee",
+      "order": 13,
+      "group": "tables",
+      "reference": "space-assets/priority-references/O37_coffee.webp",
+      "url": "space-assets/models/O37_coffee_reference.glb",
+      "description": "矩形暖石基座，绿白波浪实体镶面及四边起伏带状浮雕；单图不可见的后侧按同构延续。",
+      "dimensionsCm": [
+        136.8,
+        74.2,
+        38.2
+      ],
+      "triangles": 61676,
+      "bytes": 2006744
+    },
+    {
+      "id": "O50_coffee",
+      "order": 14,
+      "group": "tables",
+      "reference": "space-assets/priority-references/O50_coffee.webp",
+      "url": "space-assets/models/O50_coffee_reference.glb",
+      "description": "圆形黑亮面厚桌面，三只烟琥珀色S折弧玻璃脚，玻璃顶端高于桌面，细凹凸为真实网格。",
+      "dimensionsCm": [
+        120.97,
+        120.8,
+        47.0
+      ],
+      "triangles": 54408,
+      "bytes": 1599024
+    },
+    {
+      "id": "U02_vasegroup",
+      "order": 15,
+      "group": "decor",
+      "reference": "space-assets/priority-references/U02_vasegroup.webp",
+      "url": "space-assets/models/U02_vasegroup.glb",
+      "description": "三只风化陶盆组合：龙舌兰、疏枝小树和干枝草植。",
+      "dimensionsCm": [
+        144.3,
+        114.7,
+        162.3
+      ],
+      "triangles": 73362,
+      "bytes": 2592200
+    },
+    {
+      "id": "V25_screen",
+      "order": 16,
+      "group": "decor",
+      "reference": "space-assets/priority-references/V25_screen.webp",
+      "url": "space-assets/models/V25_screen.glb",
+      "description": "酒红亮面错位拼片屏风，厚折板与细金属连接杆。",
+      "dimensionsCm": [
+        127.7,
+        35.6,
+        143.0
+      ],
+      "triangles": 536,
+      "bytes": 22012
+    },
+    {
+      "id": "W23_20",
+      "order": 17,
+      "group": "decor",
+      "reference": "space-assets/priority-references/W23_20.webp",
+      "url": "space-assets/models/W23_20.glb",
+      "description": "灰绿风化双耳陶罐与繁密干枝，保留壶口、把手和器身层次。",
+      "dimensionsCm": [
+        80.0,
+        88.7,
+        127.6
+      ],
+      "triangles": 105432,
+      "bytes": 4367792
+    },
+    {
+      "id": "N11_sculpture",
+      "order": 18,
+      "group": "decor",
+      "reference": "space-assets/priority-references/N11_sculpture.webp",
+      "url": "space-assets/models/N11_sculpture.glb",
+      "description": "铜粉色悬挂雕塑，层叠褶皱曲面及两根吊线。",
+      "dimensionsCm": [
+        70.9,
+        70.4,
+        210.1
+      ],
+      "triangles": 31288,
+      "bytes": 887872
+    },
+    {
+      "id": "O32_clock",
+      "order": 19,
+      "group": "decor",
+      "reference": "space-assets/priority-references/O32_clock.webp",
+      "url": "space-assets/models/O32_clock.glb",
+      "description": "双细黑环、十字金属杆、四个木块与木质指针组成的大挂钟。",
+      "dimensionsCm": [
+        104.0,
+        9.1,
+        106.7
+      ],
+      "triangles": 6108,
+      "bytes": 220540
+    },
+    {
+      "id": "O34_art",
+      "order": 20,
+      "group": "decor",
+      "reference": "space-assets/priority-references/O34_art.webp",
+      "url": "space-assets/models/O34_art.glb",
+      "description": "柔彩横向条格装饰板，逐块起伏的砖片与木色边框。",
+      "dimensionsCm": [
+        110.0,
+        6.2,
+        176.0
+      ],
+      "triangles": 3144,
+      "bytes": 572476
+    },
+    {
+      "id": "W23_02",
+      "order": 21,
+      "group": "decor",
+      "reference": "space-assets/priority-references/W23_02.webp",
+      "url": "space-assets/models/W23_02.glb",
+      "description": "白色大理石长花槽，树木、蕨类和阔叶植物分层组合，含槽内土石。",
+      "dimensionsCm": [
+        275.5,
+        147.4,
+        227.1
+      ],
+      "triangles": 138978,
+      "bytes": 4373620
+    }
+  ]
+}

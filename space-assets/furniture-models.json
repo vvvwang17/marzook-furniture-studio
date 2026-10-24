@@ -1,1 +1,665 @@
-{"version":1,"updatedAt":"2026-10-23","items":{"N06_chair":{"status":"pending","matchStatus":"candidate","dimensionStatus":"estimated","sourceUrl":"https://www.poltronafrau.com/us/en/products/archibald-gran-comfort-armchair.html","note":"外形高度吻合 Poltrona Frau Archibald Gran Comfort；官方提供三维文件但需账号登录。尚未取得并核对模型，客户实物尺寸及皮色待核。"},"N06_side":{"status":"pending","matchStatus":"pending","note":"已用白底单品图检索，尚无可确认的同款模型；已排除轮廓不同的 Caro、Cesar 等款式。"},"N20_sofa":{"status":"pending","matchStatus":"pending","note":"已排除结构不同的 SICIS Botero 与 Minotti Yves；原款待确认，按易获取款式优先的安排暂时跳过。"},"N21_chair":{"status":"pending","matchStatus":"pending","note":"原现场图更像组合沙发的圆形端头模块，白底图存在遮挡补全；原款及背面结构仍待核。"},"N35_console":{"status":"pending","matchStatus":"pending","note":"金属网格曲线框与黑石板腿尚无同款模型；双圆柱腿等近似款已排除。"},"N38_chair":{"status":"pending","matchStatus":"candidate","sourceUrl":"https://www.dreamtimemobilya.com/en/product/Vittoria%20Modern%20Italian%20Design%20Armchair","note":"与 Dreamtime Vittoria 官网前后图高度吻合，但未找到该两环版本的三维文件和尺寸；浅米外圈有包覆接缝，材质待核。"},"N42_chair":{"status":"pending","matchStatus":"candidate","label":"官方模型已取得 · 面料待配","sourceUrl":"https://www.ligne-roset.com/en-ca/p/armchairs/armchair-pukka-2507","note":"已取得 Ligne Roset Pukka 官方三维几何；客户双色花纹面料未完成对应，实物尺寸待核，暂不作为完成款加入。"},"N42_ottoman":{"status":"pending","matchStatus":"candidate","label":"官方模型已取得 · 面料待配","sourceUrl":"https://www.ligne-roset.com/en-ca/p/armchairs/large-ottoman-pukka-2510","note":"已取得 Ligne Roset Pukka 官方三维几何；客户双色花纹面料未完成对应，实物尺寸待核，暂不作为完成款加入。"},"O11_chair":{"status":"ready","matchStatus":"confirmed","dimensionStatus":"estimated","url":"space-assets/models/O11_chieftain.glb","sourceUnits":"m","frontRotationY":0,"revision":"official-vegetal95-1","label":"官方模型 · 深干邑配色","sourceUrl":"https://finnjuhl.com/collection/lounge-chairs/chieftain-chair","license":"原厂公开技术下载；未附独立开放再分发许可，来源及原始文件保留于本地。","note":"Finn Juhl Chieftain 官方款式几何，四颗靠背扣、悬浮皮面和木架已核对。采用原厂胡桃木及 Vegetal 95 深干邑皮革，颜色比客户白底图深，实物配色待核。保留原模型尺寸约 96×87×90 cm；官网标称 100×88×92.5 cm，未拉伸模型，客户实物尺寸待核。","provenance":{"kind":"manufacturer","referenceIds":["O11_chair"],"note":"Finn Juhl Chieftain 官方款式几何，四颗靠背扣、悬浮皮面和木架已核对。采用原厂胡桃木及 Vegetal 95 深干邑皮革，颜色比客户白底图深，实物配色待核。保留原模型尺寸约 96×87×90 cm；官网标称 100×88×92.5 cm，未拉伸模型，客户实物尺寸待核。","modelSource":"https://finnjuhl.com/media/khifvyty/chieftain-chair.zip","textureSource":"https://houseoffinnjuhl.presscloud.com/digitalshowroom/#/gallery/3D-Textures","materialVariant":"Walnut Oil / Vegetal 95","geometryMatch":"confirmed","finishMatch":"pending","nativeDimensionsCm":[96.2437973,87.4864998,90.2688972],"manufacturerNominalDimensionsCm":[100,88,92.5],"triangles":60992,"sha256":"cfd9087051bbf919aea5e5e0dcd5c49751e15560d169dbf96d4e5aef2fd85292"}},"O48_lamp":{"status":"pending","matchStatus":"candidate","label":"官方模型已取得 · 饰面待核","note":"已取得 Louis Poulsen PH 3½–2½ Floor 原厂三维文件；三层灯罩、直杆与接头相符，客户橙色灯罩配色及遮挡的底座仍待核，暂不作为完成款加入。"},"U04_table":{"status":"ready","matchStatus":"confirmed","dimensionStatus":"estimated","url":"space-assets/models/U04_table_crystal_folded.glb","sourceUnits":"m","frontRotationY":0,"revision":"triangular-crystal-20261023-1","label":"照片重建 · 三角晶体脚","note":"依本次餐桌全景及桌腿近照重建：两只全晶体三角折面桌脚，带明显折痕，木纹夹芯仅在桌面。参考尺寸约320×115×76cm，未实测；木纹及晶体细纹按图重绘，隐藏细节和折射参数含推定。","provenance":{"kind":"photo-reconstruction","referenceIds":["U04_table"],"note":"依本次餐桌全景及桌腿近照重建：两只全晶体三角折面桌脚，带明显折痕，木纹夹芯仅在桌面。参考尺寸约320×115×76cm，未实测；木纹及晶体细纹按图重绘，隐藏细节和折射参数含推定。","geometrySource":"Custom solid meshes based on customer photographs","legConstruction":"All-crystal triangular folded support; no wooden leg core","woodLocation":"Embedded in tabletop only","dimensionStatus":"estimated","sha256":"a53dcc8e9329051238bc5d77372db0509a79122fe7867d820152880b1ff23575"}}}}
+{
+  "version": 1,
+  "updatedAt": "2026-10-23",
+  "items": {
+    "N06_chair": {
+      "status": "pending",
+      "matchStatus": "candidate",
+      "dimensionStatus": "estimated",
+      "sourceUrl": "https://www.poltronafrau.com/us/en/products/archibald-gran-comfort-armchair.html",
+      "note": "外形高度吻合 Poltrona Frau Archibald Gran Comfort；官方提供三维文件但需账号登录。尚未取得并核对模型，客户实物尺寸及皮色待核。"
+    },
+    "N06_side": {
+      "status": "pending",
+      "matchStatus": "pending",
+      "note": "已用白底单品图检索，尚无可确认的同款模型；已排除轮廓不同的 Caro、Cesar 等款式。"
+    },
+    "N20_sofa": {
+      "status": "pending",
+      "matchStatus": "pending",
+      "note": "已排除结构不同的 SICIS Botero 与 Minotti Yves；原款待确认，按易获取款式优先的安排暂时跳过。"
+    },
+    "N21_chair": {
+      "status": "pending",
+      "matchStatus": "pending",
+      "note": "原现场图更像组合沙发的圆形端头模块，白底图存在遮挡补全；原款及背面结构仍待核。"
+    },
+    "N35_console": {
+      "status": "pending",
+      "matchStatus": "pending",
+      "note": "金属网格曲线框与黑石板腿尚无同款模型；双圆柱腿等近似款已排除。"
+    },
+    "N38_chair": {
+      "status": "pending",
+      "matchStatus": "candidate",
+      "sourceUrl": "https://www.dreamtimemobilya.com/en/product/Vittoria%20Modern%20Italian%20Design%20Armchair",
+      "note": "与 Dreamtime Vittoria 官网前后图高度吻合，但未找到该两环版本的三维文件和尺寸；浅米外圈有包覆接缝，材质待核。"
+    },
+    "N42_chair": {
+      "status": "pending",
+      "matchStatus": "candidate",
+      "label": "官方模型已取得 · 面料待配",
+      "sourceUrl": "https://www.ligne-roset.com/en-ca/p/armchairs/armchair-pukka-2507",
+      "note": "已取得 Ligne Roset Pukka 官方三维几何；客户双色花纹面料未完成对应，实物尺寸待核，暂不作为完成款加入。"
+    },
+    "N42_ottoman": {
+      "status": "pending",
+      "matchStatus": "candidate",
+      "label": "官方模型已取得 · 面料待配",
+      "sourceUrl": "https://www.ligne-roset.com/en-ca/p/armchairs/large-ottoman-pukka-2510",
+      "note": "已取得 Ligne Roset Pukka 官方三维几何；客户双色花纹面料未完成对应，实物尺寸待核，暂不作为完成款加入。"
+    },
+    "O11_chair": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/O11_chieftain.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "official-vegetal95-1",
+      "label": "官方模型 · 深干邑配色",
+      "sourceUrl": "https://finnjuhl.com/collection/lounge-chairs/chieftain-chair",
+      "license": "原厂公开技术下载；未附独立开放再分发许可，来源及原始文件保留于本地。",
+      "note": "Finn Juhl Chieftain 官方款式几何，四颗靠背扣、悬浮皮面和木架已核对。采用原厂胡桃木及 Vegetal 95 深干邑皮革，颜色比客户白底图深，实物配色待核。保留原模型尺寸约 96×87×90 cm；官网标称 100×88×92.5 cm，未拉伸模型，客户实物尺寸待核。",
+      "provenance": {
+        "kind": "manufacturer",
+        "referenceIds": [
+          "O11_chair"
+        ],
+        "note": "Finn Juhl Chieftain 官方款式几何，四颗靠背扣、悬浮皮面和木架已核对。采用原厂胡桃木及 Vegetal 95 深干邑皮革，颜色比客户白底图深，实物配色待核。保留原模型尺寸约 96×87×90 cm；官网标称 100×88×92.5 cm，未拉伸模型，客户实物尺寸待核。",
+        "modelSource": "https://finnjuhl.com/media/khifvyty/chieftain-chair.zip",
+        "textureSource": "https://houseoffinnjuhl.presscloud.com/digitalshowroom/#/gallery/3D-Textures",
+        "materialVariant": "Walnut Oil / Vegetal 95",
+        "geometryMatch": "confirmed",
+        "finishMatch": "pending",
+        "nativeDimensionsCm": [
+          96.2437973,
+          87.4864998,
+          90.2688972
+        ],
+        "manufacturerNominalDimensionsCm": [
+          100,
+          88,
+          92.5
+        ],
+        "triangles": 60992,
+        "sha256": "cfd9087051bbf919aea5e5e0dcd5c49751e15560d169dbf96d4e5aef2fd85292"
+      }
+    },
+    "O48_lamp": {
+      "status": "pending",
+      "matchStatus": "candidate",
+      "label": "官方模型已取得 · 饰面待核",
+      "note": "已取得 Louis Poulsen PH 3½–2½ Floor 原厂三维文件；三层灯罩、直杆与接头相符，客户橙色灯罩配色及遮挡的底座仍待核，暂不作为完成款加入。"
+    },
+    "U04_table": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/U04_table_crystal_folded.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "triangular-crystal-20261023-1",
+      "label": "照片重建 · 三角晶体脚",
+      "note": "依本次餐桌全景及桌腿近照重建：两只全晶体三角折面桌脚，带明显折痕，木纹夹芯仅在桌面。参考尺寸约320×115×76cm，未实测；木纹及晶体细纹按图重绘，隐藏细节和折射参数含推定。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "U04_table"
+        ],
+        "note": "依本次餐桌全景及桌腿近照重建：两只全晶体三角折面桌脚，带明显折痕，木纹夹芯仅在桌面。参考尺寸约320×115×76cm，未实测；木纹及晶体细纹按图重绘，隐藏细节和折射参数含推定。",
+        "geometrySource": "Custom solid meshes based on customer photographs",
+        "legConstruction": "All-crystal triangular folded support; no wooden leg core",
+        "woodLocation": "Embedded in tabletop only",
+        "dimensionStatus": "estimated",
+        "sha256": "a53dcc8e9329051238bc5d77372db0509a79122fe7867d820152880b1ff23575"
+      }
+    },
+    "V05_stool": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/V05_stool_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-9f2972cdd6",
+      "label": "照片重建 · 尺寸待核",
+      "note": "实木主体与两侧透明树脂独立实体，木芯边界随高度和前后变化。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。 采用本次完整方块参考；未沿用旧白底图的底部开口。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "V05_stool"
+        ],
+        "note": "实木主体与两侧透明树脂独立实体，木芯边界随高度和前后变化。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。 采用本次完整方块参考；未沿用旧白底图的底部开口。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/V05_stool.webp",
+        "referenceSha256": "9d8c2ec9ccb047df1e25c4c723193cf2878ca8ffa34f0e1f496df8db4abbd3d4",
+        "sha256": "9f2972cdd63679883c395b311f83fddf58c5501b47cca53d2a37d6731bcc6d73",
+        "triangles": 36864
+      }
+    },
+    "N13_side": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/N13_side_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-b65d838c6e",
+      "label": "照片重建 · 尺寸待核",
+      "note": "斜置方形彩色嵌面、金色折面台体及后侧抬起的金框；单图未示背侧按可见折面延续。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "N13_side"
+        ],
+        "note": "斜置方形彩色嵌面、金色折面台体及后侧抬起的金框；单图未示背侧按可见折面延续。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/N13_side.webp",
+        "referenceSha256": "15878aaf1db44853b1d3b6755d684c2f843d112f8582b8451c1dc70e152f9b12",
+        "sha256": "b65d838c6e5025d19443f6d19b955b5667380e4994541d98390519b0b2f6dd86",
+        "triangles": 60
+      }
+    },
+    "P02_coffeepattern": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/P02_coffeepattern_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-980920d14c",
+      "label": "照片重建 · 尺寸待核",
+      "note": "厚圆环织纹软包外圈、内嵌赤陶皮圆盘、内沿缝线及隐藏底座。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "P02_coffeepattern"
+        ],
+        "note": "厚圆环织纹软包外圈、内嵌赤陶皮圆盘、内沿缝线及隐藏底座。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/P02_coffeepattern.webp",
+        "referenceSha256": "e8b9102d6ab835b3c73f763cb84b414973cc9bb824a4620edaf0f2c6085e41a9",
+        "sha256": "980920d14c8d6edb1538af5f05dcf773f4bb2f39e4666a1f57d9ae4f00ab3032",
+        "triangles": 5760
+      }
+    },
+    "N36_coffee": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/N36_coffee_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-8305f02005",
+      "label": "照片重建 · 尺寸待核",
+      "note": "8×8酒红白大理石实体拼块，厚度立面延续棋盘结构，黑色内收底座。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "N36_coffee"
+        ],
+        "note": "8×8酒红白大理石实体拼块，厚度立面延续棋盘结构，黑色内收底座。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/N36_coffee.webp",
+        "referenceSha256": "36bd8b6b69935262c43d5c173c1d35b620c12974aee27f24f180460577bde51b",
+        "sha256": "8305f02005c474ed537f07cc753c86e76bfb37733b586598cc255d15ee4f56cd",
+        "triangles": 780
+      }
+    },
+    "N43_table": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/N43_table_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-7f9fd7cad3",
+      "label": "照片重建 · 尺寸待核",
+      "note": "方形赤陶亮釉长砖，50块独立微起伏砖面、砖缝和立面收边，内收黑底。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "N43_table"
+        ],
+        "note": "方形赤陶亮釉长砖，50块独立微起伏砖面、砖缝和立面收边，内收黑底。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/N43_table.webp",
+        "referenceSha256": "e4006e889dce01f8009bc9833de2b0f30f807a5f3d67eb596133ec87ba7e6e51",
+        "sha256": "7f9fd7cad30ade9f4ee108aa418a578081e35daf9d6e128e4853bd844c890206",
+        "triangles": 21984
+      }
+    },
+    "O37_coffee": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/O37_coffee_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-2594d3fea7",
+      "label": "照片重建 · 尺寸待核",
+      "note": "矩形暖石基座，绿白波浪实体镶面及四边起伏带状浮雕；单图不可见的后侧按同构延续。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "O37_coffee"
+        ],
+        "note": "矩形暖石基座，绿白波浪实体镶面及四边起伏带状浮雕；单图不可见的后侧按同构延续。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/O37_coffee.webp",
+        "referenceSha256": "9d7550915c4e28de3eac05a056da2df411a4da57f47b8500c6839dc08339763a",
+        "sha256": "2594d3fea7a05f8d16b099aac52bfe73203c7f1e3e3530e5e3e953584cb7cca0",
+        "triangles": 61676
+      }
+    },
+    "O50_coffee": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/O50_coffee_reference.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-09596d3eb9",
+      "label": "照片重建 · 尺寸待核",
+      "note": "圆形黑亮面厚桌面，三只烟琥珀色S折弧玻璃脚，玻璃顶端高于桌面，细凹凸为真实网格。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "O50_coffee"
+        ],
+        "note": "圆形黑亮面厚桌面，三只烟琥珀色S折弧玻璃脚，玻璃顶端高于桌面，细凹凸为真实网格。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/O50_coffee.webp",
+        "referenceSha256": "702aa0d2043e9a1865fa30cd8298637f92d2cea86718d0997f7e8ca6b0ef4d13",
+        "sha256": "09596d3eb99c3b0436d3573a5e4b0381968c0f7a352c5c299a8fd8450030b86e",
+        "triangles": 54408
+      }
+    },
+    "U05_chair": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/U05_chair_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-35a61c5e67",
+      "label": "照片重建 · 尺寸待核",
+      "note": "黄米格纹圆座、喇叭形软包底座、弧形靠背与金属球端。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "U05_chair"
+        ],
+        "note": "黄米格纹圆座、喇叭形软包底座、弧形靠背与金属球端。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/U05_chair.webp",
+        "referenceSha256": "5c5e653bc210f9fe2159613066dcd9c6b82579a026a7187b2d2f687db1e4373f",
+        "sha256": "35a61c5e67ae489b57f83f6613ab26fc75a09df8f7177f8b61677c67bdf8a49d",
+        "triangles": 10416
+      }
+    },
+    "U03_chair": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/U03_chair_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-1df4286c48",
+      "label": "照片重建 · 尺寸待核",
+      "note": "锈色细条纹低模块座椅，独立软靠枕、拉缝坐垫及包边。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "U03_chair"
+        ],
+        "note": "锈色细条纹低模块座椅，独立软靠枕、拉缝坐垫及包边。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/U03_chair.webp",
+        "referenceSha256": "1bb21e3dedcf57c72c3edd244dcc4c11765d022a2369dec97c53a7d130b39f36",
+        "sha256": "1df4286c48e647b76173b95a07e1e2e4ad12369ab17a636495fcf76e58d8d606",
+        "triangles": 34704
+      }
+    },
+    "N39_chair": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/N39_chair_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-6619a2da24",
+      "label": "照片重建 · 尺寸待核",
+      "note": "黑白编织方座与横向圆柱滚枕靠背。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "N39_chair"
+        ],
+        "note": "黑白编织方座与横向圆柱滚枕靠背。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/N39_chair.webp",
+        "referenceSha256": "ed989005ed7abf90d3272d57176dab2ce851c75099fc86bbe25f11d749be7f2d",
+        "sha256": "6619a2da249d18e9c94558f34d38480e0d1883f013e7f34c39c26ced24f90b0d",
+        "triangles": 8240
+      }
+    },
+    "U01_sofa": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/U01_sofa_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-bb5968bba1",
+      "label": "照片重建 · 尺寸待核",
+      "note": "完整模块组合：左侧双座、石材连接几、右侧贵妃位及纤细黑色支架。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "U01_sofa"
+        ],
+        "note": "完整模块组合：左侧双座、石材连接几、右侧贵妃位及纤细黑色支架。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/U01_sofa.webp",
+        "referenceSha256": "7d126610ae65abd0ffc0aea40858772a5ac9f61549739379d55512e9876dfec3",
+        "sha256": "bb5968bba1571a4380df4a8a55da1d6af8323d0f7de6a2b1a8a53897068d5b02",
+        "triangles": 58476
+      }
+    },
+    "P01_sofa": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/P01_sofa_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-5268d18d21",
+      "label": "照片重建 · 尺寸待核",
+      "note": "灰绿云纹双座软包沙发，圆润扶手、两块坐垫和靠枕。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "P01_sofa"
+        ],
+        "note": "灰绿云纹双座软包沙发，圆润扶手、两块坐垫和靠枕。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/P01_sofa.webp",
+        "referenceSha256": "5f619726e6d318135dff3cb4b3cc91dd64d545db28c2b01182bf3dc542a29058",
+        "sha256": "5268d18d21dc40ad32bde0cfee4cdefaa1de6cb129cff2946f774b9235063e86",
+        "triangles": 31360
+      }
+    },
+    "N07_sofa": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/N07_sofa_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-735c2077b8",
+      "label": "照片重建 · 尺寸待核",
+      "note": "深酒红三座软垫、独立腰枕及外露古铜细框。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "N07_sofa"
+        ],
+        "note": "深酒红三座软垫、独立腰枕及外露古铜细框。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/N07_sofa.webp",
+        "referenceSha256": "a66745bd6817e57f31258c1df40b1e63a54e710aa5752a2e9d36f0f3bb1a58fa",
+        "sha256": "735c2077b82b713ceb6644d855c8e38494737c9012a1139fbbaa0eddf22f2aa9",
+        "triangles": 44392
+      }
+    },
+    "V07_sofa": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/V07_sofa_photo_reconstruction.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-46bd1725e8",
+      "label": "照片重建 · 尺寸待核",
+      "note": "焦糖皮流线长座，左侧卷臂、右侧延伸座面和两只白色靠枕。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "V07_sofa"
+        ],
+        "note": "焦糖皮流线长座，左侧卷臂、右侧延伸座面和两只白色靠枕。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/V07_sofa.webp",
+        "referenceSha256": "9888adf10258aeec7ed90233e359953b375ef13a73fbce97623acb0ef8f16267",
+        "sha256": "46bd1725e82c5b4d4a6b561e860574a6bb2d29e53aff0f42faefa5a4fde286b1",
+        "triangles": 31588
+      }
+    },
+    "U02_vasegroup": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/U02_vasegroup.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-1da4af5f81",
+      "label": "照片重建 · 尺寸待核",
+      "note": "三只风化陶盆组合：龙舌兰、疏枝小树和干枝草植。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "U02_vasegroup"
+        ],
+        "note": "三只风化陶盆组合：龙舌兰、疏枝小树和干枝草植。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/U02_vasegroup.webp",
+        "referenceSha256": "96fcd4869c2769785a7acd19647ea37235c1e0cf678a7e26c24473953391cb46",
+        "sha256": "1da4af5f81b3a02d6e5531f8ea568cefa5a6dc430737cab8bd3c8f3599cd9faf",
+        "triangles": 73362
+      }
+    },
+    "V25_screen": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/V25_screen.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-59640b2503",
+      "label": "照片重建 · 尺寸待核",
+      "note": "酒红亮面错位拼片屏风，厚折板与细金属连接杆。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "V25_screen"
+        ],
+        "note": "酒红亮面错位拼片屏风，厚折板与细金属连接杆。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/V25_screen.webp",
+        "referenceSha256": "0422265b806766b7094ffffe943490646c48875f6b5bb4846d660ec1c3cf5d51",
+        "sha256": "59640b25030167209a46ae8c809f3eb30ba4935df0ef16586c823bffb9fd4e9f",
+        "triangles": 536
+      }
+    },
+    "W23_20": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/W23_20.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-d391f0b1b9",
+      "label": "照片重建 · 尺寸待核",
+      "note": "灰绿风化双耳陶罐与繁密干枝，保留壶口、把手和器身层次。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "W23_20"
+        ],
+        "note": "灰绿风化双耳陶罐与繁密干枝，保留壶口、把手和器身层次。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/W23_20.webp",
+        "referenceSha256": "27247b26def7054c77d6e8833df764c6f41a4146ec7e2183abca13cbd726c24d",
+        "sha256": "d391f0b1b9df56edfcc34d5af5d477535cf180a43afa122ca168847b1d19d7bb",
+        "triangles": 105432
+      }
+    },
+    "N11_sculpture": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/N11_sculpture.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-54e5dade66",
+      "label": "照片重建 · 尺寸待核",
+      "note": "铜粉色悬挂雕塑，层叠褶皱曲面及两根吊线。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "N11_sculpture"
+        ],
+        "note": "铜粉色悬挂雕塑，层叠褶皱曲面及两根吊线。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/N11_sculpture.webp",
+        "referenceSha256": "379f6806f70d2865883c819f589962a70078c8daf55912218a0daca2f72c4b4e",
+        "sha256": "54e5dade6621eb9c7f9af2348545c9488b86c8b961f3b337f074637ecfb03a90",
+        "triangles": 31288
+      }
+    },
+    "O32_clock": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/O32_clock.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-894beae891",
+      "label": "照片重建 · 尺寸待核",
+      "note": "双细黑环、十字金属杆、四个木块与木质指针组成的大挂钟。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "O32_clock"
+        ],
+        "note": "双细黑环、十字金属杆、四个木块与木质指针组成的大挂钟。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/O32_clock.webp",
+        "referenceSha256": "cc6a61dd100fdd82390f02ffa0ff274a5be3d0c9dfa4ddd55f6433e1bd038492",
+        "sha256": "894beae8916ab3281f712d8f69d52776f6c468e2924874ac844857f80c544cc4",
+        "triangles": 6108
+      }
+    },
+    "O34_art": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/O34_art.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-08a6a0f99e",
+      "label": "照片重建 · 尺寸待核",
+      "note": "柔彩横向条格装饰板，逐块起伏的砖片与木色边框。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "O34_art"
+        ],
+        "note": "柔彩横向条格装饰板，逐块起伏的砖片与木色边框。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/O34_art.webp",
+        "referenceSha256": "7ac23ebbdec5114152a7c7050026e40b7efe1d703c2a5efada5f1ea6b82a89b6",
+        "sha256": "08a6a0f99e89fb5da8cba04986f1fae8e2679ff4e34047374b2712d78dbd1bfb",
+        "triangles": 3144
+      }
+    },
+    "W23_02": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/W23_02.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "photo-priority-20261023-71251fa397",
+      "label": "照片重建 · 尺寸待核",
+      "note": "白色大理石长花槽，树木、蕨类和阔叶植物分层组合，含槽内土石。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "W23_02"
+        ],
+        "note": "白色大理石长花槽，树木、蕨类和阔叶植物分层组合，含槽内土石。 依据客户最新图片重建，试摆尺寸未实测；背面、底部及未拍摄细节含推定。非原厂 CAD，不用于生产。",
+        "geometrySource": "Bespoke solid meshes reconstructed from the supplied single-view product reference",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "referenceImage": "space-assets/priority-references/W23_02.webp",
+        "referenceSha256": "059a85caad96b6f247445f844d6cdfc3209a2101c65fef62c78cdd22c113304d",
+        "sha256": "71251fa397af88dc753558d1d4508acaa218e493d67ce60e55caac820d3abe3d",
+        "triangles": 138978
+      }
+    }
+  }
+}

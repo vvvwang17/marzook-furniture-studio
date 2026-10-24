@@ -302,4 +302,10 @@ document.addEventListener('keydown',e=>{if(!active||!loaded||topMode||e.isCompos
 window.addEventListener('beforeunload',()=>{try{if(camera)state.camera={position:camera.position.toArray(),yaw,pitch,topMode};localStorage.setItem(KEY,JSON.stringify(state));}catch{}});
 window.ImmersiveStudio={getRepresentationMode:()=>addMode,setRepresentationMode:setAddMode,addItems,setPreset,setViewMode,select,getState:()=>clone(state),getRoomInfo:()=>room?{meshes:room.meshes.length,columns:room.columns,metadata:room.metadata,loaded}:null,getCamera:()=>camera?{position:camera.position.toArray(),yaw,pitch,topMode}:null,exportJSON,exportPNG,capturePNG:()=>captureCanvas()?.toDataURL('image/png')};
 window.SiteStudio.registerMode('immersive',{default:true,addLabel:'加入空间',activate(){active=true;section.hidden=false;init();if(loaded&&!document.hidden){lastTime=0;renderDirty=true;renderer.setAnimationLoop(frame);}requestAnimationFrame(resize);updatePicks();},deactivate(){active=false;section.hidden=true;keys.clear();if(renderer)renderer.setAnimationLoop(null);},addItems});
+// An explicit link from the model viewer places the selected real model once.
+const linkedModel=new URLSearchParams(location.search).get('model');
+if(linkedModel&&catalog.has(linkedModel)){
+ const placeLinkedModel=async()=>{await FurnitureModels.ready;if(!FurnitureModels.getStatus(linkedModel).ready)return;setAddMode('model');await addItems([linkedModel]);const entry=state.instances.at(-1);if(entry&&entry.itemId===linkedModel){select(entry.uid);focusSelected();}const clean=new URL(location.href);clean.searchParams.delete('model');window.history.replaceState(null,'',clean);};
+ if(loaded)placeLinkedModel();else window.addEventListener('marzook:space-ready',placeLinkedModel,{once:true});
+}
 renderControls();renderOptions();
