@@ -880,6 +880,35 @@
       "collection": "已购",
       "purchaseStatus": "purchased",
       "mountType": "floor"
+    },
+    {
+      "id": "S24_continuous_chaise_sofa",
+      "order": 41,
+      "group": "seating",
+      "reference": "sources/a5f4ad7825898c6d.png",
+      "thumbnail": "assets/S24_continuous_chaise_sofa.webp",
+      "url": "space-assets/models/S24_continuous_chaise_sofa.glb",
+      "description": "连续四座与右贵妃位组成的软包沙发，保留原图坐靠、抱枕及底座关系；不加入中置石桌。 所有尺寸按单张产品图比例估算；背面、内部骨架与隐藏连接、织物微纹理含合理重建，非厂家实测或扫描模型。",
+      "whiteDownload": "downloads/S24_continuous_chaise_sofa_white.png",
+      "packageDownload": "downloads/S24_continuous_chaise_sofa_package.zip",
+      "dimensionsCm": [
+        480.0,
+        153.0,
+        85.34
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 480.0 × 153.0 × 85.3 cm",
+      "triangles": 108500,
+      "bytes": 4688948,
+      "previewOrbit": {
+        "theta": 0.4,
+        "phi": 1.25
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
     }
   ]
 }

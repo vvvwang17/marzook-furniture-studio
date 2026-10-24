@@ -3788,6 +3788,150 @@
         "catalogImageMethod": "WebGL rendering of final GLB",
         "renderedFromSHA256": "83b6fe18b9b0282a7da2e0a42915e3f90c55bf0a96dd9e1926344518beac35fd"
       }
+    },
+    "S24_continuous_chaise_sofa": {
+      "id": "S24_continuous_chaise_sofa",
+      "name_cn": "米灰连续四座与右贵妃沙发·黑驼条纹靠垫",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "related_existing_items": [
+        "U01_sofa"
+      ],
+      "sha256": "096c41eb0722a4999b513473a3e884edc075609d4d8881732f750d24f5899207",
+      "bytes": 4688948,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        480.0,
+        153.0,
+        85.34
+      ],
+      "semanticGroups": [
+        "seat_01_main",
+        "upholstered_shell",
+        "seat_02_main",
+        "seat_03_main",
+        "seat_04_main",
+        "seat_05_right_chaise",
+        "metal_frame",
+        "rear_striped_back_01",
+        "rear_striped_back_02",
+        "rear_striped_back_03",
+        "rear_striped_back_04",
+        "rear_striped_back_05",
+        "rear_striped_back_06",
+        "rear_striped_back_07",
+        "front_brown_01",
+        "front_ivory_01",
+        "front_ivory_02",
+        "front_brown_02",
+        "front_brown_03",
+        "front_ivory_03",
+        "front_ivory_04",
+        "front_brown_04",
+        "front_ivory_05",
+        "front_brown_05"
+      ],
+      "features": [
+        "连续4个主座坐垫与右端1个长贵妃坐垫，座间无石桌或台面",
+        "左右两端圆角软包扶手",
+        "米灰细织纹软包座面与完整低背",
+        "7块黑驼竖条纹后靠垫，按2/1/2/1/1分布",
+        "前排5对褐色与米白靠枕（共10枕）",
+        "细黑低底框与多根纤细低脚，底部开放",
+        "每座、贵妃、每个抱枕保留独立父组，可在3D软件拆分"
+      ],
+      "limitations": "所有尺寸按单张产品图比例估算；背面、内部骨架与隐藏连接、织物微纹理含合理重建，非厂家实测或扫描模型。",
+      "detail": "米灰连续四座与右贵妃完整沙发，双扶手，7块黑驼竖条纹后靠垫、5对褐/米白前抱枕和细黑低框。此配置中间无石桌，独立保留原U01带石台版本。全部尺寸估算。",
+      "triangleCount": 108500,
+      "meshCount": 47,
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/S24_continuous_chaise_sofa.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "continuous-sofa-20261024-096c41eb0722",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "连续四座与右贵妃位组成的软包沙发，保留原图坐靠、抱枕及底座关系；不加入中置石桌。 所有尺寸按单张产品图比例估算；背面、内部骨架与隐藏连接、织物微纹理含合理重建，非厂家实测或扫描模型。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "S24_continuous_chaise_sofa",
+        "name_cn": "米灰连续四座与右贵妃沙发·黑驼条纹靠垫",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "related_existing_items": [
+          "U01_sofa"
+        ],
+        "sha256": "096c41eb0722a4999b513473a3e884edc075609d4d8881732f750d24f5899207",
+        "bytes": 4688948,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          480.0,
+          153.0,
+          85.34
+        ],
+        "semanticGroups": [
+          "seat_01_main",
+          "upholstered_shell",
+          "seat_02_main",
+          "seat_03_main",
+          "seat_04_main",
+          "seat_05_right_chaise",
+          "metal_frame",
+          "rear_striped_back_01",
+          "rear_striped_back_02",
+          "rear_striped_back_03",
+          "rear_striped_back_04",
+          "rear_striped_back_05",
+          "rear_striped_back_06",
+          "rear_striped_back_07",
+          "front_brown_01",
+          "front_ivory_01",
+          "front_ivory_02",
+          "front_brown_02",
+          "front_brown_03",
+          "front_ivory_03",
+          "front_ivory_04",
+          "front_brown_04",
+          "front_ivory_05",
+          "front_brown_05"
+        ],
+        "features": [
+          "连续4个主座坐垫与右端1个长贵妃坐垫，座间无石桌或台面",
+          "左右两端圆角软包扶手",
+          "米灰细织纹软包座面与完整低背",
+          "7块黑驼竖条纹后靠垫，按2/1/2/1/1分布",
+          "前排5对褐色与米白靠枕（共10枕）",
+          "细黑低底框与多根纤细低脚，底部开放",
+          "每座、贵妃、每个抱枕保留独立父组，可在3D软件拆分"
+        ],
+        "limitations": "所有尺寸按单张产品图比例估算；背面、内部骨架与隐藏连接、织物微纹理含合理重建，非厂家实测或扫描模型。",
+        "detail": "米灰连续四座与右贵妃完整沙发，双扶手，7块黑驼竖条纹后靠垫、5对褐/米白前抱枕和细黑低框。此配置中间无石桌，独立保留原U01带石台版本。全部尺寸估算。",
+        "triangleCount": 108500,
+        "meshCount": 47,
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "S24_continuous_chaise_sofa"
+        ],
+        "referenceImage": "sources/a5f4ad7825898c6d.png",
+        "referenceImages": [
+          "sources/a5f4ad7825898c6d.png"
+        ],
+        "note": "连续四座与右贵妃位组成的软包沙发，保留原图坐靠、抱枕及底座关系；不加入中置石桌。 所有尺寸按单张产品图比例估算；背面、内部骨架与隐藏连接、织物微纹理含合理重建，非厂家实测或扫描模型。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "096c41eb0722a4999b513473a3e884edc075609d4d8881732f750d24f5899207",
+        "mountType": "floor"
+      }
     }
   }
 }
