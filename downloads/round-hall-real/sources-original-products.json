@@ -1,0 +1,705 @@
+{
+  "title": "MARZOOK圆厅 C / D：现有家具库原款图片来源记录",
+  "date": "2026-10-24",
+  "imageMethod": "Deterministic pixel composition using the existing prepared catalogue white-background/transparent product images. No AI image generation is performed in this round. Furniture appearance is supplied by product-image pixels rather than simplified 3D stand-ins.",
+  "importantSourceDistinction": "The catalogue is an already prepared image library. Some library assets contain earlier clean-up, neutralised reflections, reconstruction or AI-assisted completion, as recorded by the original concept_reconstruction and notes fields below. These images must not all be described as untouched original product photographs.",
+  "sofaDesignStatus": "Proposed custom or segmented curved arrangement using existing sofa product pixels. Not an asserted ready-made curved SKU, surveyed dimension or manufacturer production CAD. Fabric, construction, modules and site dimensions require confirmation.",
+  "originalProductColours": "O11 is shown in its supplied catalogue caramel leather colour. No dark-cognac recolouring is introduced. Other product colours and material pixels are retained from the supplied catalogue assets.",
+  "background": {
+    "asset": "scenes/wide/round-wide.png",
+    "type": "Existing reconstructed wide empty-room view",
+    "basis": "Existing client drawings, model and multiple site references already used by the studio.",
+    "limitation": "The existing wide reconstruction includes inferred continuation outside photographed portions. It is not an untouched original site photograph. This round reuses it as a prepared empty background and does not generate a new room image.",
+    "originalReference": "scenes/round-hall-original.jpg"
+  },
+  "materialExclusions": [
+    "travertine",
+    "boucle",
+    "shag",
+    "fur"
+  ],
+  "unknownMaterialStatus": "Visual material descriptions are not laboratory or supplier certifications. In particular, stone type and actual furniture dimensions remain subject to supplier confirmation; travertine is excluded from the specification.",
+  "furniture": [
+    {
+      "id": "P01_sofa",
+      "name_cn": "灰绿云纹圆臂双人沙发",
+      "category": "沙发",
+      "asset": "assets/P01_sofa.webp",
+      "source_preview": "sources/ef3cd5fb2c699db4.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1nZp4wCg_EJyT4JaGuT3KX2bo3Ud16hKM/view"
+      ],
+      "concept_reconstruction": true,
+      "notes": "视频两端略裁切；整体宽度为概念补全，后续需实测。",
+      "material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "priority": true,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "currentRoundTreatment": "Original product pixels used for a proposed custom/segmented curved arrangement. Not an existing mass-produced curved sofa SKU or manufacturer construction drawing."
+    },
+    {
+      "id": "O11_chair",
+      "name_cn": "焦糖悬浮皮面木架单椅",
+      "category": "单椅",
+      "asset": "assets/O11_chair.webp",
+      "source_preview": "sources/de00ac5975b8d038.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/12UmXD1ccVxFtLkCvDzGXelSMQs2Kvr1k/view",
+        "https://drive.google.com/file/d/1u6AMcA5ezlY596nC7mHymbW9wpv1Feom/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "同款多角度合并O11/O19。",
+      "material_appearance": "皮面与木纹观感；未核实真实材质、品牌或型号。",
+      "priority": false,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1707,
+        1280
+      ],
+      "currentRoundTreatment": "Use the catalogue caramel leather colour as supplied. No recolour to the previous dark-cognac model finish."
+    },
+    {
+      "id": "O06_table",
+      "name_cn": "古铜波浪雕塑茶几",
+      "category": "茶几",
+      "asset": "assets/O06_table.webp",
+      "source_preview": "sources/de50ef7fdf550f22.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/15JrNJpN1HP8wN88hi77aSe_ifO3Vs8YG/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "客户截图产品，背面不可见。",
+      "material_appearance": "拉丝金属、木纹观感；未核实真实材质、品牌或型号。",
+      "priority": false,
+      "libraryImagePixels": [
+        1774,
+        887
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        738,
+        1600
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "O53_side",
+      "name_cn": "白石圆盘黑柱边几",
+      "category": "边几",
+      "asset": "assets/O53_side.webp",
+      "source_preview": "sources/1cda6efbd1a9607c.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1tkUraQ7G1sQLQAfWERJG-oS34ffo-_um/view",
+        "https://drive.google.com/file/d/1aDkKIxc3RrmykcrMYnYJ5CvS2_ximPEX/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "",
+      "material_appearance": "浅色石纹台面、黑色细金属柱外观",
+      "priority": true,
+      "libraryImagePixels": [
+        1230,
+        1279
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1280,
+        1707
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "LT23_03",
+      "name_cn": "银色镜面异形球簇吊灯",
+      "category": "灯具",
+      "asset": "assets/LT23_03.webp",
+      "source_preview": "sources/10b903fa893352bb.jpg",
+      "source_urls": [],
+      "concept_reconstruction": true,
+      "notes": "主体银镜面球簇清楚可见，少量球体互相遮挡；保留前景球簇整体，不纳入背景单头灯。镜面反射已转为中性棚拍。",
+      "material_appearance": "镜面镀铬感异形玻璃球罩、银色放射金属支杆与小圆形吸顶盘",
+      "priority": true,
+      "libraryImagePixels": [
+        1086,
+        1448
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1279,
+        1706
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "LT23_07",
+      "name_cn": "原石背光六件壁灯组",
+      "category": "灯具",
+      "asset": "assets/LT23_07.webp",
+      "source_preview": "sources/2e8999c33b08bb75.jpg",
+      "source_urls": [],
+      "concept_reconstruction": true,
+      "notes": "六颗独立原石壁灯按原照片组合保留；文字遮盖处纹理经AI补全，局部造型与实际尺寸待核。",
+      "material_appearance": "粗糙原石面板、暖白背光",
+      "priority": true,
+      "libraryImagePixels": [
+        1445,
+        1088
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1700,
+        1280
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "P08_sofafabric",
+      "name_cn": "灰金织面绑带框双座模块",
+      "category": "沙发",
+      "asset": "assets/P08_sofafabric.webp",
+      "source_preview": "sources/e805469518356ff4.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1XqEyfaNLoMwu0g6lOExKUSJHd0XfHjjY/view"
+      ],
+      "concept_reconstruction": true,
+      "notes": "整体端部不全，按视频中可见双座模块补全。",
+      "material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "priority": true,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "currentRoundTreatment": "Original product pixels used for a proposed custom/segmented curved arrangement. Not an existing mass-produced curved sofa SKU or manufacturer construction drawing."
+    },
+    {
+      "id": "P08_sofagreen",
+      "name_cn": "橄榄皮感绑带框座模块",
+      "category": "沙发",
+      "asset": "assets/P08_sofagreen.webp",
+      "source_preview": "sources/d3cfed9ac78294ce.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1XqEyfaNLoMwu0g6lOExKUSJHd0XfHjjY/view"
+      ],
+      "concept_reconstruction": true,
+      "notes": "视频缺少整体正面，以可见单模块呈现；不可作为整套尺寸依据。",
+      "material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "priority": true,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "currentRoundTreatment": "Original product pixels used for a proposed custom/segmented curved arrangement. Not an existing mass-produced curved sofa SKU or manufacturer construction drawing."
+    },
+    {
+      "id": "P01_chair",
+      "name_cn": "白垫红棕扶手金属架单椅",
+      "category": "单椅",
+      "asset": "assets/P01_chair.webp",
+      "source_preview": "sources/deb66191ac77a883.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1nZp4wCg_EJyT4JaGuT3KX2bo3Ud16hKM/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "",
+      "material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "priority": true,
+      "libraryImagePixels": [
+        1205,
+        1305
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "N43_table",
+      "name_cn": "赤陶拼片方茶几",
+      "category": "茶几",
+      "asset": "assets/N43_table.webp",
+      "source_preview": "sources/b602e37fd4475dcc.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/10Kid2WB4KG0aSLuFr_ehsMtjH2edSEvu/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "",
+      "material_appearance": "釉面拼片感",
+      "priority": false,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1279,
+        1706
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "V23_side",
+      "name_cn": "树瘤纹双瓣浅底边几",
+      "category": "边几",
+      "asset": "assets/V23_side.webp",
+      "source_preview": "sources/79ce4b8907087cd1.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1ZG37QkDf_RuwbFkWJfXT1RRBvEhr47OK/view",
+        "https://drive.google.com/file/d/1XqEyfaNLoMwu0g6lOExKUSJHd0XfHjjY/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "原顶面书杯去除。",
+      "material_appearance": "树瘤状纹理与浅色基座观感",
+      "priority": true,
+      "libraryImagePixels": [
+        1145,
+        1374
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    },
+    {
+      "id": "W23_03",
+      "name_cn": "酒红皮带三灯组合吊灯",
+      "category": "灯具",
+      "asset": "assets/W23_03_combination.webp",
+      "source_preview": "sources/ca5389712b4e140b.png",
+      "source_urls": [],
+      "concept_reconstruction": false,
+      "notes": "按用户确认作为同一组灯具；保留皮带连接与三灯错落关系。AI白底整理，原图可对照。",
+      "material_appearance": "按用户原始照片中可辨材质外观整理",
+      "priority": true,
+      "libraryImagePixels": [
+        1359,
+        1158
+      ],
+      "libraryImageMode": "RGB",
+      "libraryAlphaRange": [
+        255,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        771,
+        657
+      ],
+      "currentRoundTreatment": "Deterministic edge-connected white-background alpha extraction, one-pixel alpha choke and slight edge feathering. The warm-white globe and lamp faces remain. Original source RGB values are unchanged."
+    },
+    {
+      "id": "V07_bowl",
+      "name_cn": "奶白波口高脚碗",
+      "category": "装饰品",
+      "asset": "assets/V07_bowl.webp",
+      "source_preview": "sources/c1ba1c9372877b0d.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1bSJOLqFrBEY_OTYmcyXeOI5ZwaNxQ1x9/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "视频补查新增；仅按可见外观还原，尺寸与材质未核实。",
+      "material_appearance": "陶瓷感",
+      "priority": true,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "currentRoundTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing."
+    }
+  ],
+  "rug": {
+    "name": "Goose Eye Icon 881 Queens",
+    "designer": "Gunilla Lagerhem Ullberg / Kasthall",
+    "productUrl": "https://www.kasthall.com/en-us/products/goose-eye-icon-881-queens-woven",
+    "imageUrl": "https://www.kasthall.com/cdn/shop/files/42909881_3.png?width=1920",
+    "localImage": "goose-eye-queens881-flat.webp",
+    "composition": "Flatwoven 100% wool weft and 100% linen warp, approximate total thickness 5mm; no shag, no boucle.",
+    "imageEditing": "Only transparent outside margins cropped; official product image pixels are unaltered. No AI generation.",
+    "dimensionsNote": "3660 x 2740mm shown is a proposed custom size, not an asserted stock SKU. Official page allows custom sizes; manufacturer tolerance +/-5%. Backing recommended for this area and width.",
+    "currentRoundTreatment": "Crop the existing official flat image to its real interior texture area only, removing transparency and woven end margins. No recolour or redrawing.",
+    "sourceCropPixels": [
+      16,
+      50,
+      1560,
+      2300
+    ]
+  },
+  "artworks": [
+    {
+      "number": 1,
+      "artist": "Franz Kline",
+      "title": "Siskind, 1958",
+      "productUrl": "https://customprints.dia.org/detail/502431/kline-siskind-1958",
+      "imageUrl": "https://customprints.dia.org/vitruvius/render/1200/502431.jpg",
+      "supplier": "Detroit Institute of Arts Custom Prints",
+      "localImage": "01-kline-siskind.jpg",
+      "orientation": "landscape",
+      "availableSizes": "图像16×11⅜、22×15⅝、30×21¼、40×28⅜英寸；最大约1016×721mm。纸边及装框外尺寸另核。",
+      "recommendedSizeMm": [
+        1016,
+        721
+      ],
+      "printType": "官方博物馆按单复制版画；230gsm无酸无木质素纸，12色档案墨。另可选canvas。非原作。",
+      "availability": "当前页面提供四尺寸及Add to Cart；按单制作，页眉承诺10个工作日内发出，不属于已核实仓库现货。",
+      "recommendation": "首选：宽阔黑色笔势，最有力度，可与绿色沙发和黑石地面呼应。",
+      "recommendedRank": 1,
+      "evidence": "2026-10-24 Chrome live DOM: four size choices; archival paper details and Add to Cart observed.",
+      "previewImagePixels": [
+        1200,
+        857
+      ],
+      "selectedSizeMm": [
+        1016,
+        721
+      ]
+    },
+    {
+      "number": 6,
+      "artist": "Malene Birger",
+      "title": "Organized",
+      "productUrl": "https://theposterclub.com/products/malene-birger-organized",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1009/3975/9948/files/Malene_Birger_Organized_Product_Low_Res.jpg?v=1779326290",
+      "supplier": "The Poster Club，艺术家独家合作出版方",
+      "localImage": "06-malene-birger-organized.jpg",
+      "orientation": "portrait",
+      "availableSizes": "A4 (21x29,7 cm); 30x40 cm; 50x70 cm; 70x100 cm（网站按短边×长边标示，保持原作方向挂置）。",
+      "recommendedSizeMm": [
+        700,
+        1000
+      ],
+      "printType": "艺术家合作授权复制版画，245g FSC档案艺术纸，giclée印刷，哑光；非原作。",
+      "availability": "2026-10-24官方产品数据available=true，所列尺寸可下单；实体仓库现货数量与即时交期未披露。",
+      "variants": [
+        {
+          "websiteSizeLabel": "A4 (21x29,7 cm)",
+          "availableToOrder": true
+        },
+        {
+          "websiteSizeLabel": "30x40 cm",
+          "availableToOrder": true
+        },
+        {
+          "websiteSizeLabel": "50x70 cm",
+          "availableToOrder": true
+        },
+        {
+          "websiteSizeLabel": "70x100 cm",
+          "availableToOrder": true
+        }
+      ],
+      "recommendation": "竖幅备选：黑白与自然纸色拼贴，呼应酒红屏风的分格节奏。",
+      "recommendedRank": 6,
+      "evidence": "官方商品页及同商品公开Shopify product JSON核对；非第三方转载产品。",
+      "previewImagePixels": [
+        992,
+        1389
+      ],
+      "selectedSizeMm": [
+        700,
+        1000
+      ]
+    }
+  ],
+  "schemes": {
+    "C": {
+      "sofa": [
+        "P01_sofa"
+      ],
+      "chairs": {
+        "id": "O11_chair",
+        "count": 2,
+        "finish": "Original catalogue caramel leather / dark wood appearance"
+      },
+      "coffeeTable": "O06_table",
+      "sideTable": "O53_side",
+      "pendant": "LT23_03",
+      "wallLights": "LT23_07",
+      "tabletop": "Keep sculptural coffee table clear",
+      "artVariants": [
+        1,
+        6
+      ]
+    },
+    "D": {
+      "sofa": [
+        "P08_sofafabric",
+        "P08_sofagreen"
+      ],
+      "chairs": {
+        "id": "P01_chair",
+        "count": 2
+      },
+      "coffeeTable": "N43_table",
+      "sideTable": "V23_side",
+      "pendant": "W23_03",
+      "wallLights": "LT23_07",
+      "tabletop": "V07_bowl",
+      "artVariants": [
+        1,
+        6
+      ]
+    }
+  },
+  "sofaPixelAssembly": {
+    "c-sofa.png": {
+      "source": "assets/P01_sofa.webp",
+      "method": "Complete original 2-seat image, smooth shallow pixel bend, modest perspective/aspect resampling; no new pixels invented by a generative model.",
+      "identity": "Custom curved design illustration, not existing SKU or measured production geometry.",
+      "notes": "Original arms, seams, cloud upholstery, two seats/back pillows retained. No cut/duplicated seating fragments or gaps."
+    },
+    "d-sofa.png": {
+      "sources": [
+        "assets/P08_sofafabric.webp",
+        "assets/P08_sofagreen.webp"
+      ],
+      "method": "Complete original 2-seat fabric unit + complete olive leather seat; leather unit mirrored to make opposite handed end; resized and composited as an angled module arrangement.",
+      "identity": "Proposed module combination; maker to confirm opposite handed arm and connection/angle.",
+      "notes": "Original leather belts, buckles, striped pillow and smooth leather retained; no clipped seat/back fragments, no new upholstery drawn."
+    },
+    "noNewAIGeneration": true
+  },
+  "artMounting": {
+    "coordinateOrder": "top-left, top-right, bottom-right, bottom-left",
+    "backgroundSize": [
+      1672,
+      941
+    ],
+    "backgroundSource": "Existing scenes/wide/round-wide.png; documented reconstructed wide view with inferred unseen continuation, not an original unedited photograph. No generator metadata present.",
+    "method": "Original official artwork photographs fitted by contain into a simple matte-black frame and warm-white mat, then ordinary perspective pixel transform. No image generation; complete source image retained.",
+    "frameDesign": "18mm proposed black frame and25mm proposed mat. Framing outer sizes are design allowances, not asserted product SKUs.",
+    "placementAccuracy": "Visual placement study on reconstructed perspective background; mounting location and physical size require site verification.",
+    "items": [
+      {
+        "paper": [
+          1.016,
+          0.721
+        ],
+        "source": "01-kline-siskind.jpg",
+        "artist": "Franz Kline",
+        "title": "Siskind, 1958",
+        "productUrl": "https://customprints.dia.org/detail/502431/kline-siskind-1958",
+        "number": "01",
+        "nominalPaperMetres": [
+          1.016,
+          0.721
+        ],
+        "outerFrameMetres": [
+          1.102,
+          0.8069999999999999
+        ],
+        "tightFile": "art01-tight.png",
+        "transparentPaddingFile": "art01-framed.png",
+        "tightPixels": [
+          1322,
+          968
+        ],
+        "transparentPaddingBox": [
+          40,
+          40,
+          1362,
+          1008
+        ],
+        "wide1672x941Quad": [
+          [
+            188.0,
+            322.0
+          ],
+          [
+            374.0,
+            335.0
+          ],
+          [
+            375.0,
+            482.0
+          ],
+          [
+            187.0,
+            488.0
+          ]
+        ],
+        "ifResized1664x941Quad": [
+          [
+            187.1,
+            322.0
+          ],
+          [
+            372.21,
+            335.0
+          ],
+          [
+            373.21,
+            482.0
+          ],
+          [
+            186.11,
+            488.0
+          ]
+        ],
+        "sourceAspect": 1.4002333722287048,
+        "imageAspectAfterContain": 1.4
+      },
+      {
+        "paper": [
+          0.7,
+          1.0
+        ],
+        "source": "06-malene-birger-organized.jpg",
+        "artist": "Malene Birger",
+        "title": "Organized",
+        "productUrl": "https://theposterclub.com/products/malene-birger-organized",
+        "number": "06",
+        "nominalPaperMetres": [
+          0.7,
+          1.0
+        ],
+        "outerFrameMetres": [
+          0.7859999999999999,
+          1.086
+        ],
+        "tightFile": "art06-tight.png",
+        "transparentPaddingFile": "art06-framed.png",
+        "tightPixels": [
+          943,
+          1303
+        ],
+        "transparentPaddingBox": [
+          40,
+          40,
+          983,
+          1343
+        ],
+        "wide1672x941Quad": [
+          [
+            217.67,
+            296.26
+          ],
+          [
+            349.85,
+            307.8
+          ],
+          [
+            350.89,
+            508.92
+          ],
+          [
+            216.79,
+            515.59
+          ]
+        ],
+        "ifResized1664x941Quad": [
+          [
+            216.63,
+            296.26
+          ],
+          [
+            348.18,
+            307.8
+          ],
+          [
+            349.21,
+            508.92
+          ],
+          [
+            215.76,
+            515.59
+          ]
+        ],
+        "sourceAspect": 0.7141828653707704,
+        "imageAspectAfterContain": 0.7142857142857143
+      }
+    ]
+  },
+  "outputSizePixels": [
+    3000,
+    1840
+  ],
+  "roomDimensionsStatus": "Image-based styling composition, not a measured photogrammetric rendering. Prior measured 3D studies and current VR are preserved for scale review; production sofa curve and exact module connections remain to be developed."
+}
