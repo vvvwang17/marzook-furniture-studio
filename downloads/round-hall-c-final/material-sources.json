@@ -1,0 +1,78 @@
+{
+  "scheme": "C / 云绿与干邑 / MOSS & COGNAC",
+  "checked_on": "2026-10-24",
+  "scope": "Two real wall finishes researched on manufacturer websites. Design application is a proposal, not an as-built specification. No website or VR files changed.",
+  "design_direction_zh": "墙面以平滑暖灰米为主，只在挂画背板与局部窗洞收口加入整面、竖纹、低光泽烟熏胡桃木。与相邻酒红屏风、镜花墙及黑石地面衔接；不加木格栅、额外几何拼花、洞石或毛绒材料。",
+  "materials": [
+    {
+      "id": "WALL-01",
+      "manufacturer": "Decospan",
+      "collection": "Shinnoki",
+      "finish": "Smoked Walnut",
+      "specified_execution": "Shinnoki Laminates, thin real-wood veneer finish; not the rigid prefinished MDF panel execution.",
+      "product_url": "https://www.decospan.com/en-us/shinnoki/collection/smoked-walnut/s4-smoked-walnut",
+      "execution_url": "https://www.decospan.com/en-gb/shinnoki/product-overview/laminates",
+      "procurement_url": "https://www.decospan.com/en-us/wood-network",
+      "sample_order_url": "https://my.decospan.com/",
+      "technical_sheet_url": "https://ods.decospan.com/api/assets/decospan-digital/inriverasset/4486_5f2abcf9-1599-4a40-b15c-cf6a7c56ad7b?v=2162",
+      "verified_facts": [
+        "The laminate execution is a stained and lacquered wood veneer on phenolic-resin-impregnated paper; the manufacturer describes it for alternative substrates and rounded elements.",
+        "The technical sheet gives 3050 × 1220 × 1 mm: 0.6 mm veneer plus 0.4 mm backing.",
+        "The separate finished panel product uses an MDF core; this is not evidence that a rigid MDF panel can be directly bent."
+      ],
+      "curved_wall_limitations_zh": [
+        "作为表面饰材粘贴在按现场弧度制作的稳定弧面基层上；不是无需基层的自承重弯板。基层体系、胶黏剂、平衡背衬及接缝做法需由材料商和木作厂针对该执行版本确认。",
+        "官方技术表弯曲半径一栏写成 Maximum 150 mm，语义不清；本方案不据此声称最小弯曲半径。落地前按实际圆厅曲率与纹理方向做足尺样板，并向厂家取得明确的适用半径和胶合工艺。",
+        "官网当前下载页的部分 laminate processing/gluing 链接打开后标题为 Decolam，且叙述未饰面的木皮，不宜直接当成 Shinnoki 预饰面胶合规范使用。"
+      ],
+      "proposed_use_zh": "建议局部全高挂画背板，竖向连续木纹、宽幅平板与克制细缝；其余弧墙保持浅色。具体分幅与收口由现场测量决定。",
+      "colour_comment_zh": "官方小样为温暖棕色胡桃木，暗而不发乌；与原款焦糖椅、古铜茶几及酒红吊灯连接。此为搭配判断，屏幕图不能保证实物色。",
+      "image": {
+        "url": "https://assets-eu-01.kc-usercontent.com/38bd768a-2b63-01ad-c3fc-11a0b411a078/582a1751-91d1-4c6e-8524-51843891227c/13_SMOKED-WALNUT_icon.jpg",
+        "local_path": "work/c-final-materials/shinnoki-smoked-walnut-official.jpg",
+        "pixel_dimensions": [
+          400,
+          400
+        ],
+        "provenance": "Manufacturer-hosted finish thumbnail, downloaded unchanged.",
+        "use_limit": "Small colour/grain reference only; not a seamless scan or a guaranteed full-panel match. Do not label this as client-site photography."
+      }
+    },
+    {
+      "id": "WALL-02",
+      "manufacturer": "BAUWERK Colour",
+      "product": "Bone Limewash",
+      "product_url": "https://www.bauwerkcolour.com/en-us/product/bone-limewash-paint-colour",
+      "procurement_url": "https://www.bauwerkcolour.com/en-us/product/bone-limewash-paint-colour",
+      "surface_guide_url": "https://www.bauwerkcolour.com/en-us/lime-paint-surface-guides-dry-wall-plasterboard-panels",
+      "prep_coat_url": "https://www.bauwerkcolour.com/en-us/product/lime-wash-prep-coat",
+      "verified_facts": [
+        "Bone is described by the manufacturer as a warm neutral with no or very low texture, depending on the surface and lighting; it can appear greyer in some light.",
+        "The product page offers sample pots and paint ordering. An in-situ sample is necessary for final colour selection.",
+        "For new plasterboard the surface guide specifies two coats of suitable water-based undercoat-sealer/primer, one Bauwerk Prep Coat and two limewash coats; already correctly primed, unrepaired walls may not need the initial priming step."
+      ],
+      "substrate_limitations_zh": [
+        "弧面造型由墙体基层形成，涂料本身不承担弯板功能。新或修补的石膏板需要统一吸收率，防止接缝、补丁透显；Prep Coat 不是底漆的替代品。",
+        "平整度影响最终表面；本方案要求细找平、低起伏的薄涂效果，先按官方工艺在实际或同材质基层打样。不要将其表现成粗糙砂岩、洞石或厚重云斑。"
+      ],
+      "proposed_use_zh": "作为大面积连续浅色墙面，保留画作和石壁灯的留白，使云绿、焦糖、古铜与相邻黑石地面有统一的暖中性背景。",
+      "colour_comment_zh": "建议暖灰米而非冷水泥灰；数字效果图只作近似色感，以现场日光和暖光下的实物样板为准。",
+      "image": {
+        "url": "https://cdn.shopify.com/s/files/1/0637/2855/0106/files/Bone-01S-Bauwerk-Colour-Natural-Limewash-Paint.jpg?v=1757931189&width=600",
+        "local_path": "work/c-final-materials/bauwerk-bone-official.jpg",
+        "pixel_dimensions": [
+          600,
+          750
+        ],
+        "provenance": "Official product-page interior marketing image, downloaded unchanged. Its photography/CG/AI origin was not independently established.",
+        "use_limit": "Reference only. Do not use as client background, seamless material texture, physical sample or evidence of unaltered photography. Omit this image from final photomontage; request an actual sample pot."
+      }
+    }
+  ],
+  "visualisation_integrity": {
+    "wall_finish_application": "Suggested placement and material appearance are design inferences. No cladding has been installed or supplier-approved.",
+    "background": "Existing round-wide reconstructed empty scene includes inferred adjoining geometry; it must not be represented as original site photography.",
+    "furniture": "Use existing library product pixels without recolouring. P01 curved sofa remains custom/segmented design intent rather than a verified factory curved SKU.",
+    "no_new_ai_imagery": true
+  }
+}

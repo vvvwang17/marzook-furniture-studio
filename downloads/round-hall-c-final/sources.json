@@ -1,0 +1,513 @@
+{
+  "title": "MARZOOK 圆厅 C 深化：同心弧形沙发、W23三灯与墙面饰材",
+  "date": "2026-10-24",
+  "status": "design-render-for-client-review; existing VR unchanged",
+  "rendering": {
+    "engine": "Blender 4.5.0 / Cycles CPU",
+    "method": "Deterministic physical path tracing of the client CAD-based room, existing library product geometry / photo-textured manual studies, manufacturer chair geometry, and a dimensioned custom curved P01 sofa. No new AI image generation.",
+    "views": [
+      {
+        "view": "entry",
+        "camera": {
+          "position": [
+            12.45,
+            1.5,
+            -10.75
+          ],
+          "target": [
+            14.4,
+            1.25,
+            -15.45
+          ],
+          "fov": 58
+        },
+        "width": 2400,
+        "height": 1500,
+        "samples": 64,
+        "device": "CPU",
+        "objects": 551,
+        "triangles": 224328,
+        "elapsedSeconds": 292.56,
+        "noAIGeneration": true,
+        "geometryCalibrations": [
+          {
+            "sourceObjectIndex": 480,
+            "sourceName": "P01 云纹弧形坐垫 1",
+            "axis": "Blender Z / Three Y",
+            "fixedBottomMetres": 0.07798178493976593,
+            "oldSeatTopMetres": 0.42009541392326355,
+            "newSeatTopMetres": 0.43,
+            "heightScaleAboutFixedBottom": 1.0289511590232912,
+            "reason": "Design calibration to CAD layout seat-height target 430mm; source JSON unchanged. Overall sofa back height stays 840mm."
+          },
+          {
+            "sourceObjectIndex": 482,
+            "sourceName": "P01 云纹弧形坐垫 2",
+            "axis": "Blender Z / Three Y",
+            "fixedBottomMetres": 0.07798178493976593,
+            "oldSeatTopMetres": 0.42009541392326355,
+            "newSeatTopMetres": 0.43,
+            "heightScaleAboutFixedBottom": 1.0289511590232912,
+            "reason": "Design calibration to CAD layout seat-height target 430mm; source JSON unchanged. Overall sofa back height stays 840mm."
+          },
+          {
+            "sourceObjectIndex": 484,
+            "sourceName": "P01 云纹弧形坐垫 3",
+            "axis": "Blender Z / Three Y",
+            "fixedBottomMetres": 0.07798178493976593,
+            "oldSeatTopMetres": 0.42009541392326355,
+            "newSeatTopMetres": 0.43,
+            "heightScaleAboutFixedBottom": 1.0289511590232912,
+            "reason": "Design calibration to CAD layout seat-height target 430mm; source JSON unchanged. Overall sofa back height stays 840mm."
+          }
+        ],
+        "provisionalWindowDetails": "Two 35mm internal lower mullions at thirds; 35mm horizontal transom at 2160mm; upper continuous transom. Fitted to site form, not surveyed. Original opening unchanged.",
+        "glazing": "Thin transparent plus 2.5% reflection, no thickness refraction. Window rays found no obsolete shell obstruction; no architecture hidden.",
+        "lighting": {
+          "exposure": -0.3,
+          "lightScale": 0.25,
+          "outsideVisible": "Soft neutral overcast background; no invented exterior architecture."
+        },
+        "leather": "Original O11 leather texture without second tint; roughness .49, Specular IOR Level .25, Coat 0."
+      },
+      {
+        "view": "front",
+        "camera": {
+          "position": [
+            14.7,
+            1.67,
+            -11.18
+          ],
+          "target": [
+            14.25,
+            1.2,
+            -15.35
+          ],
+          "fov": 61
+        },
+        "width": 2400,
+        "height": 1500,
+        "samples": 64,
+        "device": "CPU",
+        "objects": 551,
+        "triangles": 224328,
+        "elapsedSeconds": 445.83,
+        "noAIGeneration": true,
+        "geometryCalibrations": [
+          {
+            "sourceObjectIndex": 480,
+            "sourceName": "P01 云纹弧形坐垫 1",
+            "axis": "Blender Z / Three Y",
+            "fixedBottomMetres": 0.07798178493976593,
+            "oldSeatTopMetres": 0.42009541392326355,
+            "newSeatTopMetres": 0.43,
+            "heightScaleAboutFixedBottom": 1.0289511590232912,
+            "reason": "Design calibration to CAD layout seat-height target 430mm; source JSON unchanged. Overall sofa back height stays 840mm."
+          },
+          {
+            "sourceObjectIndex": 482,
+            "sourceName": "P01 云纹弧形坐垫 2",
+            "axis": "Blender Z / Three Y",
+            "fixedBottomMetres": 0.07798178493976593,
+            "oldSeatTopMetres": 0.42009541392326355,
+            "newSeatTopMetres": 0.43,
+            "heightScaleAboutFixedBottom": 1.0289511590232912,
+            "reason": "Design calibration to CAD layout seat-height target 430mm; source JSON unchanged. Overall sofa back height stays 840mm."
+          },
+          {
+            "sourceObjectIndex": 484,
+            "sourceName": "P01 云纹弧形坐垫 3",
+            "axis": "Blender Z / Three Y",
+            "fixedBottomMetres": 0.07798178493976593,
+            "oldSeatTopMetres": 0.42009541392326355,
+            "newSeatTopMetres": 0.43,
+            "heightScaleAboutFixedBottom": 1.0289511590232912,
+            "reason": "Design calibration to CAD layout seat-height target 430mm; source JSON unchanged. Overall sofa back height stays 840mm."
+          }
+        ],
+        "provisionalWindowDetails": "Two 35mm internal lower mullions at thirds; 35mm horizontal transom at 2160mm; upper continuous transom. Fitted to site form, not surveyed. Original opening unchanged.",
+        "glazing": "Thin transparent plus 2.5% reflection, no thickness refraction. Window rays found no obsolete shell obstruction; no architecture hidden.",
+        "lighting": {
+          "exposure": -0.3,
+          "lightScale": 0.25,
+          "outsideVisible": "Soft neutral overcast background; no invented exterior architecture."
+        },
+        "leather": "Original O11 leather texture without second tint; roughness .49, Specular IOR Level .25, Coat 0."
+      }
+    ],
+    "resolution": [
+      2400,
+      1500
+    ],
+    "ceilingAndWindows": "The2890mm low ceiling and window850/2500mm envelope are retained model fits, not surveyed heights. Internal35mm mullions and2160mm transom are reversible detail fits from site-photo form. Exterior stays soft and neutral; no invented site buildings.",
+    "libraryAssetHistory": "The catalogue is an already prepared image library. Some library assets contain earlier clean-up, neutralised reflections, reconstruction or AI-assisted completion, as recorded by the original concept_reconstruction and notes fields below. These images must not all be described as untouched original product photographs."
+  },
+  "selectedFurniture": [
+    {
+      "id": "P01_sofa",
+      "name_cn": "灰绿云纹圆臂双人沙发",
+      "category": "沙发",
+      "asset": "assets/P01_sofa.webp",
+      "source_preview": "sources/ef3cd5fb2c699db4.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1nZp4wCg_EJyT4JaGuT3KX2bo3Ud16hKM/view"
+      ],
+      "concept_reconstruction": true,
+      "notes": "视频两端略裁切；整体宽度为概念补全，后续需实测。",
+      "material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "priority": true,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "previousImageCompositionTreatment": "Original product pixels used for a proposed custom/segmented curved arrangement. Not an existing mass-produced curved sofa SKU or manufacturer construction drawing.",
+      "currentRenderRepresentation": "Original P01 upholstery texture and round-arm language on a manually constructed genuine concentric three-seat custom arc; manufacturer to detail the final construction."
+    },
+    {
+      "id": "O11_chair",
+      "name_cn": "焦糖悬浮皮面木架单椅",
+      "category": "单椅",
+      "asset": "assets/O11_chair.webp",
+      "source_preview": "sources/de00ac5975b8d038.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/12UmXD1ccVxFtLkCvDzGXelSMQs2Kvr1k/view",
+        "https://drive.google.com/file/d/1u6AMcA5ezlY596nC7mHymbW9wpv1Feom/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "同款多角度合并O11/O19。",
+      "material_appearance": "皮面与木纹观感；未核实真实材质、品牌或型号。",
+      "priority": false,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1707,
+        1280
+      ],
+      "previousImageCompositionTreatment": "Use the catalogue caramel leather colour as supplied. No recolour to the previous dark-cognac model finish.",
+      "currentRenderRepresentation": "Manufacturer Chieftain chair geometry, retained original leather-grain and wood textures; rendered caramel finish visually calibrated toward the catalogue reference. Exact supplied leather variant remains to be checked. Source catalogue photograph is not edited."
+    },
+    {
+      "id": "O06_table",
+      "name_cn": "古铜波浪雕塑茶几",
+      "category": "茶几",
+      "asset": "assets/O06_table.webp",
+      "source_preview": "sources/de50ef7fdf550f22.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/15JrNJpN1HP8wN88hi77aSe_ifO3Vs8YG/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "客户截图产品，背面不可见。",
+      "material_appearance": "拉丝金属、木纹观感；未核实真实材质、品牌或型号。",
+      "priority": false,
+      "libraryImagePixels": [
+        1774,
+        887
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        738,
+        1600
+      ],
+      "previousImageCompositionTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing.",
+      "currentRenderRepresentation": "Photo-textured manual layout geometry based on the original bronze-wave/dark-wood product; single-view hidden faces and exact fold construction remain inferred, not manufacturer CAD."
+    },
+    {
+      "id": "O53_side",
+      "name_cn": "白石圆盘黑柱边几",
+      "category": "边几",
+      "asset": "assets/O53_side.webp",
+      "source_preview": "sources/1cda6efbd1a9607c.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1tkUraQ7G1sQLQAfWERJG-oS34ffo-_um/view",
+        "https://drive.google.com/file/d/1aDkKIxc3RrmykcrMYnYJ5CvS2_ximPEX/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "",
+      "material_appearance": "浅色石纹台面、黑色细金属柱外观",
+      "priority": true,
+      "libraryImagePixels": [
+        1230,
+        1279
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1280,
+        1707
+      ],
+      "previousImageCompositionTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing.",
+      "currentRenderRepresentation": "Manual round stone-top/black-stem layout geometry using original catalogue stone texture; exact stone species and supplied size to be confirmed, travertine excluded."
+    },
+    {
+      "id": "LT23_07",
+      "name_cn": "原石背光六件壁灯组",
+      "category": "灯具",
+      "asset": "assets/LT23_07.webp",
+      "source_preview": "sources/2e8999c33b08bb75.jpg",
+      "source_urls": [],
+      "concept_reconstruction": true,
+      "notes": "六颗独立原石壁灯按原照片组合保留；文字遮盖处纹理经AI补全，局部造型与实际尺寸待核。",
+      "material_appearance": "粗糙原石面板、暖白背光",
+      "priority": true,
+      "libraryImagePixels": [
+        1445,
+        1088
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1700,
+        1280
+      ],
+      "previousImageCompositionTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing.",
+      "currentRenderRepresentation": "Six individually traced stone silhouettes and original catalogue face pixels on thin independent wall-light bodies, arranged on the true curved wall; source library clean-up history retained."
+    },
+    {
+      "id": "W23_03",
+      "name_cn": "酒红皮带三灯组合吊灯",
+      "category": "灯具",
+      "asset": "assets/W23_03_combination.webp",
+      "source_preview": "sources/ca5389712b4e140b.png",
+      "source_urls": [],
+      "concept_reconstruction": false,
+      "notes": "按用户确认作为同一组灯具；保留皮带连接与三灯错落关系。AI白底整理，原图可对照。",
+      "material_appearance": "按用户原始照片中可辨材质外观整理",
+      "priority": true,
+      "libraryImagePixels": [
+        1359,
+        1158
+      ],
+      "libraryImageMode": "RGB",
+      "libraryAlphaRange": [
+        255,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        771,
+        657
+      ],
+      "previousImageCompositionTreatment": "Deterministic edge-connected white-background alpha extraction, one-pixel alpha choke and slight edge feathering. The warm-white globe and lamp faces remain. Original source RGB values are unchanged.",
+      "currentRenderRepresentation": "Manual three-head shared strap geometry retaining the selected system identity; canopy placement and strap lengths designed around current ceiling services, manufacturer to confirm."
+    }
+  ],
+  "customSofa": {
+    "basis": "P01_sofa original round-arm/cloud-jacquard identity; existing photo-textured manual source model reformed onto a genuine concentric annular geometry, three seat/back cushions. Not an existing curved SKU or finished production CAD.",
+    "outerRadiusMm": 2500,
+    "innerRadiusMm": 1500,
+    "angleDegrees": 100,
+    "outerChordMm": 3830,
+    "overallPlanDepthMm": 1536,
+    "radialDepthMm": 1000,
+    "totalHeightMm": 840,
+    "seatHeightMm": 430,
+    "meshAudit": "Exported radial range1499.99996..2500.00000mm, angular extent±49.9963deg, total height840mm. Three cushion surfaces originally max420.096mm; physical renderer calibrates tops to430mm about fixed77.982mm base, updating normals.",
+    "manufacturerWork": "Confirm structure, segmentation, seam layout, fabric direction, foam firmness and all final dimensions before manufacture."
+  },
+  "pendant": {
+    "id": "W23_03",
+    "identity": "Original shared burgundy leather strap system, shallow dish / opal globe / hemisphere; five shared strap segments, three separate ceiling canopies.",
+    "ceilingCanopiesXZMetres": [
+      [
+        14.8,
+        -15.45
+      ],
+      [
+        14.8,
+        -14.7
+      ],
+      [
+        14.8,
+        -14.05
+      ]
+    ],
+    "lampBottomHeightsMm": [
+      2100,
+      2220,
+      2320
+    ],
+    "HVACPlanClearanceApproxMm": 252,
+    "ceilingHeightBasisMm": 2890,
+    "status": "Proposed ceiling arrangement; manufacturer strap lengths and field ceiling services/anchors must be checked."
+  },
+  "artwork": {
+    "number": 1,
+    "artist": "Franz Kline",
+    "title": "Siskind, 1958",
+    "productUrl": "https://customprints.dia.org/detail/502431/kline-siskind-1958",
+    "imageUrl": "https://customprints.dia.org/vitruvius/render/1200/502431.jpg",
+    "supplier": "Detroit Institute of Arts Custom Prints",
+    "localImage": "01-kline-siskind.jpg",
+    "orientation": "landscape",
+    "availableSizes": "图像16×11⅜、22×15⅝、30×21¼、40×28⅜英寸；最大约1016×721mm。纸边及装框外尺寸另核。",
+    "recommendedSizeMm": [
+      1016,
+      721
+    ],
+    "printType": "官方博物馆按单复制版画；230gsm无酸无木质素纸，12色档案墨。另可选canvas。非原作。",
+    "availability": "当前页面提供四尺寸及Add to Cart；按单制作，页眉承诺10个工作日内发出，不属于已核实仓库现货。",
+    "recommendation": "首选：宽阔黑色笔势，最有力度，可与绿色沙发和黑石地面呼应。",
+    "recommendedRank": 1,
+    "evidence": "2026-10-24 Chrome live DOM: four size choices; archival paper details and Add to Cart observed.",
+    "previewImagePixels": [
+      1200,
+      857
+    ],
+    "selectedSizeMm": [
+      1016,
+      721
+    ]
+  },
+  "rug": {
+    "name": "Goose Eye Icon 881 Queens",
+    "designer": "Gunilla Lagerhem Ullberg / Kasthall",
+    "productUrl": "https://www.kasthall.com/en-us/products/goose-eye-icon-881-queens-woven",
+    "imageUrl": "https://www.kasthall.com/cdn/shop/files/42909881_3.png?width=1920",
+    "localImage": "goose-eye-queens881-flat.webp",
+    "composition": "Flatwoven 100% wool weft and 100% linen warp, approximate total thickness 5mm; no shag, no boucle.",
+    "imageEditing": "Only transparent outside margins cropped; official product image pixels are unaltered. No AI generation.",
+    "dimensionsNote": "3660 x 2740mm shown is a proposed custom size, not an asserted stock SKU. Official page allows custom sizes; manufacturer tolerance +/-5%. Backing recommended for this area and width.",
+    "currentRoundTreatment": "Crop the existing official flat image to its real interior texture area only, removing transparency and woven end margins. No recolour or redrawing.",
+    "sourceCropPixels": [
+      16,
+      50,
+      1560,
+      2300
+    ]
+  },
+  "wallMaterials": {
+    "scheme": "C / 云绿与干邑 / MOSS & COGNAC",
+    "checked_on": "2026-10-24",
+    "scope": "Two real wall finishes researched on manufacturer websites. Design application is a proposal, not an as-built specification. No website or VR files changed.",
+    "design_direction_zh": "墙面以平滑暖灰米为主，只在挂画背板与局部窗洞收口加入整面、竖纹、低光泽烟熏胡桃木。与相邻酒红屏风、镜花墙及黑石地面衔接；不加木格栅、额外几何拼花、洞石或毛绒材料。",
+    "materials": [
+      {
+        "id": "WALL-01",
+        "manufacturer": "Decospan",
+        "collection": "Shinnoki",
+        "finish": "Smoked Walnut",
+        "specified_execution": "Shinnoki Laminates, thin real-wood veneer finish; not the rigid prefinished MDF panel execution.",
+        "product_url": "https://www.decospan.com/en-us/shinnoki/collection/smoked-walnut/s4-smoked-walnut",
+        "execution_url": "https://www.decospan.com/en-gb/shinnoki/product-overview/laminates",
+        "procurement_url": "https://www.decospan.com/en-us/wood-network",
+        "sample_order_url": "https://my.decospan.com/",
+        "technical_sheet_url": "https://ods.decospan.com/api/assets/decospan-digital/inriverasset/4486_5f2abcf9-1599-4a40-b15c-cf6a7c56ad7b?v=2162",
+        "verified_facts": [
+          "The laminate execution is a stained and lacquered wood veneer on phenolic-resin-impregnated paper; the manufacturer describes it for alternative substrates and rounded elements.",
+          "The technical sheet gives 3050 × 1220 × 1 mm: 0.6 mm veneer plus 0.4 mm backing.",
+          "The separate finished panel product uses an MDF core; this is not evidence that a rigid MDF panel can be directly bent."
+        ],
+        "curved_wall_limitations_zh": [
+          "作为表面饰材粘贴在按现场弧度制作的稳定弧面基层上；不是无需基层的自承重弯板。基层体系、胶黏剂、平衡背衬及接缝做法需由材料商和木作厂针对该执行版本确认。",
+          "官方技术表弯曲半径一栏写成 Maximum 150 mm，语义不清；本方案不据此声称最小弯曲半径。落地前按实际圆厅曲率与纹理方向做足尺样板，并向厂家取得明确的适用半径和胶合工艺。",
+          "官网当前下载页的部分 laminate processing/gluing 链接打开后标题为 Decolam，且叙述未饰面的木皮，不宜直接当成 Shinnoki 预饰面胶合规范使用。"
+        ],
+        "proposed_use_zh": "建议局部全高挂画背板，竖向连续木纹、宽幅平板与克制细缝；其余弧墙保持浅色。具体分幅与收口由现场测量决定。",
+        "colour_comment_zh": "官方小样为温暖棕色胡桃木，暗而不发乌；与原款焦糖椅、古铜茶几及酒红吊灯连接。此为搭配判断，屏幕图不能保证实物色。",
+        "image": {
+          "url": "https://assets-eu-01.kc-usercontent.com/38bd768a-2b63-01ad-c3fc-11a0b411a078/582a1751-91d1-4c6e-8524-51843891227c/13_SMOKED-WALNUT_icon.jpg",
+          "local_path": "work/c-final-materials/shinnoki-smoked-walnut-official.jpg",
+          "pixel_dimensions": [
+            400,
+            400
+          ],
+          "provenance": "Manufacturer-hosted finish thumbnail, downloaded unchanged.",
+          "use_limit": "Small colour/grain reference only; not a seamless scan or a guaranteed full-panel match. Do not label this as client-site photography."
+        }
+      },
+      {
+        "id": "WALL-02",
+        "manufacturer": "BAUWERK Colour",
+        "product": "Bone Limewash",
+        "product_url": "https://www.bauwerkcolour.com/en-us/product/bone-limewash-paint-colour",
+        "procurement_url": "https://www.bauwerkcolour.com/en-us/product/bone-limewash-paint-colour",
+        "surface_guide_url": "https://www.bauwerkcolour.com/en-us/lime-paint-surface-guides-dry-wall-plasterboard-panels",
+        "prep_coat_url": "https://www.bauwerkcolour.com/en-us/product/lime-wash-prep-coat",
+        "verified_facts": [
+          "Bone is described by the manufacturer as a warm neutral with no or very low texture, depending on the surface and lighting; it can appear greyer in some light.",
+          "The product page offers sample pots and paint ordering. An in-situ sample is necessary for final colour selection.",
+          "For new plasterboard the surface guide specifies two coats of suitable water-based undercoat-sealer/primer, one Bauwerk Prep Coat and two limewash coats; already correctly primed, unrepaired walls may not need the initial priming step."
+        ],
+        "substrate_limitations_zh": [
+          "弧面造型由墙体基层形成，涂料本身不承担弯板功能。新或修补的石膏板需要统一吸收率，防止接缝、补丁透显；Prep Coat 不是底漆的替代品。",
+          "平整度影响最终表面；本方案要求细找平、低起伏的薄涂效果，先按官方工艺在实际或同材质基层打样。不要将其表现成粗糙砂岩、洞石或厚重云斑。"
+        ],
+        "proposed_use_zh": "作为大面积连续浅色墙面，保留画作和石壁灯的留白，使云绿、焦糖、古铜与相邻黑石地面有统一的暖中性背景。",
+        "colour_comment_zh": "建议暖灰米而非冷水泥灰；数字效果图只作近似色感，以现场日光和暖光下的实物样板为准。",
+        "image": {
+          "url": "https://cdn.shopify.com/s/files/1/0637/2855/0106/files/Bone-01S-Bauwerk-Colour-Natural-Limewash-Paint.jpg?v=1757931189&width=600",
+          "local_path": "work/c-final-materials/bauwerk-bone-official.jpg",
+          "pixel_dimensions": [
+            600,
+            750
+          ],
+          "provenance": "Official product-page interior marketing image, downloaded unchanged. Its photography/CG/AI origin was not independently established.",
+          "use_limit": "Reference only. Do not use as client background, seamless material texture, physical sample or evidence of unaltered photography. Omit this image from final photomontage; request an actual sample pot."
+        }
+      }
+    ],
+    "visualisation_integrity": {
+      "wall_finish_application": "Suggested placement and material appearance are design inferences. No cladding has been installed or supplier-approved.",
+      "background": "Existing round-wide reconstructed empty scene includes inferred adjoining geometry; it must not be represented as original site photography.",
+      "furniture": "Use existing library product pixels without recolouring. P01 curved sofa remains custom/segmented design intent rather than a verified factory curved SKU.",
+      "no_new_ai_imagery": true
+    }
+  },
+  "wallComposition": {
+    "wood": "CAD angular band128..170deg, radius2967.853mm finish face, from200mm to2720mm above floor. Proposed30mm total allowance includes curved substrate and1mm real-wood laminate. Quiet vertical grain; fine bronze reveals.",
+    "paint": "Other walls warm neutral BAUWERK Bone appearance, digital colour only; sample on actual substrate.",
+    "artMounting": "Kline01 full composition in flat black frame/white mat; frame shifted70mm radially inward relative to old plain-wall placement to clear the new curved cladding.",
+    "continuity": "Existing black polished floor/skirting and southwest opening retained. Burgundy strap refers to the adjacent red screen; dark wood, caramel and bronze repeat its warm materials. No new step, partition or repeated mirror-flower/strong rug pattern."
+  },
+  "dimensionsReference": {
+    "file": "layout.json",
+    "plan": "layout.svg",
+    "CAD": {
+      "dxf": "work/studio/project-files/floor-ceiling-plan.dxf",
+      "dxfSha256": "500b94e76202fcb7836373bee5ba3fc192a06bbcbaa28fa63af4feb5ff6af0ca",
+      "roomScene": "work/studio/space-assets/room-scene.json",
+      "roomSceneSha256": "798651e6e31713b6017c5e1e6c63d003dcf75ee757e2b5d6e0979c7c42f228cb",
+      "modelNotes": "project-files/site-model-notes.txt",
+      "externalNetworkUsed": false
+    },
+    "notice": "Original CAD plan geometry can define the arc; it does not certify the measured site or manufacturer product dimensions. The1200mm route is checked against the current architectural shell and the new round-hall furniture; adjacent screen/planting setout must remain outside it."
+  },
+  "materialExclusions": [
+    "travertine",
+    "boucle",
+    "shag",
+    "fur"
+  ],
+  "publicDeliverables": "Rendered images, selection/material board, dimension plan and source notes only. Reviewable.blend projects and imported manufacturer geometry stay local."
+}
