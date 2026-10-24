@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-23",
+  "updatedAt": "2026-10-24",
   "items": {
     "N06_chair": {
       "status": "pending",
@@ -659,6 +659,36 @@
         "referenceSha256": "059a85caad96b6f247445f844d6cdfc3209a2101c65fef62c78cdd22c113304d",
         "sha256": "71251fa397af88dc753558d1d4508acaa218e493d67ce60e55caac820d3abe3d",
         "triangles": 138978
+      }
+    },
+    "O02_coffee_set": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/O02_coffee_set.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "coffee-closeup-20261024-db1474a566",
+      "label": "照片重建 · 尺寸待核",
+      "note": "整组三桌：米白肾形/豆形带内凹缺口石板主桌，宽弧面石片前脚与后短圆石脚；深烟褐透光薄圆玻璃副几，三片光滑古铜扁板脚之间保持开放；酒红不规则卵石形低石墩。依据最新三张近景整理为一条完整组合；局部底背、尺寸与石纹含推定，非厂家实测。保留旧 O02_table1/2/3 单品，三桌不再拆成三条新增商品。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "O02_coffee_set"
+        ],
+        "note": "整组三桌：米白肾形/豆形带内凹缺口石板主桌，宽弧面石片前脚与后短圆石脚；深烟褐透光薄圆玻璃副几，三片光滑古铜扁板脚之间保持开放；酒红不规则卵石形低石墩。依据最新三张近景整理为一条完整组合；局部底背、尺寸与石纹含推定，非厂家实测。保留旧 O02_table1/2/3 单品，三桌不再拆成三条新增商品。",
+        "referenceRevision": "closeup-20261024-v2",
+        "referenceImage": "sources/88bc4bfc18cf0d8a.jpg",
+        "referenceImages": [
+          "sources/88bc4bfc18cf0d8a.jpg",
+          "sources/088db3ab17061594.jpg",
+          "sources/5042367bab663c39.jpg"
+        ],
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "sha256": "db1474a56661efafb80b05f4ac356511d2bb6c554b51da4d878a54e9e8768b1a",
+        "triangles": 15016
       }
     }
   }

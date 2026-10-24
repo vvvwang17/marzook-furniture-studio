@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "items": [
     {
       "id": "V05_stool",
@@ -316,6 +316,27 @@
       ],
       "triangles": 138978,
       "bytes": 4373620
+    },
+    {
+      "id": "O02_coffee_set",
+      "order": 22,
+      "group": "tables",
+      "reference": "sources/88bc4bfc18cf0d8a.jpg",
+      "description": "整组三桌：米白肾形/豆形带内凹缺口石板主桌，宽弧面石片前脚与后短圆石脚；深烟褐透光薄圆玻璃副几，三片光滑古铜扁板脚之间保持开放；酒红不规则卵石形低石墩。",
+      "whiteDownload": "downloads/O02_coffee_set_white.png",
+      "url": "space-assets/models/O02_coffee_set.glb",
+      "dimensionsCm": [
+        172.5,
+        115.0,
+        37.1
+      ],
+      "triangles": 15016,
+      "bytes": 1758428,
+      "previewOrbit": {
+        "theta": -0.5,
+        "phi": 1.13
+      },
+      "previewExposure": 0.95
     }
   ]
 }
