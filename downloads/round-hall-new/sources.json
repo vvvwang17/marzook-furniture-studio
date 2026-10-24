@@ -43,6 +43,10 @@
       "previewImagePixels": [
         1200,
         857
+      ],
+      "selectedSizeMm": [
+        1016,
+        721
       ]
     },
     {
@@ -56,8 +60,8 @@
       "orientation": "portrait",
       "availableSizes": "A4 (21x29,7 cm); 30x40 cm; 50x70 cm; 70x100 cm（网站按短边×长边标示，保持原作方向挂置）。",
       "recommendedSizeMm": [
-        500,
-        700
+        700,
+        1000
       ],
       "printType": "艺术家合作授权复制版画，245g FSC档案艺术纸，giclée印刷，哑光；非原作。",
       "availability": "2026-10-24官方产品数据available=true，所列尺寸可下单；实体仓库现货数量与即时交期未披露。",
@@ -85,6 +89,10 @@
       "previewImagePixels": [
         992,
         1389
+      ],
+      "selectedSizeMm": [
+        700,
+        1000
       ]
     }
   ],
