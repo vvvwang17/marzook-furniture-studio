@@ -9,10 +9,10 @@
   <link rel="stylesheet" href="scene-studio.css">
   <link rel="stylesheet" href="immersive.css?v=20261023-pages1">
   <script src="catalog.js?v=20261023-pages1" defer></script>
-  <script src="scenes.js" defer></script>
+  <script src="scenes.js?v=20261024-wide2" defer></script>
   <script src="project-files.js" defer></script>
   <script src="app.js?v=20261023-pages1" defer></script>
-  <script src="scene-studio.js" defer></script>
+  <script src="scene-studio.js?v=20261024-wide2" defer></script>
   <script type="module" src="immersive.js?v=20261023-priority3d1"></script>
 </head>
 <body>
@@ -62,7 +62,8 @@
     </aside>
     <section id="site-studio" class="site-studio" aria-label="客户现场搭配" hidden>
       <div class="site-heading"><div><p class="eyebrow">CLIENT SPACE / MARZOOK</p><h1>现场图片试搭</h1><p class="muted">选择单一视角，用家具图片快速比较配色和组合。</p></div><span class="site-status" id="site-save-status" role="status">自动保存</span></div>
-      <div id="site-scenes" class="scene-strip" aria-label="选择客户现场视角"></div>
+    <button type="button" id="site-legacy-toggle" class="quiet" aria-expanded="false" aria-controls="site-scenes" hidden>此前视角</button> <a href="downloads/site-wideviews.zip" class="button-link" download>下载三处宽幅空景 ↘</a>
+    <div id="site-scenes" class="scene-strip" aria-label="选择客户现场视角"></div>
       <div class="site-workbench">
         <div class="site-canvas-column">
           <div class="site-canvas-header"><div><h2 id="site-scene-name">正在读取现场空景</h2><p id="site-scene-description" class="small muted"></p></div><a id="site-download-background" class="button-link" download>下载空景</a></div>

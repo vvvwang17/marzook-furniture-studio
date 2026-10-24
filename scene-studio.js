@@ -17,7 +17,7 @@
   const loadedImages = new Map();
   const extraModes = new Map();
   let state = {version:1,sceneId:scenes[0]?.id || '',boards:{},options:[]};
-  let currentMode = 'site',activeUid=null,compare=false,hidePieces=false,drag=null,history=[],storageOK=true,saveTimer,loadingToken=0,busy=false;
+  let currentMode = 'site',activeUid=null,compare=false,hidePieces=false,drag=null,history=[],storageOK=true,saveTimer,loadingToken=0,busy=false,showLegacy=false;
 
   function cleanBoard(raw={}) {
     const instances = (Array.isArray(raw.instances)?raw.instances:[]).slice(0,80).flatMap(p => {
@@ -36,6 +36,17 @@
       state.options=(Array.isArray(raw.options)?raw.options:[]).filter(p=>sceneMap.has(p?.sceneId)).slice(-60).map(p=>({id:uid(),sceneId:p.sceneId,createdAt:p.createdAt,board:cleanBoard(p.board)}));
     }
   } catch {storageOK=false;}
+  // Saved furniture stays on its original perspective. Only a restored empty
+  // legacy board starts on the wider view; explicit selections/imports stay put.
+  const restoredScene=sceneMap.get(state.sceneId);
+  if(restoredScene?.legacy && sceneMap.has(restoredScene.replacedBy) && !state.boards[state.sceneId]?.instances.length) {
+    state.sceneId=restoredScene.replacedBy;
+  }
+  const requestedScene=typeof URLSearchParams==='function'?new URLSearchParams(window.location?.search||'').get('scene'):null;
+  const launchSite=sceneMap.has(requestedScene);
+  if(launchSite)state.sceneId=requestedScene;
+  showLegacy=!!sceneMap.get(state.sceneId)?.legacy;
+  const visibleScenes = () => scenes.filter(s=>!s.legacy || showLegacy);
   const scene = () => sceneMap.get(state.sceneId);
   function board() {if(!state.boards[state.sceneId])state.boards[state.sceneId]=cleanBoard();return state.boards[state.sceneId];}
   const active = () => board().instances.find(p=>p.uid===activeUid);
@@ -65,8 +76,12 @@
     loadedImages.set(path,task);task.catch(()=>loadedImages.delete(path));return task;
   }
   function renderSceneStrip(){
-    $('site-scenes').innerHTML=scenes.map(s=>`<button class="scene-card${s.id===state.sceneId?' active':''}" data-scene="${esc(s.id)}" aria-pressed="${s.id===state.sceneId}"><img src="${esc(safe(s.thumbnail)||s.image)}" alt="${esc(s.title)}空景预览"><span>${esc(s.title)}</span><small>${esc(s.area || '现场还原空景')}</small></button>`).join('');
+    const legacyCount=scenes.filter(s=>s.legacy).length,toggle=$('site-legacy-toggle');
+    toggle.hidden=!legacyCount;toggle.setAttribute('aria-expanded',String(showLegacy));
+    toggle.textContent=showLegacy?'收起此前视角':`此前视角 · ${legacyCount}`;
+    $('site-scenes').innerHTML=visibleScenes().map(s=>`<button class="scene-card${s.id===state.sceneId?' active':''}" data-scene="${esc(s.id)}" aria-pressed="${s.id===state.sceneId}"><img src="${esc(safe(s.thumbnail)||s.image)}" alt="${esc(s.title)}空景预览"><span>${esc(s.title)}</span><small>${esc(s.legacy?'此前视角 · '+(s.area || '现场还原空景'):s.area || '现场还原空景')}</small></button>`).join('');
   }
+  function toggleLegacyScenes(){showLegacy=!showLegacy;renderSceneStrip();}
   async function setBackground(){
     const s=scene();if(!s)return;const token=++loadingToken,path=compare&&safe(s.original)?s.original:s.image;
     $('site-loading').hidden=false;$('site-loading').textContent='正在读取场景…';
@@ -81,6 +96,7 @@
   }
   function renderScene(){
     const s=scene();const has=!!s;$('site-no-scenes').hidden=has;document.querySelector('.site-workbench').hidden=!has;
+    if(s?.legacy)showLegacy=true;
     renderSceneStrip();if(!s)return;
     $('site-scene-name').textContent=s.title;$('site-scene-description').textContent=s.description||s.area||'';
     $('site-scene-note').textContent=Array.isArray(s.notes)?s.notes.join(' '):String(s.notes||'保留现场固定墙面、门窗、柱位与地面。');
@@ -161,6 +177,7 @@
     $('project-updated').textContent=data.updatedAt?'更新：'+data.updatedAt:'';
     $('project-file-grid').innerHTML=files.length?files.map(p=>`<article class="project-file-card"><a class="project-file-preview" href="${esc(safe(p.preview)||p.download)}" target="_blank" rel="noopener" aria-label="查看${esc(p.title)}预览">${safe(p.preview)?`<img src="${esc(p.preview)}" alt="${esc(p.title)}预览" loading="lazy">`:''}<span>${esc(p.type||'图纸')}</span></a><div class="project-file-body"><h2>${esc(p.title)}</h2><p>${esc(p.description||'')}</p>${p.notes?`<p class="project-file-notes">${esc(Array.isArray(p.notes)?p.notes.join(' '):p.notes)}</p>`:''}<div class="project-file-meta">${esc(p.filename||p.download.split('/').pop())}${p.sizeBytes?' · '+(p.sizeBytes/1024/1024).toFixed(1)+' MB':''}</div><div class="project-file-links"><a class="primary" href="${esc(p.download)}" download="${esc(p.filename||'')}">下载 ${esc(p.type||'源文件')} ↓</a>${safe(p.preview)?`<a class="button-link" href="${esc(p.preview)}" target="_blank" rel="noopener">查看预览 ↗</a>`:''}</div></div></article>`).join(''):'<div class="site-empty"><h2>客户图纸正在接入</h2><p>文件准备好后，可在这里查看和下载。</p></div>';
   }
+  $('site-legacy-toggle').addEventListener('click',toggleLegacyScenes);
   $('site-scenes').addEventListener('click',e=>{const b=e.target.closest('[data-scene]');if(!b||busy)return;state.sceneId=b.dataset.scene;activeUid=null;compare=false;hidePieces=false;renderScene();persist();});
   $('site-add-picked').addEventListener('click',()=>addItems(bridge?.getPicked()||[]));$('site-from-board').addEventListener('click',()=>addItems(bridge?.getBoardIds()||[]));
   $('site-arrange').addEventListener('click',()=>arrange());$('site-undo').addEventListener('click',undo);
@@ -194,7 +211,7 @@
     acceptsItems:()=>currentMode==='site'||typeof extraModes.get(currentMode)?.addItems==='function',
     addItems:ids=>typeof extraModes.get(currentMode)?.addItems==='function'?extraModes.get(currentMode).addItems(ids):addItems(ids),
     setMode,getMode:()=>currentMode,
-    registerMode:(mode,handlers={})=>{if(!mode||['site','board','drawings'].includes(mode))throw new Error('该模式名称已保留');extraModes.set(mode,handlers);if(handlers.default)setMode(mode);}
+    registerMode:(mode,handlers={})=>{if(!mode||['site','board','drawings'].includes(mode))throw new Error('该模式名称已保留');extraModes.set(mode,handlers);if(handlers.default&&!launchSite)setMode(mode);}
   };
   renderScene();renderDrawings();setMode('site');if(!storageOK)$('site-save-status').textContent='请导出 JSON 保存';
 })();
