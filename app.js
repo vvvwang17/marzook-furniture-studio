@@ -13,7 +13,7 @@
   for (const item of items) for (const alias of item.aliases || []) aliasMap.set(alias, item.id);
   const canonicalId = id => itemMap.has(id) ? id : aliasMap.get(id);
   let state = { version: 1, title: '我的搭配 · Option 01', note: '', background: 'white', picked: [], instances: [] };
-  let activeUid = null, filter = '全部', search = '', readyOnly = false, modelsOnly = false, priorityOnly = false, detailId = null, undoStack = [], drag = null, toastTimer = null, saveTimer = null, libraryDragEnded = 0;
+  let activeUid = null, filter = new URLSearchParams(location.search).get('collection') === 'purchased' ? '已购' : '全部', search = '', readyOnly = false, modelsOnly = false, priorityOnly = false, detailId = null, undoStack = [], drag = null, toastTimer = null, saveTimer = null, libraryDragEnded = 0;
   let storageAvailable = true;
   const clamp = (n, low, high) => Math.min(high, Math.max(low, n));
   const num = (n, fallback) => Number.isFinite(Number(n)) ? Number(n) : fallback;
@@ -22,6 +22,7 @@
   function localPath(path) { return typeof path === 'string' && path.length && !/^(?:[a-z]+:|\/\/)/i.test(path) && !path.split(/[\\/]/).includes('..') ? path : null; }
   function safeLink(url) { try { const u = new URL(url); return u.protocol === 'https:' ? u.href : null; } catch { return null; } }
   function ready(item) { return item?.status === 'ready' && !!localPath(item.asset) && !failedAssets.has(item.id); }
+  function purchased(item) { return item?.purchaseStatus === 'purchased' || item?.collection === '已购'; }
   function modelStatus(id) { return window.FurnitureModels?.getStatus(id) || { ready:false, label:'同款模型待匹配' }; }
   function sanitize(raw) {
     if (!raw || typeof raw !== 'object' || !Array.isArray(raw.instances) || !Array.isArray(raw.picked)) throw new Error('文件不是有效的搭配方案 JSON。');
@@ -55,7 +56,7 @@
   function renderFilters() {
     const desired = ['沙发', '单椅', '茶几', '边几', '餐桌', '餐椅', '柜体', '灯具', '装饰品', '地毯', '床'];
     const present = [...new Set(items.map(p => p.category))];
-    const categories = ['全部', ...desired.filter(c => present.includes(c)), ...present.filter(c => !desired.includes(c))];
+    const categories = ['全部', '已购', ...desired.filter(c => present.includes(c)), ...present.filter(c => !desired.includes(c))];
     $('category-filters').innerHTML = categories.map(c => `<button class="filter${filter === c ? ' active' : ''}" data-category="${esc(c)}" aria-pressed="${filter === c}">${esc(c)}</button>`).join('');
   }
   function updateAddLabels() {
@@ -69,13 +70,13 @@
   }
   function renderLibrary() {
     const q = search.trim().toLowerCase();
-    const visible = items.filter(p => (filter === '全部' || p.category === filter) && (!readyOnly || ready(p)) && (!modelsOnly || modelStatus(p.id).ready) && (!priorityOnly || p.priority) && (!q || [p.id, ...(p.aliases || []), p.name_cn, p.category, p.collection, p.priority?'客户优先':'', ...p.colors].join(' ').toLowerCase().includes(q)));
+    const visible = items.filter(p => (filter === '全部' || (filter === '已购' ? purchased(p) : p.category === filter)) && (!readyOnly || ready(p)) && (!modelsOnly || modelStatus(p.id).ready) && (!priorityOnly || p.priority) && (!q || [p.id, ...(p.aliases || []), p.name_cn, p.category, p.collection, p.priority?'客户优先':'', ...p.colors].join(' ').toLowerCase().includes(q)));
     const completed = items.filter(ready).length;
     $('library-count').textContent = items.length + ' 件';
     $('catalog-summary').textContent = items.length ? `白底 ${completed} / ${items.length} 款 · 可用三维 ${items.filter(p=>modelStatus(p.id).ready).length} 款 · 显示 ${visible.length} 款` : '家具清单尚未载入，接入单品后会显示在这里。';
     $('library-grid').innerHTML = visible.length ? visible.map(p => {
       const isReady = ready(p), src = isReady ? localPath(p.asset) : localPath(p.source_preview), checked = state.picked.includes(p.id);
-      return `<article class="product-card ${isReady ? '' : 'pending'} ${checked ? 'picked' : ''}" data-id="${esc(p.id)}"><div class="product-image" data-pick="${esc(p.id)}" title="点击勾选此款"><label class="product-check"><input type="checkbox" data-pickbox="${esc(p.id)}" ${checked ? 'checked' : ''} aria-label="选择${esc(p.name_cn)}"></label><span class="product-category">${esc(p.category)}</span>${src ? `<img loading="lazy" src="${esc(src)}" alt="${esc(p.name_cn)}${isReady ? '白底单品图' : '原始参考，待制作'}" data-image-id="${esc(p.id)}">` : '<span class="missing-image">单品图待制作<br>参考图暂未接入</span>'}</div><div class="product-body"><div class="product-name">${esc(p.name_cn)}</div>${p.priority?'<div class="product-priority">客户优先</div>':''}${p.concept_reconstruction?'<div class="product-concept">遮挡细节待核</div>':''}<button class="product-detail" data-detail="${esc(p.id)}">查看大图 / 原图对照 ↗</button><div class="product-meta"><span class="product-id" title="${esc(p.id)}">${esc(p.id)}</span><button class="product-add" data-add="${esc(p.id)}" ${isReady ? '' : 'disabled'} title="${isReady ? '加入画布（可重复）' : '白底图待制作'}" aria-label="将${esc(p.name_cn)}加入画布">＋</button></div></div></article>`;
+      return `<article class="product-card ${isReady ? '' : 'pending'} ${checked ? 'picked' : ''}" data-id="${esc(p.id)}"><div class="product-image" data-pick="${esc(p.id)}" title="点击勾选此款"><label class="product-check"><input type="checkbox" data-pickbox="${esc(p.id)}" ${checked ? 'checked' : ''} aria-label="选择${esc(p.name_cn)}"></label><span class="product-category">${purchased(p)?'已购 · ':''}${esc(p.category)}</span>${src ? `<img loading="lazy" src="${esc(src)}" alt="${esc(p.name_cn)}${isReady ? '白底单品图' : '原始参考，待制作'}" data-image-id="${esc(p.id)}">` : '<span class="missing-image">单品图待制作<br>参考图暂未接入</span>'}</div><div class="product-body"><div class="product-name">${esc(p.name_cn)}</div>${p.priority?'<div class="product-priority">客户优先</div>':''}${p.concept_reconstruction?'<div class="product-concept">遮挡细节待核</div>':''}<button class="product-detail" data-detail="${esc(p.id)}">查看大图 / 原图对照 ↗</button><div class="product-meta"><span class="product-id" title="${esc(p.id)}">${esc(p.id)}</span><button class="product-add" data-add="${esc(p.id)}" ${isReady ? '' : 'disabled'} title="${isReady ? '加入画布（可重复）' : '白底图待制作'}" aria-label="将${esc(p.name_cn)}加入画布">＋</button></div></div></article>`;
     }).join('') : `<div class="library-empty">${items.length ? '没有找到匹配的家具。<br>试试其他关键词或分类。' : '清单准备好后，这里会出现客户的真实家具。<br>不会使用虚构的占位家具。'}</div>`;
     updateAddLabels();
     $('library-grid').querySelectorAll('.product-card').forEach(card => {
@@ -119,7 +120,7 @@
   function sourceLink(item) { const url = item.source_urls.map(safeLink).find(Boolean); return url ? `<a class="source-link" href="${esc(url)}" target="_blank" rel="noopener noreferrer">原图 ↗</a>` : `<span>${item.source_preview ? '本地上传参考' : '来源待接入'}</span>`; }
   function openDetail(id) {
     const p=itemMap.get(id); if(!p) return; detailId=id;
-    $('detail-id').textContent=p.id+' / '+p.category+(p.priority?' / 客户优先':''); $('detail-name').textContent=p.name_cn;
+    $('detail-id').textContent=p.id+' / '+p.category+(purchased(p)?' / 已购':'')+(p.priority?' / 客户优先':''); $('detail-name').textContent=p.name_cn;
     $('detail-product').src=localPath(p.asset)||localPath(p.source_preview)||'';
     $('detail-source').src=localPath(p.source_preview)||'';
     $('detail-product-label').textContent=ready(p)?'白底立体图':'原始参考 · 待制作';

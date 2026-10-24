@@ -732,7 +732,9 @@
       "estimatedDimensionsCm": {
         "height": 75
       },
-      "finishRevision": "goldlegs-blackapron-v3"
+      "finishRevision": "goldlegs-blackapron-v3",
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     "LT24_rect_dark": {
       "status": "ready",
@@ -812,7 +814,9 @@
         false,
         false
       ],
-      "recommendedBottomHeightM": 1.95
+      "recommendedBottomHeightM": 1.95,
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     "LT24_rect_gold": {
       "status": "ready",
@@ -892,7 +896,9 @@
         false,
         false
       ],
-      "recommendedBottomHeightM": 1.95
+      "recommendedBottomHeightM": 1.95,
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     "C24_rope_chair": {
       "status": "ready",
@@ -926,7 +932,9 @@
         "sha256": "ac150d9847d0b5681ea1c9eb1434e1c6c1c7edc412a68b0b795c6ac6a352fbdf",
         "triangles": 76510,
         "rootApprovedVisual": true
-      }
+      },
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     "C24_cantilever_umbrella_khaki": {
       "status": "ready",
@@ -960,7 +968,9 @@
         "sha256": "70c4dcd71b34822764429891ecdaf167a507f960ed405eec24ddfacf32b14031",
         "triangles": 43412,
         "rootApprovedVisual": true
-      }
+      },
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     "LT24_glass_cluster14": {
       "status": "ready",
@@ -1579,7 +1589,9 @@
         "7 tea lower shades",
         "7 smoke-grey lower shades",
         "colourless clear upper stems"
-      ]
+      ],
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     "LT24_floral14_goldframe": {
       "status": "ready",
@@ -2173,7 +2185,1609 @@
         "7 tea glass shades",
         "7 smoke-grey glass shades",
         "light-gold slim radial hardware from client screenshot"
-      ]
+      ],
+      "collection": "已购",
+      "purchaseStatus": "purchased"
+    },
+    "C24_taupe_sling_lounger": {
+      "bytes": 1642976,
+      "units": "metres",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "backAngleFromHorizontalDegrees": 55,
+      "limitations": "Dimensions, exact recline angle, rack count, back and underside details estimated from supplied photos. Not manufacturer CAD. Textile thickness 8mm is a visualization estimate.",
+      "bounds": {
+        "min": [
+          -0.3400000035762787,
+          0.0,
+          -1.0
+        ],
+        "max": [
+          0.3400000035762787,
+          1.014921773495791,
+          1.0
+        ]
+      },
+      "meshCount": 39,
+      "triangleCount": 45016,
+      "id": "C24_taupe_sling_lounger",
+      "name_cn": "米灰香槟框·灰褐分段网布户外躺椅",
+      "dimensionsCm": [
+        68.00000071525574,
+        200.0,
+        101.4921773495791
+      ],
+      "sha256": "757f290e304fab55ab953be4ec021607c62c2dd3b2ded32e429606768f515890",
+      "nominalFlatDimensionsCm": [
+        68,
+        200
+      ],
+      "seatSurfaceHeightCm": 34.3,
+      "detail": "无扶手长方管底框、四短方腿、5段水平/4段仰靠薄网布与双线缝边，55度独立铰接靠背；背面连续宽U型管撑及左右两条5档钩槽齿条，撑横杆实际落入第2档。",
+      "collection": "已购",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "purchaseStatus": "purchased",
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/C24_taupe_sling_lounger.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-757f290e304f",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "无扶手长方管底框、四短方腿、5段水平/4段仰靠薄网布与双线缝边，55度独立铰接靠背；背面连续宽U型管撑及左右两条5档钩槽齿条，撑横杆实际落入第2档。 Dimensions, exact recline angle, rack count, back and underside details estimated from supplied photos. Not manufacturer CAD. Textile thickness 8mm is a visualization estimate.",
+      "mountType": "floor",
+      "provenance": {
+        "bytes": 1642976,
+        "units": "metres",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "backAngleFromHorizontalDegrees": 55,
+        "limitations": "Dimensions, exact recline angle, rack count, back and underside details estimated from supplied photos. Not manufacturer CAD. Textile thickness 8mm is a visualization estimate.",
+        "bounds": {
+          "min": [
+            -0.3400000035762787,
+            0.0,
+            -1.0
+          ],
+          "max": [
+            0.3400000035762787,
+            1.014921773495791,
+            1.0
+          ]
+        },
+        "meshCount": 39,
+        "triangleCount": 45016,
+        "id": "C24_taupe_sling_lounger",
+        "name_cn": "米灰香槟框·灰褐分段网布户外躺椅",
+        "dimensionsCm": [
+          68.00000071525574,
+          200.0,
+          101.4921773495791
+        ],
+        "sha256": "757f290e304fab55ab953be4ec021607c62c2dd3b2ded32e429606768f515890",
+        "nominalFlatDimensionsCm": [
+          68,
+          200
+        ],
+        "seatSurfaceHeightCm": 34.3,
+        "detail": "无扶手长方管底框、四短方腿、5段水平/4段仰靠薄网布与双线缝边，55度独立铰接靠背；背面连续宽U型管撑及左右两条5档钩槽齿条，撑横杆实际落入第2档。",
+        "collection": "已购",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "purchaseStatus": "purchased",
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "C24_taupe_sling_lounger"
+        ],
+        "referenceImage": "sources/5c91c22cafc10588.jpg",
+        "referenceImages": [
+          "sources/5c91c22cafc10588.jpg",
+          "sources/e72685831eecbb4d.jpg"
+        ],
+        "note": "无扶手长方管底框、四短方腿、5段水平/4段仰靠薄网布与双线缝边，55度独立铰接靠背；背面连续宽U型管撑及左右两条5档钩槽齿条，撑横杆实际落入第2档。 Dimensions, exact recline angle, rack count, back and underside details estimated from supplied photos. Not manufacturer CAD. Textile thickness 8mm is a visualization estimate.",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "757f290e304fab55ab953be4ec021607c62c2dd3b2ded32e429606768f515890",
+        "mountType": "floor"
+      }
+    },
+    "LT24_ginkgo_fan_sconce": {
+      "bytes": 1813788,
+      "units": "metres",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "mountType": "wall",
+      "wallAnchorM": [
+        -0.1,
+        0.08,
+        0
+      ],
+      "wallNormalM": [
+        0,
+        0,
+        1
+      ],
+      "recommendedBottomHeightM": 1.4,
+      "limitations": "Shape, scale, hardware depth and hidden light source estimated from a photographed print. Blue pen marks and surrounding page objects omitted. Not manufacturer CAD.",
+      "bounds": {
+        "min": [
+          -0.27000001072883606,
+          0.017000000923871994,
+          -3.673940475037442e-18
+        ],
+        "max": [
+          0.24129800498485565,
+          0.5553972721099854,
+          0.2519972026348114
+        ]
+      },
+      "meshCount": 14,
+      "triangleCount": 59092,
+      "id": "LT24_ginkgo_fan_sconce",
+      "name_cn": "深古铜银杏扇叶褶皱壁灯",
+      "dimensionsCm": [
+        51.12980157136917,
+        25.19972026348114,
+        53.839727118611336
+      ],
+      "sha256": "d7586f41e12c1764cf907ad4f492975a1956bfc9740c227fbb017bc1981c2d5b",
+      "detail": "一片有实际2.8mm金属厚度、76道放射曲肋及自然波浪外缘的凹凸银杏扇叶；深古铜/枪铜材质，圆背盘、短直立与横向折臂、球形连接及叶柄，背后小暖光内片。去掉印刷页和蓝色手绘。",
+      "collection": "已购",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "purchaseStatus": "purchased",
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/LT24_ginkgo_fan_sconce.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-d7586f41e12c",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "一片有实际2.8mm金属厚度、76道放射曲肋及自然波浪外缘的凹凸银杏扇叶；深古铜/枪铜材质，圆背盘、短直立与横向折臂、球形连接及叶柄，背后小暖光内片。去掉印刷页和蓝色手绘。 Shape, scale, hardware depth and hidden light source estimated from a photographed print. Blue pen marks and surrounding page objects omitted. Not manufacturer CAD.",
+      "provenance": {
+        "bytes": 1813788,
+        "units": "metres",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "mountType": "wall",
+        "wallAnchorM": [
+          -0.1,
+          0.08,
+          0
+        ],
+        "wallNormalM": [
+          0,
+          0,
+          1
+        ],
+        "recommendedBottomHeightM": 1.4,
+        "limitations": "Shape, scale, hardware depth and hidden light source estimated from a photographed print. Blue pen marks and surrounding page objects omitted. Not manufacturer CAD.",
+        "bounds": {
+          "min": [
+            -0.27000001072883606,
+            0.017000000923871994,
+            -3.673940475037442e-18
+          ],
+          "max": [
+            0.24129800498485565,
+            0.5553972721099854,
+            0.2519972026348114
+          ]
+        },
+        "meshCount": 14,
+        "triangleCount": 59092,
+        "id": "LT24_ginkgo_fan_sconce",
+        "name_cn": "深古铜银杏扇叶褶皱壁灯",
+        "dimensionsCm": [
+          51.12980157136917,
+          25.19972026348114,
+          53.839727118611336
+        ],
+        "sha256": "d7586f41e12c1764cf907ad4f492975a1956bfc9740c227fbb017bc1981c2d5b",
+        "detail": "一片有实际2.8mm金属厚度、76道放射曲肋及自然波浪外缘的凹凸银杏扇叶；深古铜/枪铜材质，圆背盘、短直立与横向折臂、球形连接及叶柄，背后小暖光内片。去掉印刷页和蓝色手绘。",
+        "collection": "已购",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "purchaseStatus": "purchased",
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "LT24_ginkgo_fan_sconce"
+        ],
+        "referenceImage": "sources/6b211d39dd59a145.jpg",
+        "referenceImages": [
+          "sources/6b211d39dd59a145.jpg"
+        ],
+        "note": "一片有实际2.8mm金属厚度、76道放射曲肋及自然波浪外缘的凹凸银杏扇叶；深古铜/枪铜材质，圆背盘、短直立与横向折臂、球形连接及叶柄，背后小暖光内片。去掉印刷页和蓝色手绘。 Shape, scale, hardware depth and hidden light source estimated from a photographed print. Blue pen marks and surrounding page objects omitted. Not manufacturer CAD.",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "d7586f41e12c1764cf907ad4f492975a1956bfc9740c227fbb017bc1981c2d5b"
+      }
+    },
+    "G24_broadleaf_pedestal": {
+      "id": "G24_broadleaf_pedestal",
+      "name_cn": "深绿阔叶树·米白浅碗方柱盆景",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "ea6ce43cda7d8068d5264a9ac4742ffa073a8480ad7b0710585c709dfc0e6ac9",
+      "bytes": 8286264,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        141.278,
+        147.424,
+        218.446
+      ],
+      "triangleCount": 148704,
+      "meshCount": 5,
+      "semanticGroups": [
+        "item"
+      ],
+      "features": [
+        "Dense dark-green rounded broadleaf canopy",
+        "Multiple visible dark forking woody trunks",
+        "White broad shallow hemispherical basin with visible rim/soil",
+        "Single square white pedestal",
+        "Every leaf is a curved closed physical shell; no foliage photo cards",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "深绿阔叶树·米白浅碗方柱盆景；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_broadleaf_pedestal.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-ea6ce43cda7d",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "深绿阔叶树与暖米白浅碗方柱花盆组合，树干与盆口土面可见。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_broadleaf_pedestal",
+        "name_cn": "深绿阔叶树·米白浅碗方柱盆景",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "ea6ce43cda7d8068d5264a9ac4742ffa073a8480ad7b0710585c709dfc0e6ac9",
+        "bytes": 8286264,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          141.278,
+          147.424,
+          218.446
+        ],
+        "triangleCount": 148704,
+        "meshCount": 5,
+        "semanticGroups": [
+          "item"
+        ],
+        "features": [
+          "Dense dark-green rounded broadleaf canopy",
+          "Multiple visible dark forking woody trunks",
+          "White broad shallow hemispherical basin with visible rim/soil",
+          "Single square white pedestal",
+          "Every leaf is a curved closed physical shell; no foliage photo cards",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "深绿阔叶树·米白浅碗方柱盆景；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_broadleaf_pedestal"
+        ],
+        "referenceImage": "sources/42a2cde88c6b92ea.jpg",
+        "referenceImages": [
+          "sources/42a2cde88c6b92ea.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "深绿阔叶树与暖米白浅碗方柱花盆组合，树干与盆口土面可见。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "ea6ce43cda7d8068d5264a9ac4742ffa073a8480ad7b0710585c709dfc0e6ac9",
+        "mountType": "floor"
+      }
+    },
+    "G24_banana_pebble_planter": {
+      "id": "G24_banana_pebble_planter",
+      "name_cn": "高蕉叶紫花·米白卵石盆景",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "7caae519b9825e6940c326ae874dd490909b093cbdbed46324f35c40581e9246",
+      "bytes": 4248360,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        127.875,
+        126.479,
+        198.042
+      ],
+      "triangleCount": 65856,
+      "meshCount": 8,
+      "semanticGroups": [
+        "item"
+      ],
+      "features": [
+        "Tall cluster of broad green banana/bird-of-paradise leaves",
+        "Curved thick leaves and visible raised centre/lateral veins",
+        "Multiple green-brown pseudostems and independent leaf stalks",
+        "Largest low ivory pebble-shaped open planter only",
+        "Low pale-purple flower border around planting opening",
+        "Foreground small planters and background pots excluded",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "高蕉叶紫花·米白卵石盆景；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_banana_pebble_planter.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-7caae519b982",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "芭蕉绿植与暖米白卵石形花盆，盆口内由土面和低紫花围合。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_banana_pebble_planter",
+        "name_cn": "高蕉叶紫花·米白卵石盆景",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "7caae519b9825e6940c326ae874dd490909b093cbdbed46324f35c40581e9246",
+        "bytes": 4248360,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          127.875,
+          126.479,
+          198.042
+        ],
+        "triangleCount": 65856,
+        "meshCount": 8,
+        "semanticGroups": [
+          "item"
+        ],
+        "features": [
+          "Tall cluster of broad green banana/bird-of-paradise leaves",
+          "Curved thick leaves and visible raised centre/lateral veins",
+          "Multiple green-brown pseudostems and independent leaf stalks",
+          "Largest low ivory pebble-shaped open planter only",
+          "Low pale-purple flower border around planting opening",
+          "Foreground small planters and background pots excluded",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "高蕉叶紫花·米白卵石盆景；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_banana_pebble_planter"
+        ],
+        "referenceImage": "sources/618e60a0b65375fa.jpg",
+        "referenceImages": [
+          "sources/618e60a0b65375fa.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "芭蕉绿植与暖米白卵石形花盆，盆口内由土面和低紫花围合。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "7caae519b9825e6940c326ae874dd490909b093cbdbed46324f35c40581e9246",
+        "mountType": "floor"
+      }
+    },
+    "G24_brown_landscape_rock": {
+      "id": "G24_brown_landscape_rock",
+      "name_cn": "暖米白斜棱角景石",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "85f05fd692586ff732f1190bc8dbce19ea8a94c3b40dc1c8071887c64c3cfa7d",
+      "bytes": 611024,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        83.524,
+        46.981,
+        65.0
+      ],
+      "triangleCount": 13312,
+      "meshCount": 1,
+      "semanticGroups": [
+        "item"
+      ],
+      "features": [
+        "One independent irregular landscape stone, no plants/grass",
+        "Preserved asymmetrical tilted/peaked macro outline; twice-refined smooth surface and small natural undulations",
+        "Smooth shared vertex normals remove the former crystalline triangular shading; all seven material colours remain unchanged",
+        "Customer-specified warm ivory fine granular finish; former brown or dark striped colour removed",
+        "Back and underside inferred; no source-image billboards",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "暖米白斜棱角景石；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_brown_landscape_rock.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-85f05fd69258",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "暖米白自然造型景石，保留起伏凹面与不规则体块。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_brown_landscape_rock",
+        "name_cn": "暖米白斜棱角景石",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "85f05fd692586ff732f1190bc8dbce19ea8a94c3b40dc1c8071887c64c3cfa7d",
+        "bytes": 611024,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          83.524,
+          46.981,
+          65.0
+        ],
+        "triangleCount": 13312,
+        "meshCount": 1,
+        "semanticGroups": [
+          "item"
+        ],
+        "features": [
+          "One independent irregular landscape stone, no plants/grass",
+          "Preserved asymmetrical tilted/peaked macro outline; twice-refined smooth surface and small natural undulations",
+          "Smooth shared vertex normals remove the former crystalline triangular shading; all seven material colours remain unchanged",
+          "Customer-specified warm ivory fine granular finish; former brown or dark striped colour removed",
+          "Back and underside inferred; no source-image billboards",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "暖米白斜棱角景石；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_brown_landscape_rock"
+        ],
+        "referenceImage": "sources/c9d54420f7697346.jpg",
+        "referenceImages": [
+          "sources/c9d54420f7697346.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "暖米白自然造型景石，保留起伏凹面与不规则体块。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "85f05fd692586ff732f1190bc8dbce19ea8a94c3b40dc1c8071887c64c3cfa7d",
+        "mountType": "floor"
+      }
+    },
+    "G24_striped_peak_rock": {
+      "id": "G24_striped_peak_rock",
+      "name_cn": "暖米白层理尖顶景石",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "77cd22fc1002d75426ab843cdcc7b05527effabd744bc03fc7f79efd340b6ba0",
+      "bytes": 611024,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        72.82,
+        43.843,
+        82.0
+      ],
+      "triangleCount": 13312,
+      "meshCount": 1,
+      "semanticGroups": [
+        "item"
+      ],
+      "features": [
+        "One independent irregular landscape stone, no plants/grass",
+        "Preserved asymmetrical tilted/peaked macro outline; twice-refined smooth surface and small natural undulations",
+        "Smooth shared vertex normals remove the former crystalline triangular shading; all seven material colours remain unchanged",
+        "Customer-specified warm ivory fine granular finish; former brown or dark striped colour removed",
+        "Back and underside inferred; no source-image billboards",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "暖米白层理尖顶景石；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_striped_peak_rock.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-77cd22fc1002",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "暖米白竖向山峰景石，保留层理感和纵向折面造型。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_striped_peak_rock",
+        "name_cn": "暖米白层理尖顶景石",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "77cd22fc1002d75426ab843cdcc7b05527effabd744bc03fc7f79efd340b6ba0",
+        "bytes": 611024,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          72.82,
+          43.843,
+          82.0
+        ],
+        "triangleCount": 13312,
+        "meshCount": 1,
+        "semanticGroups": [
+          "item"
+        ],
+        "features": [
+          "One independent irregular landscape stone, no plants/grass",
+          "Preserved asymmetrical tilted/peaked macro outline; twice-refined smooth surface and small natural undulations",
+          "Smooth shared vertex normals remove the former crystalline triangular shading; all seven material colours remain unchanged",
+          "Customer-specified warm ivory fine granular finish; former brown or dark striped colour removed",
+          "Back and underside inferred; no source-image billboards",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "暖米白层理尖顶景石；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_striped_peak_rock"
+        ],
+        "referenceImage": "sources/c9d54420f7697346.jpg",
+        "referenceImages": [
+          "sources/c9d54420f7697346.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "暖米白竖向山峰景石，保留层理感和纵向折面造型。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "77cd22fc1002d75426ab843cdcc7b05527effabd744bc03fc7f79efd340b6ba0",
+        "mountType": "floor"
+      }
+    },
+    "G24_granite_pebbles_5": {
+      "id": "G24_granite_pebbles_5",
+      "name_cn": "暖米白细颗粒五卵石组合",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "043904dfbdfb8252de84ec838b10c8bec2542aeef4aa21639ec21375ddd091dd",
+      "bytes": 823180,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        210.22,
+        194.288,
+        40.5
+      ],
+      "triangleCount": 19840,
+      "meshCount": 5,
+      "semanticGroups": [
+        "front_large",
+        "left",
+        "central_long",
+        "rear",
+        "right"
+      ],
+      "features": [
+        "Exactly five separate warm ivory fine-granular rounded landscape pebbles",
+        "Front large, left, central elongated, rear and right arrangement",
+        "Five independent semantic child groups",
+        "Each stone sits on floor; gaps preserved, no interpenetration",
+        "Shared warm ivory stone material generated procedurally, full surface UV",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "暖米白细颗粒五卵石组合；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_granite_pebbles_5.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-043904dfbdfb",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "五颗不同高低、形状的暖米白卵石组合。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_granite_pebbles_5",
+        "name_cn": "暖米白细颗粒五卵石组合",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "043904dfbdfb8252de84ec838b10c8bec2542aeef4aa21639ec21375ddd091dd",
+        "bytes": 823180,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          210.22,
+          194.288,
+          40.5
+        ],
+        "triangleCount": 19840,
+        "meshCount": 5,
+        "semanticGroups": [
+          "front_large",
+          "left",
+          "central_long",
+          "rear",
+          "right"
+        ],
+        "features": [
+          "Exactly five separate warm ivory fine-granular rounded landscape pebbles",
+          "Front large, left, central elongated, rear and right arrangement",
+          "Five independent semantic child groups",
+          "Each stone sits on floor; gaps preserved, no interpenetration",
+          "Shared warm ivory stone material generated procedurally, full surface UV",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "暖米白细颗粒五卵石组合；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_granite_pebbles_5"
+        ],
+        "referenceImage": "sources/a7d1a238dd342f2b.jpg",
+        "referenceImages": [
+          "sources/a7d1a238dd342f2b.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "五颗不同高低、形状的暖米白卵石组合。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "043904dfbdfb8252de84ec838b10c8bec2542aeef4aa21639ec21375ddd091dd",
+        "mountType": "floor"
+      }
+    },
+    "G24_pedestal_planters_2": {
+      "id": "G24_pedestal_planters_2",
+      "name_cn": "龙舌兰与紫薰衣草·双浅碗柱盆组合",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "9556cf437adba94819217398b8469d27122fbc6e17f312771ac66d807ef5d103",
+      "bytes": 4637500,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        144.513,
+        94.993,
+        101.445
+      ],
+      "triangleCount": 67256,
+      "meshCount": 8,
+      "semanticGroups": [
+        "high_agave_planter",
+        "low_lavender_planter"
+      ],
+      "features": [
+        "Two ivory fine-grain shallow bowl planters on cylindrical pedestals",
+        "High planter: green/yellow-margin pointed agave rosette",
+        "Low planter: grey-green lavender with tiny pale-lilac flower spikes",
+        "Two independent semantic planter groups with open bowls/soil",
+        "Background tall fluted planters and orange flowers excluded",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "龙舌兰与紫薰衣草·双浅碗柱盆组合；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_pedestal_planters_2.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-9556cf437adb",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "两组暖米白浅碗圆柱底座花盆，搭配照片中的绿植。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_pedestal_planters_2",
+        "name_cn": "龙舌兰与紫薰衣草·双浅碗柱盆组合",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "9556cf437adba94819217398b8469d27122fbc6e17f312771ac66d807ef5d103",
+        "bytes": 4637500,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          144.513,
+          94.993,
+          101.445
+        ],
+        "triangleCount": 67256,
+        "meshCount": 8,
+        "semanticGroups": [
+          "high_agave_planter",
+          "low_lavender_planter"
+        ],
+        "features": [
+          "Two ivory fine-grain shallow bowl planters on cylindrical pedestals",
+          "High planter: green/yellow-margin pointed agave rosette",
+          "Low planter: grey-green lavender with tiny pale-lilac flower spikes",
+          "Two independent semantic planter groups with open bowls/soil",
+          "Background tall fluted planters and orange flowers excluded",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "龙舌兰与紫薰衣草·双浅碗柱盆组合；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_pedestal_planters_2"
+        ],
+        "referenceImage": "sources/53788239b98f4cd6.jpg",
+        "referenceImages": [
+          "sources/53788239b98f4cd6.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "两组暖米白浅碗圆柱底座花盆，搭配照片中的绿植。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "9556cf437adba94819217398b8469d27122fbc6e17f312771ac66d807ef5d103",
+        "mountType": "floor"
+      }
+    },
+    "G24_ivory_drum_stool": {
+      "id": "G24_ivory_drum_stool",
+      "name_cn": "米白细颗粒圆鼓石凳",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "finishRevision": "unified-warm-ivory-20261024",
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "roughnessFactor": 0.96,
+        "metallicFactor": 0,
+        "proceduralTextureBaseRGB": [
+          232,
+          222,
+          207
+        ],
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+      },
+      "sha256": "aed6aa132e941906d0e0f35c3a3094ecd6ede6be0c904eaf9cfbf01fc811d107",
+      "bytes": 310932,
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "dimensionStatus": "estimated",
+      "dimensionsCm": [
+        50.0,
+        50.0,
+        46.0
+      ],
+      "triangleCount": 2304,
+      "meshCount": 1,
+      "semanticGroups": [
+        "item"
+      ],
+      "features": [
+        "Single closed ivory rounded drum stone stool",
+        "Slightly domed top, softly rounded shoulders and narrowed round lower edge",
+        "Fine granular stone appearance",
+        "No top opening; surrounding bowls, plants and blue striped pots excluded",
+        "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+      ],
+      "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "detail": "米白细颗粒圆鼓石凳；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/G24_ivory_drum_stool.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-aed6aa132e94",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "暖米白细颗粒石材鼓形圆凳，短圆柱身与内收底部。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "mountType": "floor",
+      "provenance": {
+        "id": "G24_ivory_drum_stool",
+        "name_cn": "米白细颗粒圆鼓石凳",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "finishRevision": "unified-warm-ivory-20261024",
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "roughnessFactor": 0.96,
+          "metallicFactor": 0,
+          "proceduralTextureBaseRGB": [
+            232,
+            222,
+            207
+          ],
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "colourReference": "537513dea7989a9f78e07a1c85ce0303.jpg"
+        },
+        "sha256": "aed6aa132e941906d0e0f35c3a3094ecd6ede6be0c904eaf9cfbf01fc811d107",
+        "bytes": 310932,
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "dimensionStatus": "estimated",
+        "dimensionsCm": [
+          50.0,
+          50.0,
+          46.0
+        ],
+        "triangleCount": 2304,
+        "meshCount": 1,
+        "semanticGroups": [
+          "item"
+        ],
+        "features": [
+          "Single closed ivory rounded drum stone stool",
+          "Slightly domed top, softly rounded shoulders and narrowed round lower edge",
+          "Fine granular stone appearance",
+          "No top opening; surrounding bowls, plants and blue striped pots excluded",
+          "All stone parts use the same customer-confirmed warm ivory fine-granular finish, matching the arrowed drum stool; foliage colours unchanged"
+        ],
+        "limitations": "全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "detail": "米白细颗粒圆鼓石凳；依据客户实拍作实体几何重建，尺寸全部估算，背面/细节/纹理推定。石材统一红箭头圆鼓凳暖米白细颗粒色；用户确认已购。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "G24_ivory_drum_stool"
+        ],
+        "referenceImage": "sources/2d3f149eef0a0dd1.jpg",
+        "referenceImages": [
+          "sources/2d3f149eef0a0dd1.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "暖米白细颗粒石材鼓形圆凳，短圆柱身与内收底部。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "aed6aa132e941906d0e0f35c3a3094ecd6ede6be0c904eaf9cfbf01fc811d107",
+        "mountType": "floor"
+      }
+    },
+    "F24_white_pebble_lounge_set": {
+      "id": "F24_white_pebble_lounge_set",
+      "name_cn": "暖米白卵石围合沙发双椅与椭圆桌组合",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "bytes": 735720,
+      "sha256": "527993d6f649803180f423d8efb9dbab18439cbc63ffb89f7bf110156fa4eec5",
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "mountType": "floor",
+      "dimensionsCm": [
+        303.998,
+        252.0,
+        84.8
+      ],
+      "dimensionStatus": "estimated",
+      "independentFurniturePieces": 4,
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.96,
+        "override": "User requested all stone surfaces to match the arrow-marked warm-ivory drum stool; no pure white or grey veining."
+      },
+      "pieces": [
+        {
+          "name": "01 White pebble two/three-person sofa",
+          "children": [
+            0
+          ],
+          "positionM": [
+            0,
+            0,
+            -0.55
+          ],
+          "rotationY": 0,
+          "estimatedDimensionsCm": [
+            210,
+            94,
+            84.8
+          ]
+        },
+        {
+          "name": "02 Left white pebble armchair",
+          "children": [
+            1
+          ],
+          "positionM": [
+            -1.12,
+            0,
+            0.45
+          ],
+          "rotationY": 0.11,
+          "estimatedDimensionsCm": [
+            80,
+            80,
+            79.8
+          ]
+        },
+        {
+          "name": "03 Right white pebble armchair",
+          "children": [
+            2
+          ],
+          "positionM": [
+            1.12,
+            0,
+            0.45
+          ],
+          "rotationY": -0.11,
+          "estimatedDimensionsCm": [
+            80,
+            80,
+            79.8
+          ]
+        },
+        {
+          "name": "04 Oval low table and three short round feet",
+          "children": [
+            3,
+            4
+          ],
+          "positionM": [
+            0,
+            0,
+            1.15
+          ],
+          "rotationY": 0,
+          "estimatedDimensionsCm": [
+            120,
+            70,
+            38
+          ],
+          "notes": "Source shows two front supports clearly; a conservative third rear round support is inferred."
+        }
+      ],
+      "triangleCount": 16624,
+      "meshCount": 5,
+      "detail": [
+        "Single hard warm-ivory fine-grained stone/composite-looking sofa, two matching armchairs and one thin oval low table, not boucle upholstery or loose cushions.",
+        "Sofa and armchairs use continuous rounded exterior shells with integrated shallow seat basins; no fabric tufting, seams, bags, bottles, food or props.",
+        "Table has three thick short round legs. Two are visible in the reference; hidden third support and precise underside attachment are inferred.",
+        "Sofa width 2.10 m, chairs 0.80 m, table 1.20 x .70 x .38 m and whole-set arrangement are estimates, not measured manufacturer dimensions.",
+        "Every stone surface uses the same warm-ivory fine-grain texture as the user arrow-marked drum stool and all seven garden stone products."
+      ],
+      "limitations": "全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/F24_white_pebble_lounge_set.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-527993d6f649",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "暖米白卵石围合沙发、双单椅和椭圆桌四件组合。 全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+      "provenance": {
+        "id": "F24_white_pebble_lounge_set",
+        "name_cn": "暖米白卵石围合沙发双椅与椭圆桌组合",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "bytes": 735720,
+        "sha256": "527993d6f649803180f423d8efb9dbab18439cbc63ffb89f7bf110156fa4eec5",
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "mountType": "floor",
+        "dimensionsCm": [
+          303.998,
+          252.0,
+          84.8
+        ],
+        "dimensionStatus": "estimated",
+        "independentFurniturePieces": 4,
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.96,
+          "override": "User requested all stone surfaces to match the arrow-marked warm-ivory drum stool; no pure white or grey veining."
+        },
+        "pieces": [
+          {
+            "name": "01 White pebble two/three-person sofa",
+            "children": [
+              0
+            ],
+            "positionM": [
+              0,
+              0,
+              -0.55
+            ],
+            "rotationY": 0,
+            "estimatedDimensionsCm": [
+              210,
+              94,
+              84.8
+            ]
+          },
+          {
+            "name": "02 Left white pebble armchair",
+            "children": [
+              1
+            ],
+            "positionM": [
+              -1.12,
+              0,
+              0.45
+            ],
+            "rotationY": 0.11,
+            "estimatedDimensionsCm": [
+              80,
+              80,
+              79.8
+            ]
+          },
+          {
+            "name": "03 Right white pebble armchair",
+            "children": [
+              2
+            ],
+            "positionM": [
+              1.12,
+              0,
+              0.45
+            ],
+            "rotationY": -0.11,
+            "estimatedDimensionsCm": [
+              80,
+              80,
+              79.8
+            ]
+          },
+          {
+            "name": "04 Oval low table and three short round feet",
+            "children": [
+              3,
+              4
+            ],
+            "positionM": [
+              0,
+              0,
+              1.15
+            ],
+            "rotationY": 0,
+            "estimatedDimensionsCm": [
+              120,
+              70,
+              38
+            ],
+            "notes": "Source shows two front supports clearly; a conservative third rear round support is inferred."
+          }
+        ],
+        "triangleCount": 16624,
+        "meshCount": 5,
+        "detail": [
+          "Single hard warm-ivory fine-grained stone/composite-looking sofa, two matching armchairs and one thin oval low table, not boucle upholstery or loose cushions.",
+          "Sofa and armchairs use continuous rounded exterior shells with integrated shallow seat basins; no fabric tufting, seams, bags, bottles, food or props.",
+          "Table has three thick short round legs. Two are visible in the reference; hidden third support and precise underside attachment are inferred.",
+          "Sofa width 2.10 m, chairs 0.80 m, table 1.20 x .70 x .38 m and whole-set arrangement are estimates, not measured manufacturer dimensions.",
+          "Every stone surface uses the same warm-ivory fine-grain texture as the user arrow-marked drum stool and all seven garden stone products."
+        ],
+        "limitations": "全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "F24_white_pebble_lounge_set"
+        ],
+        "referenceImage": "sources/a20d4a957952beca.jpg",
+        "referenceImages": [
+          "sources/a20d4a957952beca.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "暖米白卵石围合沙发、双单椅和椭圆桌四件组合。 全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "527993d6f649803180f423d8efb9dbab18439cbc63ffb89f7bf110156fa4eec5"
+      }
+    },
+    "F24_ivory_waterfall_table_set": {
+      "id": "F24_ivory_waterfall_table_set",
+      "name_cn": "暖米白石材瀑布长桌与双石凳组合",
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "bytes": 351268,
+      "sha256": "83b6fe18b9b0282a7da2e0a42915e3f90c55bf0a96dd9e1926344518beac35fd",
+      "units": "m",
+      "upAxis": "Y",
+      "frontAxis": "+Z",
+      "mountType": "floor",
+      "dimensionsCm": [
+        200.0,
+        136.0,
+        78.0
+      ],
+      "dimensionStatus": "estimated",
+      "independentFurniturePieces": 3,
+      "stoneMaterial": {
+        "name": "Shared warm ivory fine granular stone",
+        "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+        "baseColorFactor": [
+          0.88,
+          0.88,
+          0.88,
+          1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.96,
+        "override": "User requested all stone surfaces to match the arrow-marked warm-ivory drum stool; no pure white or grey veining."
+      },
+      "pieces": [
+        {
+          "name": "01 Ivory waterfall table",
+          "children": [
+            0
+          ],
+          "positionM": [
+            0,
+            0,
+            -0.25
+          ],
+          "rotationY": 0,
+          "estimatedDimensionsCm": [
+            200,
+            70,
+            78
+          ],
+          "notes": "One continuous Pi-profile solid: top and both thick end legs share the waterfall form; underside opening is real."
+        },
+        {
+          "name": "02 Left solid marble stool",
+          "children": [
+            1
+          ],
+          "positionM": [
+            -0.48,
+            0,
+            0.55
+          ],
+          "rotationY": 0,
+          "estimatedDimensionsCm": [
+            42,
+            42,
+            45
+          ]
+        },
+        {
+          "name": "03 Right solid marble stool",
+          "children": [
+            2
+          ],
+          "positionM": [
+            0.48,
+            0,
+            0.55
+          ],
+          "rotationY": 0,
+          "estimatedDimensionsCm": [
+            42,
+            42,
+            45
+          ]
+        }
+      ],
+      "triangleCount": 3508,
+      "meshCount": 3,
+      "detail": [
+        "One warm-ivory marble/finely grained stone waterfall table with two thick end slabs, plus two monolithic square stone stools, following the supplied showroom silhouette.",
+        "Table estimated 2.00 x .70 x .78 m; stools each .42 x .42 x .45 m. Fine eased corners; all surfaces use the shared warm-ivory fine-grain stone sample, with no pure white, grey or black veining.",
+        "All appliances, cups, water bottles, cabinets, plants, cables, plastic bags and showroom fixtures are excluded.",
+        "Every furniture piece has its own transformable parent node; dimensions, rear joins and the exact texture are photo-derived estimates."
+      ],
+      "limitations": "全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+      "status": "ready",
+      "rootVisualApproved": true,
+      "matchStatus": "confirmed",
+      "url": "space-assets/models/F24_ivory_waterfall_table_set.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "revision": "purchased11-20261024-83b6fe18b9b0",
+      "label": "已购 · 同款重建 · 尺寸待核",
+      "note": "暖米白长桌与两条石凳三件组合，保留厚边和下方开放结构。 全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+      "provenance": {
+        "id": "F24_ivory_waterfall_table_set",
+        "name_cn": "暖米白石材瀑布长桌与双石凳组合",
+        "collection": "已购",
+        "purchaseStatus": "purchased",
+        "bytes": 351268,
+        "sha256": "83b6fe18b9b0282a7da2e0a42915e3f90c55bf0a96dd9e1926344518beac35fd",
+        "units": "m",
+        "upAxis": "Y",
+        "frontAxis": "+Z",
+        "mountType": "floor",
+        "dimensionsCm": [
+          200.0,
+          136.0,
+          78.0
+        ],
+        "dimensionStatus": "estimated",
+        "independentFurniturePieces": 3,
+        "stoneMaterial": {
+          "name": "Shared warm ivory fine granular stone",
+          "textureSHA256": "2176217de709ce05ef2bee456a47df5c9a133f9182a464b6ab5e89b14150d205",
+          "baseColorFactor": [
+            0.88,
+            0.88,
+            0.88,
+            1
+          ],
+          "metallicFactor": 0,
+          "roughnessFactor": 0.96,
+          "override": "User requested all stone surfaces to match the arrow-marked warm-ivory drum stool; no pure white or grey veining."
+        },
+        "pieces": [
+          {
+            "name": "01 Ivory waterfall table",
+            "children": [
+              0
+            ],
+            "positionM": [
+              0,
+              0,
+              -0.25
+            ],
+            "rotationY": 0,
+            "estimatedDimensionsCm": [
+              200,
+              70,
+              78
+            ],
+            "notes": "One continuous Pi-profile solid: top and both thick end legs share the waterfall form; underside opening is real."
+          },
+          {
+            "name": "02 Left solid marble stool",
+            "children": [
+              1
+            ],
+            "positionM": [
+              -0.48,
+              0,
+              0.55
+            ],
+            "rotationY": 0,
+            "estimatedDimensionsCm": [
+              42,
+              42,
+              45
+            ]
+          },
+          {
+            "name": "03 Right solid marble stool",
+            "children": [
+              2
+            ],
+            "positionM": [
+              0.48,
+              0,
+              0.55
+            ],
+            "rotationY": 0,
+            "estimatedDimensionsCm": [
+              42,
+              42,
+              45
+            ]
+          }
+        ],
+        "triangleCount": 3508,
+        "meshCount": 3,
+        "detail": [
+          "One warm-ivory marble/finely grained stone waterfall table with two thick end slabs, plus two monolithic square stone stools, following the supplied showroom silhouette.",
+          "Table estimated 2.00 x .70 x .78 m; stools each .42 x .42 x .45 m. Fine eased corners; all surfaces use the shared warm-ivory fine-grain stone sample, with no pure white, grey or black veining.",
+          "All appliances, cups, water bottles, cabinets, plants, cables, plastic bags and showroom fixtures are excluded.",
+          "Every furniture piece has its own transformable parent node; dimensions, rear joins and the exact texture are photo-derived estimates."
+        ],
+        "limitations": "全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+        "status": "ready",
+        "rootVisualApproved": true,
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "F24_ivory_waterfall_table_set"
+        ],
+        "referenceImage": "sources/7f8a4945b353d058.jpg",
+        "referenceImages": [
+          "sources/7f8a4945b353d058.jpg",
+          "sources/b96ae6eba93c01f5.jpg"
+        ],
+        "note": "暖米白长桌与两条石凳三件组合，保留厚边和下方开放结构。 全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "catalogImageMethod": "WebGL rendering of final GLB",
+        "renderedFromSHA256": "83b6fe18b9b0282a7da2e0a42915e3f90c55bf0a96dd9e1926344518beac35fd"
+      }
     }
   }
 }

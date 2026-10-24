@@ -359,7 +359,9 @@
       },
       "previewExposure": 1.0,
       "thumbnail": "assets/CUSTOM24_table_champagne_200x90_v3.webp",
-      "dimensionNote": "长 200 × 宽 90 cm 为用户指定；高 75 cm 暂估"
+      "dimensionNote": "长 200 × 宽 90 cm 为用户指定；高 75 cm 暂估",
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     {
       "id": "LT24_rect_dark",
@@ -388,7 +390,9 @@
         1.25,
         0
       ],
-      "recommendedBottomHeightM": 1.95
+      "recommendedBottomHeightM": 1.95,
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     {
       "id": "LT24_rect_gold",
@@ -417,7 +421,9 @@
         1.25,
         0
       ],
-      "recommendedBottomHeightM": 1.95
+      "recommendedBottomHeightM": 1.95,
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     {
       "id": "C24_rope_chair",
@@ -439,7 +445,9 @@
         "phi": 1.32
       },
       "previewExposure": 0.8,
-      "thumbnail": "assets/C24_rope_chair.webp"
+      "thumbnail": "assets/C24_rope_chair.webp",
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     {
       "id": "C24_cantilever_umbrella_khaki",
@@ -461,7 +469,9 @@
         "phi": 1.32
       },
       "previewExposure": 0.8,
-      "thumbnail": "assets/C24_cantilever_umbrella_khaki.webp"
+      "thumbnail": "assets/C24_cantilever_umbrella_khaki.webp",
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     {
       "id": "LT24_glass_cluster14",
@@ -498,7 +508,9 @@
         1.75,
         0
       ],
-      "recommendedBottomHeightM": 1.25
+      "recommendedBottomHeightM": 1.25,
+      "collection": "已购",
+      "purchaseStatus": "purchased"
     },
     {
       "id": "LT24_floral14_goldframe",
@@ -535,7 +547,339 @@
         1.8,
         0
       ],
-      "recommendedBottomHeightM": 1.3
+      "recommendedBottomHeightM": 1.3,
+      "collection": "已购",
+      "purchaseStatus": "purchased"
+    },
+    {
+      "id": "C24_taupe_sling_lounger",
+      "order": 30,
+      "group": "seating",
+      "reference": "sources/5c91c22cafc10588.jpg",
+      "thumbnail": "assets/C24_taupe_sling_lounger.webp",
+      "url": "space-assets/models/C24_taupe_sling_lounger.glb",
+      "description": "无扶手长方管底框、四短方腿、5段水平/4段仰靠薄网布与双线缝边，55度独立铰接靠背；背面连续宽U型管撑及左右两条5档钩槽齿条，撑横杆实际落入第2档。 Dimensions, exact recline angle, rack count, back and underside details estimated from supplied photos. Not manufacturer CAD. Textile thickness 8mm is a visualization estimate.",
+      "whiteDownload": "downloads/C24_taupe_sling_lounger_white.png",
+      "packageDownload": "downloads/C24_taupe_sling_lounger_package.zip",
+      "dimensionsCm": [
+        68.00000071525574,
+        200.0,
+        101.4921773495791
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 68.0 × 200.0 × 101.5 cm",
+      "triangles": 45016,
+      "bytes": 1642976,
+      "previewOrbit": {
+        "theta": 0.84,
+        "phi": 1.12
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "LT24_ginkgo_fan_sconce",
+      "order": 31,
+      "group": "decor",
+      "reference": "sources/6b211d39dd59a145.jpg",
+      "thumbnail": "assets/LT24_ginkgo_fan_sconce.webp",
+      "url": "space-assets/models/LT24_ginkgo_fan_sconce.glb",
+      "description": "一片有实际2.8mm金属厚度、76道放射曲肋及自然波浪外缘的凹凸银杏扇叶；深古铜/枪铜材质，圆背盘、短直立与横向折臂、球形连接及叶柄，背后小暖光内片。去掉印刷页和蓝色手绘。 Shape, scale, hardware depth and hidden light source estimated from a photographed print. Blue pen marks and surrounding page objects omitted. Not manufacturer CAD.",
+      "whiteDownload": "downloads/LT24_ginkgo_fan_sconce_white.png",
+      "packageDownload": "downloads/LT24_ginkgo_fan_sconce_package.zip",
+      "dimensionsCm": [
+        51.12980157136917,
+        25.19972026348114,
+        53.839727118611336
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 51.1 × 25.2 × 53.8 cm",
+      "triangles": 59092,
+      "bytes": 1813788,
+      "previewOrbit": {
+        "theta": 0.35,
+        "phi": 1.35
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": false,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "wall",
+      "wallAnchorM": [
+        -0.1,
+        0.08,
+        0
+      ],
+      "wallNormalM": [
+        0,
+        0,
+        1
+      ],
+      "recommendedBottomHeightM": 1.4
+    },
+    {
+      "id": "G24_broadleaf_pedestal",
+      "order": 32,
+      "group": "decor",
+      "reference": "sources/42a2cde88c6b92ea.jpg",
+      "thumbnail": "assets/G24_broadleaf_pedestal.webp",
+      "url": "space-assets/models/G24_broadleaf_pedestal.glb",
+      "description": "深绿阔叶树与暖米白浅碗方柱花盆组合，树干与盆口土面可见。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_broadleaf_pedestal_white.png",
+      "packageDownload": "downloads/G24_broadleaf_pedestal_package.zip",
+      "dimensionsCm": [
+        141.278,
+        147.424,
+        218.446
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 141.3 × 147.4 × 218.4 cm",
+      "triangles": 148704,
+      "bytes": 8286264,
+      "previewOrbit": {
+        "theta": 0.25,
+        "phi": 1.45
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "G24_banana_pebble_planter",
+      "order": 33,
+      "group": "decor",
+      "reference": "sources/618e60a0b65375fa.jpg",
+      "thumbnail": "assets/G24_banana_pebble_planter.webp",
+      "url": "space-assets/models/G24_banana_pebble_planter.glb",
+      "description": "芭蕉绿植与暖米白卵石形花盆，盆口内由土面和低紫花围合。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_banana_pebble_planter_white.png",
+      "packageDownload": "downloads/G24_banana_pebble_planter_package.zip",
+      "dimensionsCm": [
+        127.875,
+        126.479,
+        198.042
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 127.9 × 126.5 × 198.0 cm",
+      "triangles": 65856,
+      "bytes": 4248360,
+      "previewOrbit": {
+        "theta": 0.25,
+        "phi": 1.45
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "G24_brown_landscape_rock",
+      "order": 34,
+      "group": "decor",
+      "reference": "sources/c9d54420f7697346.jpg",
+      "thumbnail": "assets/G24_brown_landscape_rock.webp",
+      "url": "space-assets/models/G24_brown_landscape_rock.glb",
+      "description": "暖米白自然造型景石，保留起伏凹面与不规则体块。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_brown_landscape_rock_white.png",
+      "packageDownload": "downloads/G24_brown_landscape_rock_package.zip",
+      "dimensionsCm": [
+        83.524,
+        46.981,
+        65.0
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 83.5 × 47.0 × 65.0 cm",
+      "triangles": 13312,
+      "bytes": 611024,
+      "previewOrbit": {
+        "theta": 0.65,
+        "phi": 1.13
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "G24_striped_peak_rock",
+      "order": 35,
+      "group": "decor",
+      "reference": "sources/c9d54420f7697346.jpg",
+      "thumbnail": "assets/G24_striped_peak_rock.webp",
+      "url": "space-assets/models/G24_striped_peak_rock.glb",
+      "description": "暖米白竖向山峰景石，保留层理感和纵向折面造型。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_striped_peak_rock_white.png",
+      "packageDownload": "downloads/G24_striped_peak_rock_package.zip",
+      "dimensionsCm": [
+        72.82,
+        43.843,
+        82.0
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 72.8 × 43.8 × 82.0 cm",
+      "triangles": 13312,
+      "bytes": 611024,
+      "previewOrbit": {
+        "theta": 0.65,
+        "phi": 1.13
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "G24_granite_pebbles_5",
+      "order": 36,
+      "group": "decor",
+      "reference": "sources/a7d1a238dd342f2b.jpg",
+      "thumbnail": "assets/G24_granite_pebbles_5.webp",
+      "url": "space-assets/models/G24_granite_pebbles_5.glb",
+      "description": "五颗不同高低、形状的暖米白卵石组合。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_granite_pebbles_5_white.png",
+      "packageDownload": "downloads/G24_granite_pebbles_5_package.zip",
+      "dimensionsCm": [
+        210.22,
+        194.288,
+        40.5
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 210.2 × 194.3 × 40.5 cm",
+      "triangles": 19840,
+      "bytes": 823180,
+      "previewOrbit": {
+        "theta": 0.65,
+        "phi": 1.13
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "G24_pedestal_planters_2",
+      "order": 37,
+      "group": "decor",
+      "reference": "sources/53788239b98f4cd6.jpg",
+      "thumbnail": "assets/G24_pedestal_planters_2.webp",
+      "url": "space-assets/models/G24_pedestal_planters_2.glb",
+      "description": "两组暖米白浅碗圆柱底座花盆，搭配照片中的绿植。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_pedestal_planters_2_white.png",
+      "packageDownload": "downloads/G24_pedestal_planters_2_package.zip",
+      "dimensionsCm": [
+        144.513,
+        94.993,
+        101.445
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 144.5 × 95.0 × 101.4 cm",
+      "triangles": 67256,
+      "bytes": 4637500,
+      "previewOrbit": {
+        "theta": 0.65,
+        "phi": 1.13
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "G24_ivory_drum_stool",
+      "order": 38,
+      "group": "seating",
+      "reference": "sources/2d3f149eef0a0dd1.jpg",
+      "thumbnail": "assets/G24_ivory_drum_stool.webp",
+      "url": "space-assets/models/G24_ivory_drum_stool.glb",
+      "description": "暖米白细颗粒石材鼓形圆凳，短圆柱身与内收底部。 全部尺寸按单张实拍比例估算；不可见背面、底部、植株分枝与叶序、盆内和石材纹理含重建推定，非厂家实测/扫描。",
+      "whiteDownload": "downloads/G24_ivory_drum_stool_white.png",
+      "packageDownload": "downloads/G24_ivory_drum_stool_package.zip",
+      "dimensionsCm": [
+        50.0,
+        50.0,
+        46.0
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 50.0 × 50.0 × 46.0 cm",
+      "triangles": 2304,
+      "bytes": 310932,
+      "previewOrbit": {
+        "theta": 0.65,
+        "phi": 1.13
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "F24_white_pebble_lounge_set",
+      "order": 39,
+      "group": "seating",
+      "reference": "sources/a20d4a957952beca.jpg",
+      "thumbnail": "assets/F24_white_pebble_lounge_set.webp",
+      "url": "space-assets/models/F24_white_pebble_lounge_set.glb",
+      "description": "暖米白卵石围合沙发、双单椅和椭圆桌四件组合。 全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+      "whiteDownload": "downloads/F24_white_pebble_lounge_set_white.png",
+      "packageDownload": "downloads/F24_white_pebble_lounge_set_package.zip",
+      "dimensionsCm": [
+        303.998,
+        252.0,
+        84.8
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 304.0 × 252.0 × 84.8 cm",
+      "triangles": 16624,
+      "bytes": 735720,
+      "previewOrbit": {
+        "theta": 0.55,
+        "phi": 1.08
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
+    },
+    {
+      "id": "F24_ivory_waterfall_table_set",
+      "order": 40,
+      "group": "tables",
+      "reference": "sources/7f8a4945b353d058.jpg",
+      "thumbnail": "assets/F24_ivory_waterfall_table_set.webp",
+      "url": "space-assets/models/F24_ivory_waterfall_table_set.glb",
+      "description": "暖米白长桌与两条石凳三件组合，保留厚边和下方开放结构。 全部尺寸、背面/底部连接和组合间距按单张展厅照片及用户意向估算，非厂家扫描或实测。组内每件家具具有独立父节点，可分开移动。",
+      "whiteDownload": "downloads/F24_ivory_waterfall_table_set_white.png",
+      "packageDownload": "downloads/F24_ivory_waterfall_table_set_package.zip",
+      "dimensionsCm": [
+        200.0,
+        136.0,
+        78.0
+      ],
+      "dimensionNote": "估计尺寸 · 宽×深×高 200.0 × 136.0 × 78.0 cm",
+      "triangles": 3508,
+      "bytes": 351268,
+      "previewOrbit": {
+        "theta": 0.65,
+        "phi": 1.13
+      },
+      "previewExposure": 0.9,
+      "previewBackground": "#efeee9",
+      "previewFloor": true,
+      "collection": "已购",
+      "purchaseStatus": "purchased",
+      "mountType": "floor"
     }
   ]
 }
