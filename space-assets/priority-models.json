@@ -344,21 +344,21 @@
       "group": "tables",
       "reference": "sources/794d899243d209ed.jpg",
       "url": "space-assets/models/CUSTOM24_table_champagne_200x90.glb",
-      "description": "2米×0.9米长方薄台面，深色直方腿与台下围框；桌面按用户色样改为浅香槟金。桌高75厘米暂估。",
-      "whiteDownload": "downloads/CUSTOM24_table_champagne_200x90_white.png",
+      "description": "2米×0.9米长方薄台面，桌面与四根直方腿均为同色浅香槟金，四条台下围框保留黑色，极小脚垫深色。桌高75厘米暂估。",
+      "whiteDownload": "downloads/CUSTOM24_table_champagne_200x90_white.png?v=champagne-legs-v3",
       "dimensionsCm": [
         200,
         90,
         75
       ],
       "triangles": 8320,
-      "bytes": 278668,
+      "bytes": 279176,
       "previewOrbit": {
         "theta": 0.5,
         "phi": 1.13
       },
       "previewExposure": 1.0,
-      "thumbnail": "assets/CUSTOM24_table_champagne_200x90.webp",
+      "thumbnail": "assets/CUSTOM24_table_champagne_200x90_v3.webp",
       "dimensionNote": "长 200 × 宽 90 cm 为用户指定；高 75 cm 暂估"
     },
     {

@@ -703,25 +703,27 @@
         90,
         75
       ],
-      "revision": "custom-20261024-666a9cc8d0",
+      "revision": "custom-20261024-d4754c3dcf",
       "label": "长宽已定 · 桌高待核",
-      "note": "2米×0.9米长方薄台面，深色直方腿与台下围框；桌面按用户色样改为浅香槟金。桌高75厘米暂估。 ",
+      "note": "2米×0.9米长方薄台面，桌面与四根直方腿均为同色浅香槟金，四条台下围框保留黑色，极小脚垫深色。桌高75厘米暂估。 ",
       "provenance": {
         "kind": "photo-reconstruction-with-user-dimensions",
         "referenceIds": [
           "CUSTOM24_table_champagne_200x90"
         ],
-        "note": "2米×0.9米长方薄台面，深色直方腿与台下围框；桌面按用户色样改为浅香槟金。桌高75厘米暂估。 ",
+        "note": "2米×0.9米长方薄台面，桌面与四根直方腿均为同色浅香槟金，四条台下围框保留黑色，极小脚垫深色。桌高75厘米暂估。 ",
         "referenceImage": "sources/794d899243d209ed.jpg",
         "referenceImages": [
           "sources/794d899243d209ed.jpg",
-          "sources/3ca5823993e0526e.png"
+          "sources/3ca5823993e0526e.png",
+          "sources/0ee9fcd2d5a03278.png"
         ],
         "geometryMatch": "reference-features-reconstructed",
         "actualReplicaMatch": "unverified",
         "dimensionStatus": "user-confirmed-plan-height-estimated",
-        "sha256": "666a9cc8d0a4767b7dbc23f5e4fe1a11ee91e7e41b878f87c7b30ea3485ea7e9",
-        "triangles": 8320
+        "sha256": "d4754c3dcf3d79ba7c27dbd9418f4ebd3376b15ed32faf36b91621a998340f0a",
+        "triangles": 8320,
+        "finishRevision": "goldlegs-blackapron-v3"
       },
       "confirmedDimensionsCm": {
         "length": 200,
@@ -729,7 +731,8 @@
       },
       "estimatedDimensionsCm": {
         "height": 75
-      }
+      },
+      "finishRevision": "goldlegs-blackapron-v3"
     },
     "LT24_rect_dark": {
       "status": "ready",
