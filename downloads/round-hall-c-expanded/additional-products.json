@@ -1,0 +1,249 @@
+{
+  "title": "圆厅 C 扩展 / 真实库内 coffee 单桌与墙饰补选",
+  "checked_on": "2026-10-24",
+  "network_used": false,
+  "retained_decisions": {
+    "sofa": "P01_sofa cloud green, enlargement handled separately",
+    "chair": "O11_chair caramel, total 3 identical chairs",
+    "main_coffee": "O06_table",
+    "pendant": "W23_03",
+    "wall_lights": "LT23_07",
+    "art": "Kline01 / Franz Kline Siskind, unchanged",
+    "wall_finishes": "Existing local walnut + warm beige-grey direction retained"
+  },
+  "excluded_by_user": [
+    "O53_side / removed entirely this round",
+    "travertine",
+    "boucle/furry/shag materials"
+  ],
+  "selected_set": {
+    "small_tables": [
+      {
+        "id": "O60_side1",
+        "quantity": 2
+      },
+      {
+        "id": "O47_side1",
+        "quantity": 1
+      }
+    ],
+    "new_wall_decoration": [
+      {
+        "id": "O13_art",
+        "quantity": 1
+      },
+      {
+        "id": "P01_mirror",
+        "quantity": 1
+      }
+    ]
+  },
+  "placement_principle": "Each small table should serve a nearby seated person; use 2–3 total after checking the enlarged sofa, third chair, continuous entry route and the actual measured tables. Wall accessories stay subordinate to the already selected Kline01.",
+  "products": [
+    {
+      "id": "O60_side1",
+      "name_cn": "细黑框浅石方边几",
+      "category": "边几",
+      "customer_priority": false,
+      "role": "选定小桌 / 黑框浅石 × 2",
+      "status": "selected",
+      "quantity": 2,
+      "placement": "两张分别服务三把O11中的相邻座位，放在各组座位外侧；由新平面确定位置，不阻断入口连续通道。保持同款同材，不更换为圆盘黑柱。",
+      "rationale": "浅石纹薄面与黑细架对应Kline黑白，轮廓轻，不再重复已退出的O53圆盘黑柱。",
+      "material": "可见浅色带细纹石面、黑色细金属架。石种与实材未经核验；采购限定非洞石、无明显孔洞表面，不把库图推断为某种大理石。",
+      "asset": "assets/O60_side1.webp",
+      "asset_pixel_dimensions": [
+        1216,
+        1294
+      ],
+      "asset_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "asset_background": "Existing catalogue RGBA cutout; alpha trimmed only for contact-sheet placement. Source RGB unchanged.",
+      "asset_sha256": "5f6e11a85581da70dd3b85ee06c6108255cdce2ca357297a0f88d14941950256",
+      "source_preview": "sources/a1d0cf62924b3a1a.jpg",
+      "source_preview_pixel_dimensions": [
+        1707,
+        1280
+      ],
+      "source_urls": [
+        "https://drive.google.com/file/d/1M3hmg9kAe4ObCVLBrLI8bhnETsiKF31q/view"
+      ],
+      "source_verification": "Existing library records and local original preview inspected; no online availability, maker, material or dimensions verification in this task.",
+      "existing_library_concept_reconstruction": false,
+      "existing_library_notes": "",
+      "existing_library_material_appearance": "浅色石纹薄台面与细金属架外观",
+      "decoded_original_png": "work/c-expanded-selection/original-png/O60_side1.png",
+      "texture_guidance": {
+        "full_product_alpha_bbox_px": [
+          98,
+          99,
+          1134,
+          1223
+        ],
+        "tabletop_visible_crop_box_px": [
+          96,
+          96,
+          1138,
+          384
+        ],
+        "advice_zh": "高保真首选把原图桌面可见顶面投影到对应UV，不平铺、不另造石纹。所列顶面裁框仍含透明区、边缘厚度和拍摄透视，并非已校正的无缝石材扫描；不能直接当满幅矩形桌面材质。底架按原图细黑杆形态与比例保留。",
+        "supplier_limit_zh": "浅色细纹外观不能证明石种。报价/采购必须明确非洞石，并核对实际石样。任何后续约400/500等试摆尺寸都是规划包络，不是厂规。"
+      },
+      "dimension_status": "Image pixel size above is not product size. No verified manufacturer dimensions in the local record. Position and quantity remain layout proposals."
+    },
+    {
+      "id": "O47_side1",
+      "name_cn": "炭黑多面柱边几",
+      "category": "边几",
+      "customer_priority": false,
+      "role": "选定小桌 / 炭黑多面柱 × 1",
+      "status": "selected",
+      "quantity": 1,
+      "placement": "服务剩余座位或沙发一端，作为第三件coffee小单桌；多面实心体的完整占位需要按实际尺寸核对。",
+      "rationale": "纯黑雕塑体块与两张轻巧黑白桌形成对比，呼应Kline黑白；O06主茶几保持。",
+      "material": "库记录为哑黑多面块体外观；真实基材、涂层、承重及实际尺寸未知，不认定为黑石、木或金属。",
+      "asset": "assets/O47_side1.webp",
+      "asset_pixel_dimensions": [
+        1330,
+        1183
+      ],
+      "asset_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "asset_background": "Existing catalogue RGBA cutout; alpha trimmed only for contact-sheet placement. Source RGB unchanged.",
+      "asset_sha256": "107440afe601a2c3058ed2d1fad8200338be6fbf4ae3323642167d65d9f7b8ef",
+      "source_preview": "sources/88779abd53b46b77.jpg",
+      "source_preview_pixel_dimensions": [
+        1280,
+        1707
+      ],
+      "source_urls": [
+        "https://drive.google.com/file/d/1ru9jKJBMXmg4OlGoBt766j322DyOPr7R/view"
+      ],
+      "source_verification": "Existing library records and local original preview inspected; no online availability, maker, material or dimensions verification in this task.",
+      "existing_library_concept_reconstruction": false,
+      "existing_library_notes": "",
+      "existing_library_material_appearance": "哑黑多面块体外观",
+      "decoded_original_png": "work/c-expanded-selection/original-png/O47_side1.png",
+      "texture_guidance": {
+        "full_product_alpha_bbox_px": [
+          202,
+          114,
+          1131,
+          1098
+        ],
+        "advice_zh": "保留六边形顶面与三块可见侧面的折线。可按每个可见面独立投影原图颜色；照片高光不可重复当成强发光纹理。无明显图案，不要加石纹、拉丝或木纹。背面未知，应记录为试摆推定。"
+      },
+      "dimension_status": "Image pixel size above is not product size. No verified manufacturer dimensions in the local record. Position and quantity remain layout proposals."
+    },
+    {
+      "id": "O13_art",
+      "name_cn": "米白弧纹浮雕装饰画",
+      "category": "装饰品",
+      "customer_priority": false,
+      "role": "选定新增墙饰 / 米白浅浮雕",
+      "status": "selected",
+      "quantity": 1,
+      "placement": "另一面可用实体墙或入口窄墙，离开Kline胡桃画墙与六件石壁灯；只放一幅，平挂在弧墙切平支架上，挂件与离墙量需现场确认。",
+      "rationale": "米白浅浮雕弱对比、木框连接胡桃墙，给侧墙细节而不替换Kline01或另加彩色大画。",
+      "material": "米白线纹浅浮雕、深木框外观；真实基材、重量、固定方式未知，不能宣称为石膏、砂岩或石材。",
+      "asset": "assets/O13_art.webp",
+      "asset_pixel_dimensions": [
+        1086,
+        1448
+      ],
+      "asset_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "asset_background": "Existing catalogue RGBA cutout; alpha trimmed only for contact-sheet placement. Source RGB unchanged.",
+      "asset_sha256": "fe75916508d4f76281794ba92be2ccf3ee8df0988fd01ace33de3aad4f4fd38e",
+      "source_preview": "sources/0255f5064992082d.jpg",
+      "source_preview_pixel_dimensions": [
+        1280,
+        1707
+      ],
+      "source_urls": [
+        "https://drive.google.com/file/d/1IKUa5j-onycDlmmtaumSWlvtD9tQHHih/view"
+      ],
+      "source_verification": "Existing library records and local original preview inspected; no online availability, maker, material or dimensions verification in this task.",
+      "existing_library_concept_reconstruction": false,
+      "existing_library_notes": "下右角被椅背遮挡。",
+      "existing_library_material_appearance": "浮雕纹理观感；未核实真实材质、品牌或型号。",
+      "decoded_original_png": "work/c-expanded-selection/original-png/O13_art.png",
+      "texture_guidance": {
+        "full_product_alpha_bbox_px": [
+          151,
+          136,
+          934,
+          1312
+        ],
+        "inner_relief_crop_box_px": [
+          174,
+          158,
+          912,
+          1294
+        ],
+        "advice_zh": "几乎正面，适合整幅原图投影到带木框的浅板。内浮雕可用给定裁框，保留全部波纹转向和分块缝，不平铺、不拆成重复纹理。若用bump只给很浅起伏，不把影像亮暗直接做夸张凹凸。原参考右下被椅背遮挡，库图此前整理记录须保留。"
+      },
+      "dimension_status": "Image pixel size above is not product size. No verified manufacturer dimensions in the local record. Position and quantity remain layout proposals."
+    },
+    {
+      "id": "P01_mirror",
+      "name_cn": "奶白厚边胶囊形壁镜",
+      "category": "装饰品",
+      "customer_priority": true,
+      "role": "选定新增墙饰 / 奶白胶囊镜",
+      "status": "selected",
+      "quantity": 1,
+      "placement": "入口侧胡桃木实体墙的一件独立胶囊镜；与既定Kline错开墙段及视线，不替换Kline，不与六件石壁灯叠加。原款为平面镜，弧墙需独立切平支撑与厂家挂件，不能弯曲镜片。",
+      "rationale": "单一奶白厚框为黑白画、胡桃木与云绿间增加留白和深度，不复制相邻区域的镜花图案。",
+      "material": "库内外观为奶白光滑厚框、镜面；镜框实际基材、镜片规格、重量与挂件未核实。",
+      "asset": "assets/P01_mirror.webp",
+      "asset_pixel_dimensions": [
+        941,
+        1672
+      ],
+      "asset_mode": "RGBA",
+      "alpha_range": [
+        0,
+        255
+      ],
+      "asset_background": "Existing catalogue RGBA cutout; alpha trimmed only for contact-sheet placement. Source RGB unchanged.",
+      "asset_sha256": "d76d755bf24e8b847fcf32dc955c219c1e5fc897c5416afd2854b6178e7f5dd4",
+      "source_preview": "sources/deb66191ac77a883.jpg",
+      "source_preview_pixel_dimensions": [
+        320,
+        568
+      ],
+      "source_urls": [
+        "https://drive.google.com/file/d/1nZp4wCg_EJyT4JaGuT3KX2bo3Ud16hKM/view"
+      ],
+      "source_verification": "Existing library records and local original preview inspected; no online availability, maker, material or dimensions verification in this task.",
+      "existing_library_concept_reconstruction": false,
+      "existing_library_notes": "仅据视频可见轮廓；镜面反射已中性化。",
+      "existing_library_material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "decoded_original_png": "work/c-expanded-selection/original-png/P01_mirror.png",
+      "texture_guidance": {
+        "full_product_alpha_bbox_px": [
+          173,
+          54,
+          807,
+          1588
+        ],
+        "advice_zh": "原图是偏侧三分之四角，框有可见厚度；整物像素适合保真拼搭，不能把整张图当一块平面玻璃贴图。做物理模型时镜面使用真实场景反射，奶白厚框单独保留轮廓/色感。原库镜面已中性化，不要把中性渐变误认为真实室内倒影。"
+      },
+      "dimension_status": "Image pixel size above is not product size. No verified manufacturer dimensions in the local record. Position and quantity remain layout proposals."
+    }
+  ],
+  "contact_sheets": [
+    "work/c-expanded-selection/contact-selected.jpg"
+  ],
+  "provenance_note": "Existing prepared furniture-library images may include prior clean-up or reconstruction. Original notes are preserved per item. No new AI imagery, product recolouring, website edits or VR edits were performed."
+}

@@ -1,0 +1,34 @@
+{
+  "spec": {
+    "outerRadius": 2.66,
+    "innerRadius": 1.61,
+    "startDegrees": 15.0,
+    "endDegrees": 165.0,
+    "seatCount": 4,
+    "seatHeight": 0.43,
+    "overallHeight": 0.88,
+    "armAngleDegrees": 10.74
+  },
+  "boundsMetres": [
+    [
+      -2.518850088119507,
+      0.4547228217124939,
+      0.004999999888241291
+    ],
+    [
+      2.518850088119507,
+      2.6600000858306885,
+      0.8799999952316284
+    ]
+  ],
+  "radialEnvelopeMetres": [
+    1.60999999918161,
+    2.6600000858949833
+  ],
+  "sourceReference": "space-assets/priority-references/P01_sofa.webp",
+  "representation": "Custom design based on photographed P01; manufacturer detailing needed. Not source manufacturer CAD.",
+  "armDetail": "400mm tangential thick outer arm; approx10.74deg at radius2135mm. Soft overlap with terminal seat cushions requires upholstery detailing; angle allocation is not clear usable seating width.",
+  "seatDetail": "Crowned seating top430mm; approximate cushion bottom111mm; same-textile inset upholstered foundation50..190mm; recessed espresso base5..65mm. Back pillows535mm high /265mm thick, overall top880mm.",
+  "textileProjection": "Full-width blended triplanar projection of unmodified original cloud textile bitmap. No stretched or generated pixels.",
+  "noAIPixels": true
+}
