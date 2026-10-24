@@ -462,6 +462,80 @@
       },
       "previewExposure": 0.8,
       "thumbnail": "assets/C24_cantilever_umbrella_khaki.webp"
+    },
+    {
+      "id": "LT24_glass_cluster14",
+      "order": 28,
+      "group": "decor",
+      "reference": "sources/080b834546fc1993.jpg",
+      "thumbnail": "assets/LT24_glass_cluster14.webp",
+      "url": "space-assets/models/LT24_glass_cluster14.glb",
+      "description": "单组14头，7个茶色与7个烟灰色钟形下罩，14根无色透明细长玻璃柱、黑铬短连接环、银灰长方吸顶盘及高低错层细吊线。14头及7茶7灰为用户确认的定制要求；全部尺寸、内部结构及隐藏安装细节按照片估算，非厂家扫描或实测模型。",
+      "whiteDownload": "downloads/LT24_glass_cluster14_white.png",
+      "dimensionsCm": [
+        125.00000017881393,
+        46.000000178813934,
+        175.0
+      ],
+      "dimensionNote": "14头：7茶色＋7烟灰；全部尺寸按照片估算",
+      "triangles": 75064,
+      "bytes": 2381636,
+      "headCount": 14,
+      "colorCounts": {
+        "tea": 7,
+        "smoke-gray": 7
+      },
+      "previewOrbit": {
+        "theta": 0.22,
+        "phi": 1.41
+      },
+      "previewExposure": 0.95,
+      "previewBackground": "#8c8578",
+      "previewFloor": false,
+      "mountType": "ceiling",
+      "mountAnchorM": [
+        0,
+        1.75,
+        0
+      ],
+      "recommendedBottomHeightM": 1.25
+    },
+    {
+      "id": "LT24_floral14_goldframe",
+      "order": 29,
+      "group": "decor",
+      "reference": "sources/c2847fd302bf2a3d.jpg",
+      "thumbnail": "assets/LT24_floral14_goldframe.webp",
+      "url": "space-assets/models/LT24_floral14_goldframe.glb",
+      "description": "单组14头定制吊灯：7个茶色与7个烟灰色花瓣波口玻璃杯，保留竖向纹理与下部U形纹理；五金改为用户新图指定的浅金细杆放射枝架、中央汇接体与直吊杆。14头及7茶7烟灰、浅金细杆新枝架为用户指定组合；两层上6下8为推定排布，尺寸与隐藏安装细节按照片估算，非厂家扫描或实测模型。LT23_21/LT23_26仅作花杯相关系列参考，原款保留；本条为新枝架、指定头数及配色的独立定制组合。",
+      "whiteDownload": "downloads/LT24_floral14_goldframe_white.png",
+      "dimensionsCm": [
+        122.32000041007996,
+        122.32000041007996,
+        179.99999523162842
+      ],
+      "dimensionNote": "14头：7茶色＋7烟灰；全部尺寸按照片估算",
+      "triangles": 302096,
+      "bytes": 825232,
+      "headCount": 14,
+      "colorCounts": {
+        "tea": 7,
+        "smoke-gray": 7
+      },
+      "previewOrbit": {
+        "theta": 0.55,
+        "phi": 1.25
+      },
+      "previewExposure": 0.95,
+      "previewBackground": "#8c8578",
+      "previewFloor": false,
+      "mountType": "ceiling",
+      "mountAnchorM": [
+        0,
+        1.8,
+        0
+      ],
+      "recommendedBottomHeightM": 1.3
     }
   ]
 }
