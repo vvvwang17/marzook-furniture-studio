@@ -1,0 +1,125 @@
+{
+  "title": "客户所选01与06挂画：真实图像及安装试摆",
+  "date": "2026-10-24",
+  "status": "For image previews only. Existing A/B VR untouched.",
+  "items": [
+    {
+      "number": 1,
+      "artist": "Franz Kline",
+      "title": "Siskind, 1958",
+      "productUrl": "https://customprints.dia.org/detail/502431/kline-siskind-1958",
+      "imageUrl": "https://customprints.dia.org/vitruvius/render/1200/502431.jpg",
+      "supplier": "Detroit Institute of Arts Custom Prints",
+      "localImage": "01-kline-siskind.jpg",
+      "orientation": "landscape",
+      "availableSizes": "图像16×11⅜、22×15⅝、30×21¼、40×28⅜英寸；最大约1016×721mm。纸边及装框外尺寸另核。",
+      "recommendedSizeMm": [
+        1016,
+        721
+      ],
+      "printType": "官方博物馆按单复制版画；230gsm无酸无木质素纸，12色档案墨。另可选canvas。非原作。",
+      "availability": "当前页面提供四尺寸及Add to Cart；按单制作，页眉承诺10个工作日内发出，不属于已核实仓库现货。",
+      "recommendation": "首选：宽阔黑色笔势，最有力度，可与绿色沙发和黑石地面呼应。",
+      "recommendedRank": 1,
+      "evidence": "2026-10-24 Chrome live DOM: four size choices; archival paper details and Add to Cart observed.",
+      "previewImagePixels": [
+        1200,
+        857
+      ],
+      "module": "round-hall-art.js",
+      "nominalPaperMetres": [
+        1.016,
+        0.721
+      ],
+      "visibleImageMetres": [
+        1.0095682613768961,
+        0.721
+      ],
+      "outerFrameMetres": [
+        1.102,
+        0.8069999999999999,
+        0.035
+      ],
+      "worldPosition": [
+        11.772208098463867,
+        1.68,
+        -15.729472541667047
+      ],
+      "rotationYDegrees": 62,
+      "flatFrame": true,
+      "sourceImagePreservedWhole": true,
+      "cropped": false,
+      "AIImageGeneration": false,
+      "frameDesignAllowance": "18mm matte black frame;25mm warm white mat;35mm depth; supplier to confirm framing outer size.",
+      "wallMounting": "CAD152degrees left of northwest window; flat chord set inside curved wall with about18mm back corner clearance and two concealed stand-off brackets."
+    },
+    {
+      "number": 6,
+      "artist": "Malene Birger",
+      "title": "Organized",
+      "productUrl": "https://theposterclub.com/products/malene-birger-organized",
+      "imageUrl": "https://cdn.shopify.com/s/files/1/1009/3975/9948/files/Malene_Birger_Organized_Product_Low_Res.jpg?v=1779326290",
+      "supplier": "The Poster Club，艺术家独家合作出版方",
+      "localImage": "06-malene-birger-organized.jpg",
+      "orientation": "portrait",
+      "availableSizes": "A4 (21x29,7 cm); 30x40 cm; 50x70 cm; 70x100 cm（网站按短边×长边标示，保持原作方向挂置）。",
+      "recommendedSizeMm": [
+        500,
+        700
+      ],
+      "printType": "艺术家合作授权复制版画，245g FSC档案艺术纸，giclée印刷，哑光；非原作。",
+      "availability": "2026-10-24官方产品数据available=true，所列尺寸可下单；实体仓库现货数量与即时交期未披露。",
+      "variants": [
+        {
+          "websiteSizeLabel": "A4 (21x29,7 cm)",
+          "availableToOrder": true
+        },
+        {
+          "websiteSizeLabel": "30x40 cm",
+          "availableToOrder": true
+        },
+        {
+          "websiteSizeLabel": "50x70 cm",
+          "availableToOrder": true
+        },
+        {
+          "websiteSizeLabel": "70x100 cm",
+          "availableToOrder": true
+        }
+      ],
+      "recommendation": "竖幅备选：黑白与自然纸色拼贴，呼应酒红屏风的分格节奏。",
+      "recommendedRank": 6,
+      "evidence": "官方商品页及同商品公开Shopify product JSON核对；非第三方转载产品。",
+      "previewImagePixels": [
+        992,
+        1389
+      ],
+      "module": "round-hall-art.js",
+      "nominalPaperMetres": [
+        0.7,
+        1.0
+      ],
+      "visibleImageMetres": [
+        0.7,
+        0.980141129032258
+      ],
+      "outerFrameMetres": [
+        0.7859999999999999,
+        1.086,
+        0.035
+      ],
+      "worldPosition": [
+        11.749953729896037,
+        1.68,
+        -15.741305399330232
+      ],
+      "rotationYDegrees": 62,
+      "flatFrame": true,
+      "sourceImagePreservedWhole": true,
+      "cropped": false,
+      "AIImageGeneration": false,
+      "frameDesignAllowance": "18mm matte black frame;25mm warm white mat;35mm depth; supplier to confirm framing outer size.",
+      "wallMounting": "CAD152degrees left of northwest window; flat chord set inside curved wall with about18mm back corner clearance and two concealed stand-off brackets."
+    }
+  ]
+}

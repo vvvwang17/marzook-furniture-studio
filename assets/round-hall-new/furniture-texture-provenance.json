@@ -1,0 +1,177 @@
+{
+  "method": "Manual modelling plus literal source-photo textures. No new AI imagery.",
+  "items": [
+    {
+      "itemId": "P01_chair",
+      "file": "P01-fine-weave.jpg",
+      "source": "assets/P01_chair.webp",
+      "cropBox": [
+        660,
+        155,
+        900,
+        230
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "P01_chair",
+      "file": "P01-arm-wood.jpg",
+      "source": "assets/P01_chair.webp",
+      "cropBox": [
+        905,
+        512,
+        1010,
+        538
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "O53_side",
+      "file": "O53-marble-top.jpg",
+      "source": "assets/O53_side.webp",
+      "cropBox": null,
+      "quad": [
+        135,
+        78,
+        135,
+        387,
+        1105,
+        387,
+        1105,
+        78
+      ],
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "O53_side",
+      "file": "O53-marble-edge.jpg",
+      "source": "assets/O53_side.webp",
+      "cropBox": [
+        390,
+        357,
+        760,
+        384
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "V23_side",
+      "file": "V23-burl-top.jpg",
+      "source": "assets/V23_side.webp",
+      "cropBox": [
+        470,
+        210,
+        770,
+        335
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "V23_side",
+      "file": "V23-burl-front.jpg",
+      "source": "assets/V23_side.webp",
+      "cropBox": [
+        680,
+        900,
+        880,
+        1020
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "O06_table",
+      "file": "O06-walnut-top.jpg",
+      "source": "assets/O06_table.webp",
+      "cropBox": [
+        300,
+        492,
+        600,
+        532
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "O06_table",
+      "file": "O06-walnut-front.jpg",
+      "source": "assets/O06_table.webp",
+      "cropBox": [
+        310,
+        635,
+        535,
+        715
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "O06_table",
+      "file": "O06-bronze.jpg",
+      "source": "assets/O06_table.webp",
+      "cropBox": [
+        390,
+        326,
+        600,
+        415
+      ],
+      "quad": null,
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "N43_table",
+      "file": "N43-top.jpg",
+      "source": "assets/N43_table.webp",
+      "cropBox": null,
+      "quad": [
+        66,
+        314,
+        274,
+        750,
+        1483,
+        584,
+        1033,
+        225
+      ],
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "N43_table",
+      "file": "N43-front.jpg",
+      "source": "assets/N43_table.webp",
+      "cropBox": null,
+      "quad": [
+        274,
+        750,
+        293,
+        879,
+        1475,
+        707,
+        1483,
+        584
+      ],
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    },
+    {
+      "itemId": "N43_table",
+      "file": "N43-left.jpg",
+      "source": "assets/N43_table.webp",
+      "cropBox": null,
+      "quad": [
+        66,
+        314,
+        78,
+        424,
+        293,
+        879,
+        274,
+        750
+      ],
+      "method": "Perspective crop or literal crop of existing product-image pixels; no image generation."
+    }
+  ]
+}
