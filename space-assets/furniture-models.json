@@ -690,6 +690,274 @@
         "sha256": "db1474a56661efafb80b05f4ac356511d2bb6c554b51da4d878a54e9e8768b1a",
         "triangles": 15016
       }
+    },
+    "CUSTOM24_table_champagne_200x90": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "user-confirmed-plan-height-estimated",
+      "url": "space-assets/models/CUSTOM24_table_champagne_200x90.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "dimensionsCm": [
+        200,
+        90,
+        75
+      ],
+      "revision": "custom-20261024-666a9cc8d0",
+      "label": "长宽已定 · 桌高待核",
+      "note": "2米×0.9米长方薄台面，深色直方腿与台下围框；桌面按用户色样改为浅香槟金。桌高75厘米暂估。 ",
+      "provenance": {
+        "kind": "photo-reconstruction-with-user-dimensions",
+        "referenceIds": [
+          "CUSTOM24_table_champagne_200x90"
+        ],
+        "note": "2米×0.9米长方薄台面，深色直方腿与台下围框；桌面按用户色样改为浅香槟金。桌高75厘米暂估。 ",
+        "referenceImage": "sources/794d899243d209ed.jpg",
+        "referenceImages": [
+          "sources/794d899243d209ed.jpg",
+          "sources/3ca5823993e0526e.png"
+        ],
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "user-confirmed-plan-height-estimated",
+        "sha256": "666a9cc8d0a4767b7dbc23f5e4fe1a11ee91e7e41b878f87c7b30ea3485ea7e9",
+        "triangles": 8320
+      },
+      "confirmedDimensionsCm": {
+        "length": 200,
+        "depth": 90
+      },
+      "estimatedDimensionsCm": {
+        "height": 75
+      }
+    },
+    "LT24_rect_dark": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/LT24_rect_dark.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "dimensionsCm": [
+        120,
+        12,
+        125
+      ],
+      "revision": "custom-20261024-e967af0372",
+      "label": "照片重建 · 尺寸待核",
+      "note": "深色长方形线性吊灯：长吸顶盒、两条扁杆、烟茶嵌片与内部暖白灯带；尺寸按现场照片估算。 Photo-derived approximate geometry. No physical dimensions supplied. Hidden optics, wires and back are inferred; no manufacturer CAD or electrical specification.",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "LT24_rect_dark"
+        ],
+        "note": "深色长方形线性吊灯：长吸顶盒、两条扁杆、烟茶嵌片与内部暖白灯带；尺寸按现场照片估算。 Photo-derived approximate geometry. No physical dimensions supplied. Hidden optics, wires and back are inferred; no manufacturer CAD or electrical specification.",
+        "referenceImage": "sources/a8ccb040e4f7894d.jpg",
+        "referenceImages": [
+          "sources/a8ccb040e4f7894d.jpg"
+        ],
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "sha256": "e967af0372d041243106206a1c2f9bd4eac2109031d5a617613bfcf8efe8f5c1",
+        "triangles": 672,
+        "mountType": "ceiling",
+        "originDescription": "bottom of horizontal light body, centred in plan",
+        "mountAnchorM": [
+          0,
+          1.25,
+          0
+        ],
+        "bodyDimensionsM": [
+          1.2,
+          0.12,
+          0.12
+        ],
+        "totalDimensionsM": [
+          1.2,
+          0.12,
+          1.25
+        ],
+        "suspensionSpacingM": 1.012,
+        "widthDepthHeightConfirmed": [
+          false,
+          false,
+          false
+        ],
+        "recommendedBottomHeightM": 1.95
+      },
+      "mountType": "ceiling",
+      "originDescription": "bottom of horizontal light body, centred in plan",
+      "mountAnchorM": [
+        0,
+        1.25,
+        0
+      ],
+      "bodyDimensionsM": [
+        1.2,
+        0.12,
+        0.12
+      ],
+      "totalDimensionsM": [
+        1.2,
+        0.12,
+        1.25
+      ],
+      "suspensionSpacingM": 1.012,
+      "widthDepthHeightConfirmed": [
+        false,
+        false,
+        false
+      ],
+      "recommendedBottomHeightM": 1.95
+    },
+    "LT24_rect_gold": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/LT24_rect_gold.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "dimensionsCm": [
+        120,
+        12,
+        125
+      ],
+      "revision": "custom-20261024-9e638dd46c",
+      "label": "照片重建 · 尺寸待核",
+      "note": "香槟金边长方形线性吊灯：长吸顶盒、两条扁杆、烟茶嵌片与内部暖白灯带；尺寸按现场照片估算。 Photo-derived approximate geometry. No physical dimensions supplied. Hidden optics, wires and back are inferred; no manufacturer CAD or electrical specification.",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "LT24_rect_gold"
+        ],
+        "note": "香槟金边长方形线性吊灯：长吸顶盒、两条扁杆、烟茶嵌片与内部暖白灯带；尺寸按现场照片估算。 Photo-derived approximate geometry. No physical dimensions supplied. Hidden optics, wires and back are inferred; no manufacturer CAD or electrical specification.",
+        "referenceImage": "sources/a8ccb040e4f7894d.jpg",
+        "referenceImages": [
+          "sources/a8ccb040e4f7894d.jpg"
+        ],
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "sha256": "9e638dd46cfc0ea6fc4c110181ff36df18d7adbba03d911212864e01e4eb8c24",
+        "triangles": 672,
+        "mountType": "ceiling",
+        "originDescription": "bottom of horizontal light body, centred in plan",
+        "mountAnchorM": [
+          0,
+          1.25,
+          0
+        ],
+        "bodyDimensionsM": [
+          1.2,
+          0.12,
+          0.12
+        ],
+        "totalDimensionsM": [
+          1.2,
+          0.12,
+          1.25
+        ],
+        "suspensionSpacingM": 1.012,
+        "widthDepthHeightConfirmed": [
+          false,
+          false,
+          false
+        ],
+        "recommendedBottomHeightM": 1.95
+      },
+      "mountType": "ceiling",
+      "originDescription": "bottom of horizontal light body, centred in plan",
+      "mountAnchorM": [
+        0,
+        1.25,
+        0
+      ],
+      "bodyDimensionsM": [
+        1.2,
+        0.12,
+        0.12
+      ],
+      "totalDimensionsM": [
+        1.2,
+        0.12,
+        1.25
+      ],
+      "suspensionSpacingM": 1.012,
+      "widthDepthHeightConfirmed": [
+        false,
+        false,
+        false
+      ],
+      "recommendedBottomHeightM": 1.95
+    },
+    "C24_rope_chair": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/C24_rope_chair.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "dimensionsCm": [
+        65.15,
+        60.79,
+        86.86
+      ],
+      "revision": "custom-20261024-ac150d9847",
+      "label": "照片重建 · 尺寸待核",
+      "note": "米灰包围扶手椅，竖绳和中段横向绑绳、米色坐垫、橙色靠枕，下宽上窄的圆角方梯台开放编绳底座。尺寸均估算。 全部尺寸按两张照片比例估算；隐藏底部连接、编绳根数与背面细节含合理重建，非厂家实测或扫描模型。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "C24_rope_chair"
+        ],
+        "note": "米灰包围扶手椅，竖绳和中段横向绑绳、米色坐垫、橙色靠枕，下宽上窄的圆角方梯台开放编绳底座。尺寸均估算。 全部尺寸按两张照片比例估算；隐藏底部连接、编绳根数与背面细节含合理重建，非厂家实测或扫描模型。",
+        "referenceImage": "sources/5f983c1f9eb12e68.jpg",
+        "referenceImages": [
+          "sources/5f983c1f9eb12e68.jpg",
+          "sources/ec0ebc9969c6eef6.jpg"
+        ],
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "sha256": "ac150d9847d0b5681ea1c9eb1434e1c6c1c7edc412a68b0b795c6ac6a352fbdf",
+        "triangles": 76510,
+        "rootApprovedVisual": true
+      }
+    },
+    "C24_cantilever_umbrella_khaki": {
+      "status": "ready",
+      "matchStatus": "confirmed",
+      "dimensionStatus": "estimated",
+      "url": "space-assets/models/C24_cantilever_umbrella_khaki.glb",
+      "sourceUnits": "m",
+      "frontRotationY": 0,
+      "dimensionsCm": [
+        381.64,
+        301.27,
+        285.0
+      ],
+      "revision": "custom-20261024-70c4dcd71b",
+      "label": "照片重建 · 尺寸待核",
+      "note": "单顶方形卡其色侧悬遮阳伞，中央叠层通风帽、香槟色侧立柱/悬臂/伞骨及深灰配重底座；尺寸按照片比例估算。 所有尺寸按单张实拍比例估算；底座部分被裁切，配重块、隐藏铰接、伞骨截面与绳索内部结构含推定；非厂家实测或扫描模型。",
+      "provenance": {
+        "kind": "photo-reconstruction",
+        "referenceIds": [
+          "C24_cantilever_umbrella_khaki"
+        ],
+        "note": "单顶方形卡其色侧悬遮阳伞，中央叠层通风帽、香槟色侧立柱/悬臂/伞骨及深灰配重底座；尺寸按照片比例估算。 所有尺寸按单张实拍比例估算；底座部分被裁切，配重块、隐藏铰接、伞骨截面与绳索内部结构含推定；非厂家实测或扫描模型。",
+        "referenceImage": "sources/2696b79ee1127220.jpg",
+        "referenceImages": [
+          "sources/2696b79ee1127220.jpg",
+          "sources/ec0ebc9969c6eef6.jpg"
+        ],
+        "geometryMatch": "reference-features-reconstructed",
+        "actualReplicaMatch": "unverified",
+        "dimensionStatus": "estimated",
+        "sha256": "70c4dcd71b34822764429891ecdaf167a507f960ed405eec24ddfacf32b14031",
+        "triangles": 43412,
+        "rootApprovedVisual": true
+      }
     }
   }
 }

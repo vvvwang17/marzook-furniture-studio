@@ -337,6 +337,131 @@
         "phi": 1.13
       },
       "previewExposure": 0.95
+    },
+    {
+      "id": "CUSTOM24_table_champagne_200x90",
+      "order": 23,
+      "group": "tables",
+      "reference": "sources/794d899243d209ed.jpg",
+      "url": "space-assets/models/CUSTOM24_table_champagne_200x90.glb",
+      "description": "2米×0.9米长方薄台面，深色直方腿与台下围框；桌面按用户色样改为浅香槟金。桌高75厘米暂估。",
+      "whiteDownload": "downloads/CUSTOM24_table_champagne_200x90_white.png",
+      "dimensionsCm": [
+        200,
+        90,
+        75
+      ],
+      "triangles": 8320,
+      "bytes": 278668,
+      "previewOrbit": {
+        "theta": 0.5,
+        "phi": 1.13
+      },
+      "previewExposure": 1.0,
+      "thumbnail": "assets/CUSTOM24_table_champagne_200x90.webp",
+      "dimensionNote": "长 200 × 宽 90 cm 为用户指定；高 75 cm 暂估"
+    },
+    {
+      "id": "LT24_rect_dark",
+      "order": 24,
+      "group": "decor",
+      "reference": "sources/a8ccb040e4f7894d.jpg",
+      "url": "space-assets/models/LT24_rect_dark.glb",
+      "description": "深色长方形线性吊灯：长吸顶盒、两条扁杆、烟茶嵌片与内部暖白灯带；尺寸按现场照片估算。",
+      "whiteDownload": "downloads/LT24_rect_dark_white.png",
+      "dimensionsCm": [
+        120,
+        12,
+        125
+      ],
+      "triangles": 672,
+      "bytes": 65956,
+      "previewOrbit": {
+        "theta": 0.25,
+        "phi": 1.32
+      },
+      "previewExposure": 1.0,
+      "thumbnail": "assets/LT24_rect_dark.webp",
+      "mountType": "ceiling",
+      "mountAnchorM": [
+        0,
+        1.25,
+        0
+      ],
+      "recommendedBottomHeightM": 1.95
+    },
+    {
+      "id": "LT24_rect_gold",
+      "order": 25,
+      "group": "decor",
+      "reference": "sources/a8ccb040e4f7894d.jpg",
+      "url": "space-assets/models/LT24_rect_gold.glb",
+      "description": "香槟金边长方形线性吊灯：长吸顶盒、两条扁杆、烟茶嵌片与内部暖白灯带；尺寸按现场照片估算。",
+      "whiteDownload": "downloads/LT24_rect_gold_white.png",
+      "dimensionsCm": [
+        120,
+        12,
+        125
+      ],
+      "triangles": 672,
+      "bytes": 65968,
+      "previewOrbit": {
+        "theta": 0.25,
+        "phi": 1.32
+      },
+      "previewExposure": 1.0,
+      "thumbnail": "assets/LT24_rect_gold.webp",
+      "mountType": "ceiling",
+      "mountAnchorM": [
+        0,
+        1.25,
+        0
+      ],
+      "recommendedBottomHeightM": 1.95
+    },
+    {
+      "id": "C24_rope_chair",
+      "order": 26,
+      "group": "seating",
+      "reference": "sources/5f983c1f9eb12e68.jpg",
+      "url": "space-assets/models/C24_rope_chair.glb",
+      "description": "米灰包围扶手椅，竖绳和中段横向绑绳、米色坐垫、橙色靠枕，下宽上窄的圆角方梯台开放编绳底座。尺寸均估算。",
+      "whiteDownload": "downloads/C24_rope_chair_white.png",
+      "dimensionsCm": [
+        65.15,
+        60.79,
+        86.86
+      ],
+      "triangles": 76510,
+      "bytes": 2333456,
+      "previewOrbit": {
+        "theta": 0.25,
+        "phi": 1.32
+      },
+      "previewExposure": 0.8,
+      "thumbnail": "assets/C24_rope_chair.webp"
+    },
+    {
+      "id": "C24_cantilever_umbrella_khaki",
+      "order": 27,
+      "group": "decor",
+      "reference": "sources/2696b79ee1127220.jpg",
+      "url": "space-assets/models/C24_cantilever_umbrella_khaki.glb",
+      "description": "单顶方形卡其色侧悬遮阳伞，中央叠层通风帽、香槟色侧立柱/悬臂/伞骨及深灰配重底座；尺寸按照片比例估算。",
+      "whiteDownload": "downloads/C24_cantilever_umbrella_khaki_white.png",
+      "dimensionsCm": [
+        381.64,
+        301.27,
+        285.0
+      ],
+      "triangles": 43412,
+      "bytes": 2578692,
+      "previewOrbit": {
+        "theta": 0.25,
+        "phi": 1.32
+      },
+      "previewExposure": 0.8,
+      "thumbnail": "assets/C24_cantilever_umbrella_khaki.webp"
     }
   ]
 }
