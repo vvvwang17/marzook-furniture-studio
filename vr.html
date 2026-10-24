@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="description" content="MARZOOK 客户现场 VR 空间，依据现有图纸、SketchUp 与现场资料建立，支持区域漫游、头显与模型下载。">
+  <meta name="theme-color" content="#232a28"><title>客户空间 VR · WAVE INTERIORS</title>
+  <link rel="stylesheet" href="vr.css?v=20261024-1">
+  <script src="catalog.js?v=20261023-pages1" defer></script>
+  <script type="module" src="vr.js?v=20261024-1"></script>
+</head>
+<body>
+  <header class="masthead"><a href="index.html" class="brand">WAVE <span>INTERIORS</span></a><div class="project"><span>MARZOOK / GROUND FLOOR</span><h1>客户空间 VR</h1></div><nav aria-label="网站页面"><a href="index.html">家具试摆</a><a href="moodboard.html">Moodboard</a><a href="models.html">家具模型</a></nav><button id="help" class="icon-button" aria-label="漫游使用说明">?</button></header>
+  <main id="experience">
+    <section id="viewport" aria-label="客户空间三维漫游">
+      <div id="loading" role="status"><span class="loading-mark">W</span><h2>正在打开客户空间</h2><p id="loading-message">读取图纸对应的建筑模型…</p><progress id="loading-progress" max="1" value="0"></progress></div>
+      <div class="view-heading"><span class="eyebrow">EXPLORE THE SPACE</span><h2 id="room-title">入口 · 双 S 吊顶</h2><p id="room-subtitle">从同一个连续空间，走进每一个区域。</p></div>
+      <div class="top-actions"><button id="overview" aria-pressed="false">◫ 空间总览</button><button id="source">◉ 现场对照</button><button id="fullscreen" aria-label="全屏查看空间">⛶</button></div>
+      <details id="minimap" open><summary>空间定位 <span>−</span></summary><div id="plan-map" aria-label="客户平面区域导航"></div><p>点击编号切换区域 <span>▲ 当前位置</span></p></details>
+      <div id="reticle" class="reticle" aria-hidden="true"></div>
+      <div id="view-feedback" role="status" aria-live="polite">模型就绪后，拖动转头，点击地面移动。</div>
+      <div class="walk-controls" aria-label="漫游方向"><button data-move="w" aria-label="前进">↑</button><button data-move="a" aria-label="左移">←</button><button data-move="s" aria-label="后退">↓</button><button data-move="d" aria-label="右移">→</button></div>
+      <div class="bottom-tools"><div class="segmented" aria-label="空间光照预览"><button data-light="day" class="active" aria-pressed="true">日间</button><button data-light="warm" aria-pressed="false">暖光</button></div><button id="level">摆正视角</button><label class="fov-label">视角 <input id="fov" type="range" min="45" max="85" value="68" aria-label="视角广度"><output id="fov-value">68°</output></label><button id="snapshot">保存此视角 ↘</button><button id="enter-vr" class="primary" disabled>检测 VR 设备…</button></div>
+    </section>
+    <section class="explore-bar" aria-label="选择漫游区域"><div class="explore-label"><span class="eyebrow">01 — 06</span><h2>走进现场</h2><p>一个连续的建筑空间</p></div><div id="stops" class="stops"></div></section>
+    <section class="project-footer"><div><span id="model-summary">正在读取建筑信息</span><p>按客户图纸、当前 SU 与现场影像复原。局部柱梁、窗及吊顶标高含推定，尺寸待现场复核。</p></div><div class="footer-actions"><button id="show-furniture" aria-pressed="false">载入我的家具方案</button><button id="import-plan">导入家具方案</button><input id="plan-file" type="file" accept=".json,application/json" hidden><a href="space-assets/client-space.glb" download>下载空间模型 GLB ↘</a><button id="details">模型依据</button></div></section>
+  </main>
+  <dialog id="source-dialog"><button class="close" data-close aria-label="关闭现场对照">×</button><span class="eyebrow">SITE REFERENCE</span><h2 id="source-title">现场对照</h2><p id="source-caption"></p><div class="reference-tabs"><button data-reference="photo" class="active">现场原图</button><button data-reference="plan">现状平面</button><button data-reference="cad">原 CAD 平面</button></div><div class="source-image-wrap"><img id="source-image" alt="客户现场参考"></div><p class="fine-print">模型采用连续建筑网格；现场照片用于形态核对。原 CAD 未同步全部现场调整。</p></dialog>
+  <dialog id="help-dialog"><button class="close" data-close aria-label="关闭使用说明">×</button><span class="eyebrow">HOW TO EXPLORE</span><h2>在空间里，慢慢看。</h2><div class="help-grid"><div><h3>电脑与手机</h3><p>拖动空白处转头；点击地面移动。电脑用 W A S D 或方向键行走，手机长按方向按钮。滚轮或“视角”调整广角。</p></div><div><h3>切换区域</h3><p>选择下方区域或平面编号直接进入。“空间总览”显示建筑全貌，点击地面回到人视；“现场对照”查看原图与图纸。</p></div><div><h3>VR 头显</h3><p>在支持 WebXR 的头显浏览器中打开本页，点击“进入 VR”。控制器射线指向地面，按扳机传送；右摇杆左右拨动分段转身。退出使用头显系统菜单。</p></div><div><h3>家具与效果图</h3><p>可读取此浏览器中已保存的三维家具方案，或导入从“家具试摆”导出的 JSON。“保存此视角”导出当前图像；修改家具请返回家具试摆。</p></div></div><p class="fine-print">不支持头显的设备仍可完整使用网页漫游。此页面读取家具方案，不覆盖原方案。</p></dialog>
+  <dialog id="details-dialog"><button class="close" data-close aria-label="关闭模型依据">×</button><span class="eyebrow">DRAWINGS × SITE × MODEL</span><h2>模型依据与当前范围</h2><p>沿用网站当前客户 SU 建筑模型，结合现有 CAD、安装详图、现场照片及入口视频修正，使用同一套米制坐标。保留入口、主厅、抬高餐区、圆厅、柱位客厅、户外客厅及连通关系。</p><ul><li>保留 C1 / C2 / C3 三柱、黑色地面与踢脚、三幅花镜、主厅花饰墙及固定层架。</li><li>保留入口双 S 凹槽、局部低顶、柱头梁、高窗与各处墙窗形态；俯视时隐藏顶面仅为查看平面。</li><li>餐区地面抬高 275 mm；柱截面、局部梁窗及吊顶标高仍有可调整的估算。</li><li>无法可靠定位到现有平面的独立电视／餐区没有强行并入。材质和照明用于设计预览。</li></ul><p id="build-statistics" class="fine-print"></p><div class="detail-links"><a href="project-files/site-model.skp" download>原 SU 模型 ↘</a><a href="project-files/site-model-notes.txt" target="_blank" rel="noopener">现场修正记录 ↗</a><a href="index.html">回家具搭配工作室 ↗</a></div></dialog>
+  <div id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
