@@ -1,0 +1,1435 @@
+{
+  "title": "MARZOOK C195 · 苔绿暖沙长弧与雕塑软装",
+  "date": "2026-10-25",
+  "status": "client-image-review; previous proposal and existing VR preserved",
+  "method": "Blender4.5 Cycles physical rendering, actual catalogue pixels and source-referenced manually built geometry; no new AI imagery.",
+  "libraryAssetHistory": "The catalogue is an already prepared image library. Some library assets contain earlier clean-up, neutralised reflections, reconstruction or AI-assisted completion, as recorded by the original concept_reconstruction and notes fields below. These images must not all be described as untouched original product photographs.",
+  "retainedProducts": [
+    {
+      "id": "P01_sofa",
+      "name_cn": "灰绿云纹圆臂双人沙发",
+      "category": "沙发",
+      "asset": "assets/P01_sofa.webp",
+      "source_preview": "sources/ef3cd5fb2c699db4.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1nZp4wCg_EJyT4JaGuT3KX2bo3Ud16hKM/view"
+      ],
+      "concept_reconstruction": true,
+      "notes": "视频两端略裁切；整体宽度为概念补全，后续需实测。",
+      "material_appearance": "按客户照片可见表面呈现；材质、品牌与尺寸未经实物确认。",
+      "priority": true,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        320,
+        568
+      ],
+      "previousImageCompositionTreatment": "Original product pixels used for a proposed custom/segmented curved arrangement. Not an existing mass-produced curved sofa SKU or manufacturer construction drawing.",
+      "currentRenderRepresentation": "Original P01 photographic cloud pattern, colour calibrated against latest client reference and output feedback. Fresh manually authored true195deg custom arc with5 broad seats, thick rounded arms and puffy independent back cushions. No manufacturer curved SKU claimed."
+    },
+    {
+      "id": "O11_chair",
+      "name_cn": "焦糖悬浮皮面木架单椅",
+      "category": "单椅",
+      "asset": "assets/O11_chair.webp",
+      "source_preview": "sources/de00ac5975b8d038.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/12UmXD1ccVxFtLkCvDzGXelSMQs2Kvr1k/view",
+        "https://drive.google.com/file/d/1u6AMcA5ezlY596nC7mHymbW9wpv1Feom/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "同款多角度合并O11/O19。",
+      "material_appearance": "皮面与木纹观感；未核实真实材质、品牌或型号。",
+      "priority": false,
+      "libraryImagePixels": [
+        1536,
+        1024
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1707,
+        1280
+      ],
+      "previousImageCompositionTreatment": "Use the catalogue caramel leather colour as supplied. No recolour to the previous dark-cognac model finish.",
+      "currentRenderRepresentation": "Three identical copies of the retained official product geometry and same caramel-finish rendering, each at full1000x880x925mm nominal envelope. No reduction of chairs to force the group to fit.",
+      "quantity": 3
+    },
+    {
+      "id": "O06_table",
+      "name_cn": "古铜波浪雕塑茶几",
+      "category": "茶几",
+      "asset": "assets/O06_table.webp",
+      "source_preview": "sources/de50ef7fdf550f22.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/15JrNJpN1HP8wN88hi77aSe_ifO3Vs8YG/view"
+      ],
+      "concept_reconstruction": false,
+      "notes": "客户截图产品，背面不可见。",
+      "material_appearance": "拉丝金属、木纹观感；未核实真实材质、品牌或型号。",
+      "priority": false,
+      "libraryImagePixels": [
+        1774,
+        887
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        738,
+        1600
+      ],
+      "previousImageCompositionTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing.",
+      "currentRenderRepresentation": "Photo-textured manual layout geometry based on the original bronze-wave/dark-wood product; single-view hidden faces and exact fold construction remain inferred, not manufacturer CAD."
+    },
+    {
+      "id": "LT23_07",
+      "name_cn": "原石背光六件壁灯组",
+      "category": "灯具",
+      "asset": "assets/LT23_07.webp",
+      "source_preview": "sources/2e8999c33b08bb75.jpg",
+      "source_urls": [],
+      "concept_reconstruction": true,
+      "notes": "六颗独立原石壁灯按原照片组合保留；文字遮盖处纹理经AI补全，局部造型与实际尺寸待核。",
+      "material_appearance": "粗糙原石面板、暖白背光",
+      "priority": true,
+      "libraryImagePixels": [
+        1445,
+        1088
+      ],
+      "libraryImageMode": "RGBA",
+      "libraryAlphaRange": [
+        0,
+        254
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        1700,
+        1280
+      ],
+      "previousImageCompositionTreatment": "Existing catalogue product pixels fitted into the arrangement; no product shape or material redrawing.",
+      "currentRenderRepresentation": "Six individually traced stone silhouettes and original catalogue face pixels on thin independent wall-light bodies, arranged on the true curved wall; source library clean-up history retained."
+    },
+    {
+      "id": "W23_03",
+      "name_cn": "酒红皮带三灯组合吊灯",
+      "category": "灯具",
+      "asset": "assets/W23_03_combination.webp",
+      "source_preview": "sources/ca5389712b4e140b.png",
+      "source_urls": [],
+      "concept_reconstruction": false,
+      "notes": "按用户确认作为同一组灯具；保留皮带连接与三灯错落关系。AI白底整理，原图可对照。",
+      "material_appearance": "按用户原始照片中可辨材质外观整理",
+      "priority": true,
+      "libraryImagePixels": [
+        1359,
+        1158
+      ],
+      "libraryImageMode": "RGB",
+      "libraryAlphaRange": [
+        255,
+        255
+      ],
+      "localSourcePreviewAvailable": true,
+      "localSourcePreviewPixels": [
+        771,
+        657
+      ],
+      "previousImageCompositionTreatment": "Deterministic edge-connected white-background alpha extraction, one-pixel alpha choke and slight edge feathering. The warm-white globe and lamp faces remain. Original source RGB values are unchanged.",
+      "currentRenderRepresentation": "Manual three-head shared strap geometry retaining the selected system identity; canopy placement and strap lengths designed around current ceiling services, manufacturer to confirm."
+    }
+  ],
+  "additionalProducts": {
+    "title": "C / Wearstler direction · selected real product additions",
+    "products": [
+      {
+        "id": "KW_Echo_NaturalDouglasFir",
+        "name_cn": "Kelly Wearstler Echo 自然木雕刻空腔边几",
+        "quantity": 1,
+        "asset": "assets/round-hall-c-wearstler/originals/kw-echo-natural.jpg",
+        "source_preview": "assets/round-hall-c-wearstler/originals/kw-echo-natural.jpg",
+        "source_urls": [
+          "https://www.kellywearstler.com/products/echo-side-table"
+        ],
+        "manufacturer": "Kelly Wearstler",
+        "manufacturer_verification_status": "Current manufacturer product page read directly; published 18in W x 18in D x 17in H, solid reclaimed Douglas Fir, Natural finish. Photograph is the official Natural product image, not recoloured to Ebonized or White Gesso.",
+        "dimensions_mm": {
+          "width": 457.2,
+          "depth": 457.2,
+          "height": 431.8
+        },
+        "dimension_status": "published manufacturer overall size, converted exactly from inches",
+        "planning_dimensions_mm": {
+          "width": 457.2,
+          "depth": 457.2,
+          "height": 431.8
+        },
+        "material": "原厂天然回收道格拉斯冷杉实木，手工雕刻、可见端纹。不是洞石，不做黑色染图。",
+        "selectionreason": "整块木的空腔和三重拱槽取代细黑腿石台；与焦糖皮椅、烟熏木墙、古铜主几建立深浅木色与实体/虚空间关系。",
+        "source_image_url": "https://www.kellywearstler.com/cdn/shop/files/Echo_SideTable_Natural_1.jpg?v=1786471827&width=1024",
+        "source_kind": "Official manufacturer product photography; original studio background retained.",
+        "model_treatment": "Physical hand-modelled monolith with a through arch and three recessed bands, using original wood/endgrain crops. Cut profile, reverse side and tool-mark amplitude are inferred; not original factory CNC/CAD.",
+        "asset_pixels": [
+          1000,
+          1000
+        ],
+        "asset_mode": "RGB",
+        "asset_sha256": "f3be34190d7daeaa23a0abc771590abdb5534bf6123149c34eeba3d1e1cc75d7",
+        "source_checked_on": "2026-10-25",
+        "no_new_ai_imagery": true
+      },
+      {
+        "id": "O16_side",
+        "name_cn": "古铜锥体叠层边几",
+        "quantity": 1,
+        "asset": "assets/O16_side.webp",
+        "source_preview": "sources/924cfcdecea83981.jpg",
+        "source_urls": [
+          "https://drive.google.com/file/d/12PStUOX8gWW0zlVwejyhMJRPtbbWlmWd/view"
+        ],
+        "manufacturer": "Unverified existing catalogue item",
+        "manufacturer_verification_status": "Existing catalogue cutout and original local source inspected. Real brand, alloy, finish process and maker dimensions remain unverified.",
+        "dimensions_mm": null,
+        "dimension_status": "unverified product dimensions; the following is only a digital planning envelope",
+        "planning_dimensions_mm": {
+          "diameter": 430,
+          "height": 520
+        },
+        "material": "拉丝金属观感；未核实真实材质、品牌或型号。",
+        "selectionreason": "一件古铜锥体叠层带出更强雕塑轮廓，衔接O06铜浪与相邻酒红屏风；不再重复白石圆盘黑柱。",
+        "source_kind": "Existing prepared catalogue image; original source record preserved.",
+        "existing_library_notes": "与O12酒红版形体类似但饰面不同保留独立。",
+        "concept_reconstruction": false,
+        "model_treatment": "Manual lower cone / dark waist / upper flared cone reconstruction with original bronze-image crop. Hidden faces and 430x520 planning size are inferred.",
+        "asset_pixels": [
+          1200,
+          1310
+        ],
+        "asset_mode": "RGBA",
+        "asset_sha256": "af3dc80f5437280e51b28f58f4966d3b39488f23421f3e9e62bdf84c291c0c77",
+        "source_checked_on": "2026-10-25",
+        "no_new_ai_imagery": true
+      },
+      {
+        "id": "O47_side1",
+        "name_cn": "炭黑多面柱边几",
+        "quantity": 1,
+        "asset": "assets/O47_side1.webp",
+        "source_preview": "sources/88779abd53b46b77.jpg",
+        "source_urls": [
+          "https://drive.google.com/file/d/1ru9jKJBMXmg4OlGoBt766j322DyOPr7R/view"
+        ],
+        "manufacturer": "Unverified existing catalogue item",
+        "manufacturer_verification_status": "Existing catalogue photograph and original source inspected; maker dimensions and exact substrate remain unverified.",
+        "dimensions_mm": null,
+        "dimension_status": "digital planning envelope, not factory specification",
+        "planning_dimensions_mm": {
+          "maximumDiagonal": 500,
+          "acrossFlats": 433.013,
+          "height": 450
+        },
+        "material": "哑黑多面块体观感；真实基材未核。",
+        "selectionreason": "保留一件纯黑实体，与Kline黑白笔势对应；与Echo空腔、O16铜面形成三种不同的体量。",
+        "existing_library_notes": "",
+        "concept_reconstruction": false,
+        "model_treatment": "Existing original-photo UV hexagonal builder reused, including black inferred reverse faces. Small bevel makes evaluated maximum diagonal slightly under500mm.",
+        "asset_pixels": [
+          1330,
+          1183
+        ],
+        "asset_mode": "RGBA",
+        "asset_sha256": "107440afe601a2c3058ed2d1fad8200338be6fbf4ae3323642167d65d9f7b8ef",
+        "source_checked_on": "2026-10-25",
+        "no_new_ai_imagery": true
+      },
+      {
+        "id": "CPH_FaceMini_DarkGrey",
+        "name_cn": "101 Copenhagen Sculpt Art Face Mini 深灰壁挂雕塑",
+        "quantity": 1,
+        "asset": "assets/round-hall-c-wearstler/originals/101-face-mini.jpg",
+        "source_preview": "assets/round-hall-c-wearstler/originals/101-face-mini.jpg",
+        "source_urls": [
+          "https://www.danishdesignstore.com/collections/brand-101-copenhagen/products/hansen-hyldahl-sculpt-art-wall-decor-101-copenhagen",
+          "https://www.monobrand.online/user/documents/upload/101%20Copenhagen/203055%20-%20Sculpt%20Wall%20Art%2C%20Face%20-%20Dark%20Grey%20-%20Style%20Sheet.pdf"
+        ],
+        "manufacturer": "101 Copenhagen",
+        "product_no": "203055",
+        "designer": "Kristian Sofus Hansen & Tommy Hyldahl",
+        "manufacturer_verification_status": "Manufacturer-authored203055 style sheet downloaded and image extracted; dimensions375W x520H x100Dmm and3.5kg confirmed. The sheet explicitly gives screws/brackets for wall hanging. A live dealer page for SKU101-203055 was verified. Current stock/delivery not independently confirmed.",
+        "dimensions_mm": {
+          "width": 375,
+          "height": 520,
+          "depth": 100
+        },
+        "dimension_status": "published manufacturer style-sheet dimensions",
+        "planning_dimensions_mm": {
+          "width": 375,
+          "height": 520,
+          "depth": 100
+        },
+        "material": "硬质回收纸、砂与粉笔粉的复合浇注材，深灰手涂表面；非洞石、非软毛织物。",
+        "selectionreason": "单块深灰有明显弧面起伏和投影，给左侧木墙一个黑色雕塑节点；不另做六圆盘或石片组，也不使用镜子。",
+        "mounting": "Original product is designed for wall hanging. Keep its back flat; curved-wall stand-off and original mounting hardware must be resolved on site.",
+        "source_kind": "Original product photograph extracted unchanged from manufacturer-authored203055 specification PDF, not AI or a rendered replacement.",
+        "obsolete_manufacturer_url": "https://101cph.com/products/sculpt-art-face-mini-dark-grey",
+        "obsolete_url_status": "Search archive remains readable; direct current fetch404. Not used as user product link.",
+        "model_treatment": "Three physical broad coved bands with100mm maximum relief, cast edge thickness and rear body. Exact hidden section and small surface variation inferred from the photograph and45/100mm section drawing.",
+        "asset_pixels": [
+          1303,
+          1238
+        ],
+        "asset_mode": "CMYK",
+        "asset_sha256": "36d12656558c59012d335723de049c07a8b032a761488a03f6b057850ad3eb73",
+        "source_checked_on": "2026-10-25",
+        "no_new_ai_imagery": true
+      },
+      {
+        "id": "KD_SerifReliefL_OffWhite",
+        "name_cn": "Kristina Dam Serif Relief L 米白几何叠层壁饰",
+        "quantity": 1,
+        "asset": "assets/round-hall-c-wearstler/originals/serif-relief-l.jpg",
+        "source_preview": "assets/round-hall-c-wearstler/originals/serif-relief-l.jpg",
+        "source_urls": [
+          "https://kristinadamstudio.com/products/132000221"
+        ],
+        "manufacturer": "Kristina Dam Studio",
+        "product_no": "132000221",
+        "manufacturer_verification_status": "Current manufacturer product page read directly. Published450W x1130H x60Dmm,2.78kg, Off White, recycled Katran cotton pulp. Vertical mounting is explicitly specified.",
+        "dimensions_mm": {
+          "width": 450,
+          "height": 1130,
+          "depth": 60
+        },
+        "dimension_status": "published manufacturer specifications",
+        "planning_dimensions_mm": {
+          "width": 450,
+          "height": 1130,
+          "depth": 60
+        },
+        "material": "硬质回收Katran棉浆浇注，米白色；不是毛茸、羊羔绒或洞石。",
+        "selectionreason": "以大块叠层和两个转折弧槽替代旧O13密集细波纹；单件竖向几何体在右实体墙形成真实厚度和明暗层次。",
+        "source_image_url": "https://kristinadamstudio.com/cdn/shop/files/132000221.jpg?v=1756995652&width=1024",
+        "source_kind": "Unchanged official white-background manufacturer photograph.",
+        "mounting": "Designed for vertical wall hanging. Do not bend it to match the curved wall; use appropriate local stand-off and original mounting points.",
+        "model_treatment": "Four actual solid overlapping slab/curved-contour volumes, with original paper-pulp photo crop. Hidden fasteners and fine casting variation inferred, not a flat picture board.",
+        "asset_pixels": [
+          1024,
+          1024
+        ],
+        "asset_mode": "RGB",
+        "asset_sha256": "7151b154625a8d8459b4a5257072f8f1424246cb54f06e5dea314ba542ed1006",
+        "source_checked_on": "2026-10-25",
+        "no_new_ai_imagery": true
+      }
+    ],
+    "removed": [
+      "O60_side1 x2",
+      "O13_art",
+      "P01_mirror",
+      "all other mirrors",
+      "white backing board beneath six original LT23_07 wall lights"
+    ],
+    "retained": [
+      "P01 cloud green custom large arc",
+      "O11 caramel chairs x3",
+      "O06 bronze-wave main table",
+      "W23_03 burgundy three-head pendant",
+      "Kline01",
+      "six original LT23_07 wall-light pieces"
+    ],
+    "noVR": true,
+    "status": "Static design proposal; no purchasing or installation performed.",
+    "geometry_module": "work/c-wearstler-additions.py",
+    "geometry_audit": "work/c-wearstler-selection/component-audit.json",
+    "texture_processing": "work/c-wearstler-selection/textures/processing.json",
+    "source_distinction": "Published manufacturer overall dimensions are retained for Echo and both wall accessories. O16/O47 trial envelopes are not maker specifications. Product photographs and manual rendering studies must not be conflated with factory CAD or site photography."
+  },
+  "artwork": {
+    "number": 1,
+    "artist": "Franz Kline",
+    "title": "Siskind, 1958",
+    "productUrl": "https://customprints.dia.org/detail/502431/kline-siskind-1958",
+    "imageUrl": "https://customprints.dia.org/vitruvius/render/1200/502431.jpg",
+    "supplier": "Detroit Institute of Arts Custom Prints",
+    "localImage": "01-kline-siskind.jpg",
+    "orientation": "landscape",
+    "availableSizes": "图像16×11⅜、22×15⅝、30×21¼、40×28⅜英寸；最大约1016×721mm。纸边及装框外尺寸另核。",
+    "recommendedSizeMm": [
+      1016,
+      721
+    ],
+    "printType": "官方博物馆按单复制版画；230gsm无酸无木质素纸，12色档案墨。另可选canvas。非原作。",
+    "availability": "当前页面提供四尺寸及Add to Cart；按单制作，页眉承诺10个工作日内发出，不属于已核实仓库现货。",
+    "recommendation": "首选：宽阔黑色笔势，最有力度，可与绿色沙发和黑石地面呼应。",
+    "recommendedRank": 1,
+    "evidence": "2026-10-24 Chrome live DOM: four size choices; archival paper details and Add to Cart observed.",
+    "previewImagePixels": [
+      1200,
+      857
+    ],
+    "selectedSizeMm": [
+      1016,
+      721
+    ]
+  },
+  "sofa": {
+    "outerRadiusMm": 2660,
+    "innerRadiusMm": 1610,
+    "startCadDegrees": -30,
+    "endCadDegrees": 165,
+    "sweepDegrees": 195,
+    "seatCount": 5,
+    "radialDepthMm": 1050,
+    "heightMm": 880,
+    "seatHeightMm": 430,
+    "nominalEnvelopeMm": [
+      5229,
+      3990
+    ],
+    "actualRoundedMeshEnvelopeApproxMm": [
+      5176,
+      3919
+    ],
+    "coverageOfClosedWallApproxPercent": 83.7,
+    "customStatus": "Design development for maker; not existing manufactured curved product.",
+    "reference": "sofa-reference.png",
+    "colourCalibration": "colour-calibration.json",
+    "model": {
+      "spec": {
+        "outerRadius": 2.66,
+        "innerRadius": 1.61,
+        "startDegrees": -30.0,
+        "endDegrees": 165.0,
+        "seatCount": 5,
+        "seatHeight": 0.43,
+        "overallHeight": 0.88,
+        "armAngleDegrees": 10.74
+      },
+      "boundsMetres": [
+        [
+          -2.518850088119507,
+          -1.2828137874603271,
+          0.004999999888241291
+        ],
+        [
+          2.6566476821899414,
+          2.6357038021087646,
+          0.8799999952316284
+        ]
+      ],
+      "radialEnvelopeMetres": [
+        1.6099999524951296,
+        2.660000070081557
+      ],
+      "sourceReference": "work\\c-wearstler-materials\\P01-user-colour-reference.png",
+      "representation": "Custom design based on photographed P01; manufacturer detailing needed. Not source manufacturer CAD.",
+      "armDetail": "400mm tangential thick outer arm; approx10.74deg at radius2135mm. Soft overlap with terminal seat cushions requires upholstery detailing; angle allocation is not clear usable seating width.",
+      "seatDetail": "Crowned seating top430mm; approximate cushion bottom111mm; same-textile inset upholstered foundation50..190mm; recessed espresso base5..65mm. Back pillows535mm high /265mm thick, overall top880mm.",
+      "textileProjection": "12percent blended triplanar, ordinary REPEAT.100px opposite-edge pixel joining; output-informed CIELAB colour curve on original cloud pattern. No generated or AI pixels.",
+      "colourCalibration": "work\\c-wearstler-materials\\colour-calibration.json",
+      "noAIPixels": true
+    }
+  },
+  "colour": "Original random cloud pattern pixels are deterministically colour-transferred in CIELAB against the latest photograph. Ordinary cosine pixel overlap makes periodic edges; REPEAT projection removes mirrored motifs. Non-emissive textile material receives room lighting. Screen appearance is not a physical dye specification.",
+  "removed": [
+    "P01_mirror",
+    "O13_art",
+    "O60_side1 pair",
+    "stone-light backing panel",
+    "stone-light rectangular bronze outline"
+  ],
+  "newWallTreatment": {
+    "wood": "Retained Shinnoki smoked walnut1mm laminate direction on curved substrate; digital finish field expanded toCAD128..177deg, nominal30mm allowance.",
+    "materials": {
+      "scheme": "C / 云绿与干邑 / MOSS & COGNAC",
+      "checked_on": "2026-10-24",
+      "scope": "Two real wall finishes researched on manufacturer websites. Design application is a proposal, not an as-built specification. No website or VR files changed.",
+      "design_direction_zh": "墙面以平滑暖灰米为主，只在挂画背板与局部窗洞收口加入整面、竖纹、低光泽烟熏胡桃木。与相邻酒红屏风、镜花墙及黑石地面衔接；不加木格栅、额外几何拼花、洞石或毛绒材料。",
+      "materials": [
+        {
+          "id": "WALL-01",
+          "manufacturer": "Decospan",
+          "collection": "Shinnoki",
+          "finish": "Smoked Walnut",
+          "specified_execution": "Shinnoki Laminates, thin real-wood veneer finish; not the rigid prefinished MDF panel execution.",
+          "product_url": "https://www.decospan.com/en-us/shinnoki/collection/smoked-walnut/s4-smoked-walnut",
+          "execution_url": "https://www.decospan.com/en-gb/shinnoki/product-overview/laminates",
+          "procurement_url": "https://www.decospan.com/en-us/wood-network",
+          "sample_order_url": "https://my.decospan.com/",
+          "technical_sheet_url": "https://ods.decospan.com/api/assets/decospan-digital/inriverasset/4486_5f2abcf9-1599-4a40-b15c-cf6a7c56ad7b?v=2162",
+          "verified_facts": [
+            "The laminate execution is a stained and lacquered wood veneer on phenolic-resin-impregnated paper; the manufacturer describes it for alternative substrates and rounded elements.",
+            "The technical sheet gives 3050 × 1220 × 1 mm: 0.6 mm veneer plus 0.4 mm backing.",
+            "The separate finished panel product uses an MDF core; this is not evidence that a rigid MDF panel can be directly bent."
+          ],
+          "curved_wall_limitations_zh": [
+            "作为表面饰材粘贴在按现场弧度制作的稳定弧面基层上；不是无需基层的自承重弯板。基层体系、胶黏剂、平衡背衬及接缝做法需由材料商和木作厂针对该执行版本确认。",
+            "官方技术表弯曲半径一栏写成 Maximum 150 mm，语义不清；本方案不据此声称最小弯曲半径。落地前按实际圆厅曲率与纹理方向做足尺样板，并向厂家取得明确的适用半径和胶合工艺。",
+            "官网当前下载页的部分 laminate processing/gluing 链接打开后标题为 Decolam，且叙述未饰面的木皮，不宜直接当成 Shinnoki 预饰面胶合规范使用。"
+          ],
+          "proposed_use_zh": "建议局部全高挂画背板，竖向连续木纹、宽幅平板与克制细缝；其余弧墙保持浅色。具体分幅与收口由现场测量决定。",
+          "colour_comment_zh": "官方小样为温暖棕色胡桃木，暗而不发乌；与原款焦糖椅、古铜茶几及酒红吊灯连接。此为搭配判断，屏幕图不能保证实物色。",
+          "image": {
+            "url": "https://assets-eu-01.kc-usercontent.com/38bd768a-2b63-01ad-c3fc-11a0b411a078/582a1751-91d1-4c6e-8524-51843891227c/13_SMOKED-WALNUT_icon.jpg",
+            "local_path": "work/c-final-materials/shinnoki-smoked-walnut-official.jpg",
+            "pixel_dimensions": [
+              400,
+              400
+            ],
+            "provenance": "Manufacturer-hosted finish thumbnail, downloaded unchanged.",
+            "use_limit": "Small colour/grain reference only; not a seamless scan or a guaranteed full-panel match. Do not label this as client-site photography."
+          }
+        },
+        {
+          "id": "WALL-02",
+          "manufacturer": "BAUWERK Colour",
+          "product": "Bone Limewash",
+          "product_url": "https://www.bauwerkcolour.com/en-us/product/bone-limewash-paint-colour",
+          "procurement_url": "https://www.bauwerkcolour.com/en-us/product/bone-limewash-paint-colour",
+          "surface_guide_url": "https://www.bauwerkcolour.com/en-us/lime-paint-surface-guides-dry-wall-plasterboard-panels",
+          "prep_coat_url": "https://www.bauwerkcolour.com/en-us/product/lime-wash-prep-coat",
+          "verified_facts": [
+            "Bone is described by the manufacturer as a warm neutral with no or very low texture, depending on the surface and lighting; it can appear greyer in some light.",
+            "The product page offers sample pots and paint ordering. An in-situ sample is necessary for final colour selection.",
+            "For new plasterboard the surface guide specifies two coats of suitable water-based undercoat-sealer/primer, one Bauwerk Prep Coat and two limewash coats; already correctly primed, unrepaired walls may not need the initial priming step."
+          ],
+          "substrate_limitations_zh": [
+            "弧面造型由墙体基层形成，涂料本身不承担弯板功能。新或修补的石膏板需要统一吸收率，防止接缝、补丁透显；Prep Coat 不是底漆的替代品。",
+            "平整度影响最终表面；本方案要求细找平、低起伏的薄涂效果，先按官方工艺在实际或同材质基层打样。不要将其表现成粗糙砂岩、洞石或厚重云斑。"
+          ],
+          "proposed_use_zh": "作为大面积连续浅色墙面，保留画作和石壁灯的留白，使云绿、焦糖、古铜与相邻黑石地面有统一的暖中性背景。",
+          "colour_comment_zh": "建议暖灰米而非冷水泥灰；数字效果图只作近似色感，以现场日光和暖光下的实物样板为准。",
+          "image": {
+            "url": "https://cdn.shopify.com/s/files/1/0637/2855/0106/files/Bone-01S-Bauwerk-Colour-Natural-Limewash-Paint.jpg?v=1757931189&width=600",
+            "local_path": "work/c-final-materials/bauwerk-bone-official.jpg",
+            "pixel_dimensions": [
+              600,
+              750
+            ],
+            "provenance": "Official product-page interior marketing image, downloaded unchanged. Its photography/CG/AI origin was not independently established.",
+            "use_limit": "Reference only. Do not use as client background, seamless material texture, physical sample or evidence of unaltered photography. Omit this image from final photomontage; request an actual sample pot."
+          }
+        }
+      ],
+      "visualisation_integrity": {
+        "wall_finish_application": "Suggested placement and material appearance are design inferences. No cladding has been installed or supplier-approved.",
+        "background": "Existing round-wide reconstructed empty scene includes inferred adjoining geometry; it must not be represented as original site photography.",
+        "furniture": "Use existing library product pixels without recolouring. P01 curved sofa remains custom/segmented design intent rather than a verified factory curved SKU.",
+        "no_new_ai_imagery": true
+      }
+    },
+    "art": "Kline01 retained. Sculpt Art Face Mini replaces left mirror, Serif Relief L replaces right framed wavy relief. No mirrors on the round-hall walls.",
+    "stoneLights": "Six separate LT23_07 wall lamps directly mounted to existing warm Bone curved wall. No backing panel, connecting plate or outline. Individual warm backlight sources."
+  },
+  "circulation": {
+    "main": {
+      "reservedWidthMm": 1200,
+      "centrelineVR": [
+        [
+          11.5,
+          -11.6
+        ],
+        [
+          11.625,
+          -12.6
+        ],
+        [
+          11.925,
+          -13.6
+        ]
+      ],
+      "method": "swept circle radius600mm every25mm and72 directions; current ground-floor union minus holes/body blockers and all conservative furniture outlines",
+      "minimumMarginBeyond1200BandToCurrentWalkableBoundaryMm": 75,
+      "outsideCurrentWalkableSamples": 0,
+      "insideCurrentArchitecturalBlockerSamples": 0,
+      "routeToFurnitureMargins": {
+        "sofa": {
+          "centrelineToFurnitureMm": 1359,
+          "marginBeyond1200BandMm": 759
+        },
+        "coffee": {
+          "centrelineToFurnitureMm": 1821,
+          "marginBeyond1200BandMm": 1221
+        },
+        "chair-west": {
+          "centrelineToFurnitureMm": 670,
+          "marginBeyond1200BandMm": 70
+        },
+        "chair-south": {
+          "centrelineToFurnitureMm": 1920,
+          "marginBeyond1200BandMm": 1320
+        },
+        "chair-east": {
+          "centrelineToFurnitureMm": 3327,
+          "marginBeyond1200BandMm": 2727
+        },
+        "small-west": {
+          "centrelineToFurnitureMm": 943,
+          "marginBeyond1200BandMm": 343
+        },
+        "small-east": {
+          "centrelineToFurnitureMm": 3207,
+          "marginBeyond1200BandMm": 2607
+        },
+        "small-south": {
+          "centrelineToFurnitureMm": 2715,
+          "marginBeyond1200BandMm": 2115
+        }
+      },
+      "status": "pass",
+      "note": "One continuous southwest main approach. The rear308mm maintenance allowance and local400-480mm seating gaps are not claimed as1200mm aisles. Final neighbouring furnished-plan and site verification remains required."
+    },
+    "rear": {
+      "columnId": "C2",
+      "columnMeshId": "native-086",
+      "columnCentreVR": [
+        14.1,
+        -10
+      ],
+      "columnCurrentSectionMm": [
+        350,
+        428
+      ],
+      "columnDimensionStatus": "current adjustable architectural model, not surveyed site section",
+      "columnActualFootprintVR": [
+        [
+          13.925,
+          -9.786
+        ],
+        [
+          14.275,
+          -9.786
+        ],
+        [
+          14.275,
+          -10.214
+        ],
+        [
+          13.925,
+          -10.214
+        ]
+      ],
+      "chairSouthRearEdgeZ": -11.434617271404303,
+      "columnNorthEdgeZ": -10.214,
+      "actualModelEdgeClearanceMm": 1230,
+      "actualModelEdgeClearanceMetres": 1.2296379737229697,
+      "closestPointsVR": [
+        [
+          14.423670855150046,
+          -11.434617271404303
+        ],
+        [
+          14.275,
+          -10.214
+        ]
+      ],
+      "clearanceAfterColumn65MmNavigationMarginMm": 1159,
+      "minimumVerticalGapMm": 1220.6172714043025,
+      "recommendedAuxiliaryPassageWidthMm": 1100,
+      "localAuxiliaryBandVR": [
+        [
+          13.2,
+          -11.406808635702154
+        ],
+        [
+          15.3,
+          -11.406808635702154
+        ],
+        [
+          15.3,
+          -10.306808635702152
+        ],
+        [
+          13.2,
+          -10.306808635702152
+        ]
+      ],
+      "auxiliaryBandOutsideCurrentWalkableSamples": 0,
+      "auxiliaryBandInsideArchitecturalBlockerSamples": 0,
+      "auxiliaryBandFurnitureClearanceMm": {
+        "sofa": 2082,
+        "coffee": 2948,
+        "chair-west": 1489,
+        "chair-south": 28,
+        "chair-east": 451,
+        "small-west": 2815,
+        "small-east": 2319,
+        "small-south": 1248
+      },
+      "note": "Southwest chair rear to actual current C2 outline is about1230mm.1100mm local auxiliary band is biased away from the software65mm column margin; both boundary and furniture tests pass. This is a tight model-based secondary passage, not a surveyed guarantee or a replacement for the1200mm west main approach."
+    }
+  },
+  "layout": "layout.json",
+  "rug": {
+    "name": "Goose Eye Icon 881 Queens",
+    "designer": "Gunilla Lagerhem Ullberg / Kasthall",
+    "productUrl": "https://www.kasthall.com/en-us/products/goose-eye-icon-881-queens-woven",
+    "imageUrl": "https://www.kasthall.com/cdn/shop/files/42909881_3.png?width=1920",
+    "localImage": "goose-eye-queens881-flat.webp",
+    "composition": "Flatwoven 100% wool weft and 100% linen warp, approximate total thickness 5mm; no shag, no boucle.",
+    "imageEditing": "Only transparent outside margins cropped; official product image pixels are unaltered. No AI generation.",
+    "dimensionsNote": "3660 x 2740mm shown is a proposed custom size, not an asserted stock SKU. Official page allows custom sizes; manufacturer tolerance +/-5%. Backing recommended for this area and width.",
+    "currentRoundTreatment": "Crop the existing official flat image to its real interior texture area only, removing transparency and woven end margins. No recolour or redrawing.",
+    "sourceCropPixels": [
+      16,
+      50,
+      1560,
+      2300
+    ],
+    "proposedFinishedSizeMm": [
+      4100,
+      3750
+    ],
+    "centreVRMetres": [
+      14.357672,
+      0.009,
+      -14.15
+    ],
+    "status": "Proposed custom quotation size; current weave width, sizing tolerance and order feasibility not confirmed. Side chairs and tables sit on rug; south chair front portion enters it. Final feet/rug interface and finished edges need supplier/maker coordination."
+  },
+  "pendant": {
+    "id": "W23_03",
+    "identity": "Original shared burgundy leather strap system, shallow dish / opal globe / hemisphere; five shared strap segments, three separate ceiling canopies.",
+    "ceilingCanopiesXZMetres": [
+      [
+        14.8,
+        -15.45
+      ],
+      [
+        14.8,
+        -14.7
+      ],
+      [
+        14.8,
+        -14.05
+      ]
+    ],
+    "lampBottomHeightsMm": [
+      2100,
+      2220,
+      2320
+    ],
+    "HVACPlanClearanceApproxMm": 252,
+    "ceilingHeightBasisMm": 2890,
+    "status": "Proposed ceiling arrangement; manufacturer strap lengths and field ceiling services/anchors must be checked."
+  },
+  "floorAndArchitecture": "Existing black polished floor, curved structure and open connection retained. The2890mm ceiling and window detail heights remain existing visual fits, not surveyed heights.",
+  "materialExclusions": [
+    "travertine",
+    "boucle",
+    "shag",
+    "fur"
+  ],
+  "renderReports": [
+    {
+      "title": "C195 moss-sand sculptural revision",
+      "view": "entry",
+      "camera": {
+        "position": [
+          12.2,
+          1.9,
+          -9.4
+        ],
+        "target": [
+          14.55,
+          0.92,
+          -14.9
+        ],
+        "fov": 52
+      },
+      "width": 2400,
+      "height": 1500,
+      "samples": 48,
+      "elapsedSeconds": 335.22,
+      "engine": "Blender4.5 Cycles CPU",
+      "noAIGeneration": true,
+      "removed": [
+        "O53_side",
+        "O60_side1 pair",
+        "O13_art",
+        "P01_mirror",
+        "stone-light backing panel and outline"
+      ],
+      "sofaAudit": {
+        "radialEnvelopeMetres": [
+          1.6099995604356967,
+          2.660000600566567
+        ],
+        "angleEnvelopeDegrees": [
+          -30.026174985127845,
+          165.02616415935253
+        ],
+        "heightMetres": [
+          0.004999999888241291,
+          0.8799999952316284
+        ],
+        "meshCount": 15,
+        "additions": [
+          {
+            "root": "O16_side / antique bronze hourglass",
+            "id": "O16_side",
+            "meshes": 3,
+            "minimum": [
+              12.542672157287598,
+              14.189756393432617,
+              0.0
+            ],
+            "maximum": [
+              12.972672462463379,
+              14.619756698608398,
+              0.5199999809265137
+            ],
+            "dimensions": [
+              0.43000030517578125,
+              0.43000030517578125,
+              0.5199999809265137
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "KW Echo / Natural Douglas Fir",
+            "id": "KW_Echo_NaturalDouglasFir",
+            "meshes": 1,
+            "minimum": [
+              15.129072189331055,
+              13.726157188415527,
+              0.0
+            ],
+            "maximum": [
+              15.586271286010742,
+              14.183356285095215,
+              0.4318000078201294
+            ],
+            "dimensions": [
+              0.4571990966796875,
+              0.4571990966796875,
+              0.4318000078201294
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "O47_side1 / charcoal faceted column",
+            "id": "O47_side1",
+            "meshes": 1,
+            "minimum": [
+              14.558249473571777,
+              12.688250541687012,
+              0.0
+            ],
+            "maximum": [
+              15.057093620300293,
+              13.121262550354004,
+              0.44999998807907104
+            ],
+            "dimensions": [
+              0.4988441467285156,
+              0.4330120086669922,
+              0.44999998807907104
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "Serif Relief L / Off White",
+            "id": "KD_SerifReliefL_OffWhite",
+            "meshes": 4,
+            "minimum": [
+              16.77396583557129,
+              12.683401107788086,
+              1.100000023841858
+            ],
+            "maximum": [
+              17.050926208496094,
+              13.070611953735352,
+              2.2300000190734863
+            ],
+            "dimensions": [
+              0.2769603729248047,
+              0.3872108459472656,
+              1.1299999952316284
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "101 Face Mini / Dark Grey",
+            "id": "CPH_FaceMini_DarkGrey",
+            "meshes": 3,
+            "minimum": [
+              11.40622329711914,
+              14.506027221679688,
+              1.399999976158142
+            ],
+            "maximum": [
+              11.549921035766602,
+              14.890230178833008,
+              1.9199999570846558
+            ],
+            "dimensions": [
+              0.14369773864746094,
+              0.3842029571533203,
+              0.5199999809265137
+            ],
+            "planningOnly": true
+          }
+        ]
+      },
+      "chairCount": 3,
+      "smallTables": [
+        "O16_side",
+        "KW_Echo_NaturalDouglasFir",
+        "O47_side1"
+      ],
+      "wallAdditions": [
+        "KD_SerifReliefL_OffWhite",
+        "CPH_FaceMini_DarkGrey"
+      ],
+      "stoneSconceCount": 6,
+      "stoneLights": "Six independent bodies directly on Bone curved wall, each with physical6mm rear contour LED; no backing board or painted halo.",
+      "stoneBacklightConstruction": [
+        {
+          "body": "Source object 0539",
+          "outlineVertices": 12,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0032941071403911337
+        },
+        {
+          "body": "Source object 0541",
+          "outlineVertices": 14,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0035436636389931664
+        },
+        {
+          "body": "Source object 0543",
+          "outlineVertices": 18,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.004775817273184657
+        },
+        {
+          "body": "Source object 0545",
+          "outlineVertices": 16,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.003803370025707409
+        },
+        {
+          "body": "Source object 0547",
+          "outlineVertices": 14,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0037399400753201917
+        },
+        {
+          "body": "Source object 0549",
+          "outlineVertices": 25,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.006583539841813035
+        }
+      ],
+      "wallMirrorCount": 0,
+      "rugProposedSizeMm": [
+        4100,
+        3750
+      ],
+      "woodFieldDegrees": [
+        128,
+        177
+      ],
+      "oldScenePreserved": true,
+      "VRUnchanged": true
+    },
+    {
+      "title": "C195 moss-sand sculptural revision",
+      "view": "sofa",
+      "camera": {
+        "position": [
+          14.3,
+          1.9,
+          -10.4
+        ],
+        "target": [
+          14.5,
+          1.05,
+          -15.1
+        ],
+        "fov": 56
+      },
+      "width": 2400,
+      "height": 1500,
+      "samples": 40,
+      "elapsedSeconds": 375.08,
+      "engine": "Blender4.5 Cycles CPU",
+      "noAIGeneration": true,
+      "removed": [
+        "O53_side",
+        "O60_side1 pair",
+        "O13_art",
+        "P01_mirror",
+        "stone-light backing panel and outline"
+      ],
+      "sofaAudit": {
+        "radialEnvelopeMetres": [
+          1.6099995604356967,
+          2.660000600566567
+        ],
+        "angleEnvelopeDegrees": [
+          -30.026174985127845,
+          165.02616415935253
+        ],
+        "heightMetres": [
+          0.004999999888241291,
+          0.8799999952316284
+        ],
+        "meshCount": 15,
+        "additions": [
+          {
+            "root": "O16_side / antique bronze hourglass",
+            "id": "O16_side",
+            "meshes": 3,
+            "minimum": [
+              12.542672157287598,
+              14.189756393432617,
+              0.0
+            ],
+            "maximum": [
+              12.972672462463379,
+              14.619756698608398,
+              0.5199999809265137
+            ],
+            "dimensions": [
+              0.43000030517578125,
+              0.43000030517578125,
+              0.5199999809265137
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "KW Echo / Natural Douglas Fir",
+            "id": "KW_Echo_NaturalDouglasFir",
+            "meshes": 1,
+            "minimum": [
+              15.129072189331055,
+              13.726157188415527,
+              0.0
+            ],
+            "maximum": [
+              15.586271286010742,
+              14.183356285095215,
+              0.4318000078201294
+            ],
+            "dimensions": [
+              0.4571990966796875,
+              0.4571990966796875,
+              0.4318000078201294
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "O47_side1 / charcoal faceted column",
+            "id": "O47_side1",
+            "meshes": 1,
+            "minimum": [
+              14.558249473571777,
+              12.688250541687012,
+              0.0
+            ],
+            "maximum": [
+              15.057093620300293,
+              13.121262550354004,
+              0.44999998807907104
+            ],
+            "dimensions": [
+              0.4988441467285156,
+              0.4330120086669922,
+              0.44999998807907104
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "Serif Relief L / Off White",
+            "id": "KD_SerifReliefL_OffWhite",
+            "meshes": 4,
+            "minimum": [
+              16.77396583557129,
+              12.683401107788086,
+              1.100000023841858
+            ],
+            "maximum": [
+              17.050926208496094,
+              13.070611953735352,
+              2.2300000190734863
+            ],
+            "dimensions": [
+              0.2769603729248047,
+              0.3872108459472656,
+              1.1299999952316284
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "101 Face Mini / Dark Grey",
+            "id": "CPH_FaceMini_DarkGrey",
+            "meshes": 3,
+            "minimum": [
+              11.40622329711914,
+              14.506027221679688,
+              1.399999976158142
+            ],
+            "maximum": [
+              11.549921035766602,
+              14.890230178833008,
+              1.9199999570846558
+            ],
+            "dimensions": [
+              0.14369773864746094,
+              0.3842029571533203,
+              0.5199999809265137
+            ],
+            "planningOnly": true
+          }
+        ]
+      },
+      "chairCount": 3,
+      "smallTables": [
+        "O16_side",
+        "KW_Echo_NaturalDouglasFir",
+        "O47_side1"
+      ],
+      "wallAdditions": [
+        "KD_SerifReliefL_OffWhite",
+        "CPH_FaceMini_DarkGrey"
+      ],
+      "stoneSconceCount": 6,
+      "stoneLights": "Six independent bodies directly on Bone curved wall, each with physical6mm rear contour LED; no backing board or painted halo.",
+      "stoneBacklightConstruction": [
+        {
+          "body": "Source object 0539",
+          "outlineVertices": 12,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0032941071403911337
+        },
+        {
+          "body": "Source object 0541",
+          "outlineVertices": 14,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0035436636389931664
+        },
+        {
+          "body": "Source object 0543",
+          "outlineVertices": 18,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.004775817273184657
+        },
+        {
+          "body": "Source object 0545",
+          "outlineVertices": 16,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.003803370025707409
+        },
+        {
+          "body": "Source object 0547",
+          "outlineVertices": 14,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0037399400753201917
+        },
+        {
+          "body": "Source object 0549",
+          "outlineVertices": 25,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.006583539841813035
+        }
+      ],
+      "wallMirrorCount": 0,
+      "rugProposedSizeMm": [
+        4100,
+        3750
+      ],
+      "woodFieldDegrees": [
+        128,
+        177
+      ],
+      "oldScenePreserved": true,
+      "VRUnchanged": true
+    },
+    {
+      "title": "C195 moss-sand sculptural revision",
+      "view": "decor",
+      "camera": {
+        "position": [
+          12.1,
+          1.7,
+          -13.9
+        ],
+        "target": [
+          16.1,
+          1.6,
+          -14.7
+        ],
+        "fov": 58
+      },
+      "width": 1800,
+      "height": 1125,
+      "samples": 32,
+      "elapsedSeconds": 176.38,
+      "engine": "Blender4.5 Cycles CPU",
+      "noAIGeneration": true,
+      "removed": [
+        "O53_side",
+        "O60_side1 pair",
+        "O13_art",
+        "P01_mirror",
+        "stone-light backing panel and outline"
+      ],
+      "sofaAudit": {
+        "radialEnvelopeMetres": [
+          1.6099995604356967,
+          2.660000600566567
+        ],
+        "angleEnvelopeDegrees": [
+          -30.026174985127845,
+          165.02616415935253
+        ],
+        "heightMetres": [
+          0.004999999888241291,
+          0.8799999952316284
+        ],
+        "meshCount": 15,
+        "additions": [
+          {
+            "root": "O16_side / antique bronze hourglass",
+            "id": "O16_side",
+            "meshes": 3,
+            "minimum": [
+              12.542672157287598,
+              14.189756393432617,
+              0.0
+            ],
+            "maximum": [
+              12.972672462463379,
+              14.619756698608398,
+              0.5199999809265137
+            ],
+            "dimensions": [
+              0.43000030517578125,
+              0.43000030517578125,
+              0.5199999809265137
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "KW Echo / Natural Douglas Fir",
+            "id": "KW_Echo_NaturalDouglasFir",
+            "meshes": 1,
+            "minimum": [
+              15.129072189331055,
+              13.726157188415527,
+              0.0
+            ],
+            "maximum": [
+              15.586271286010742,
+              14.183356285095215,
+              0.4318000078201294
+            ],
+            "dimensions": [
+              0.4571990966796875,
+              0.4571990966796875,
+              0.4318000078201294
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "O47_side1 / charcoal faceted column",
+            "id": "O47_side1",
+            "meshes": 1,
+            "minimum": [
+              14.558249473571777,
+              12.688250541687012,
+              0.0
+            ],
+            "maximum": [
+              15.057093620300293,
+              13.121262550354004,
+              0.44999998807907104
+            ],
+            "dimensions": [
+              0.4988441467285156,
+              0.4330120086669922,
+              0.44999998807907104
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "Serif Relief L / Off White",
+            "id": "KD_SerifReliefL_OffWhite",
+            "meshes": 4,
+            "minimum": [
+              16.77396583557129,
+              12.683401107788086,
+              1.100000023841858
+            ],
+            "maximum": [
+              17.050926208496094,
+              13.070611953735352,
+              2.2300000190734863
+            ],
+            "dimensions": [
+              0.2769603729248047,
+              0.3872108459472656,
+              1.1299999952316284
+            ],
+            "planningOnly": true
+          },
+          {
+            "root": "101 Face Mini / Dark Grey",
+            "id": "CPH_FaceMini_DarkGrey",
+            "meshes": 3,
+            "minimum": [
+              11.40622329711914,
+              14.506027221679688,
+              1.399999976158142
+            ],
+            "maximum": [
+              11.549921035766602,
+              14.890230178833008,
+              1.9199999570846558
+            ],
+            "dimensions": [
+              0.14369773864746094,
+              0.3842029571533203,
+              0.5199999809265137
+            ],
+            "planningOnly": true
+          }
+        ]
+      },
+      "chairCount": 3,
+      "smallTables": [
+        "O16_side",
+        "KW_Echo_NaturalDouglasFir",
+        "O47_side1"
+      ],
+      "wallAdditions": [
+        "KD_SerifReliefL_OffWhite",
+        "CPH_FaceMini_DarkGrey"
+      ],
+      "stoneSconceCount": 6,
+      "stoneLights": "Six independent bodies directly on Bone curved wall, each with physical6mm rear contour LED; no backing board or painted halo.",
+      "stoneBacklightConstruction": [
+        {
+          "body": "Source object 0539",
+          "outlineVertices": 12,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0032941071403911337
+        },
+        {
+          "body": "Source object 0541",
+          "outlineVertices": 14,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0035436636389931664
+        },
+        {
+          "body": "Source object 0543",
+          "outlineVertices": 18,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.004775817273184657
+        },
+        {
+          "body": "Source object 0545",
+          "outlineVertices": 16,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.003803370025707409
+        },
+        {
+          "body": "Source object 0547",
+          "outlineVertices": 14,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.0037399400753201917
+        },
+        {
+          "body": "Source object 0549",
+          "outlineVertices": 25,
+          "stripWidthMetres": 0.006,
+          "insetFromOutlineMetres": 0.007,
+          "standOffBehindBodyMetres": 0.01,
+          "emissionStrength": 100,
+          "emitterAreaSqMetres": 0.006583539841813035
+        }
+      ],
+      "wallMirrorCount": 0,
+      "rugProposedSizeMm": [
+        4100,
+        3750
+      ],
+      "woodFieldDegrees": [
+        128,
+        177
+      ],
+      "oldScenePreserved": true,
+      "VRUnchanged": true
+    }
+  ],
+  "wallMirrorCount": 0,
+  "VRUpdated": false
+}

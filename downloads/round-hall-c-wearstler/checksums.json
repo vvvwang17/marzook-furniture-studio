@@ -1,0 +1,18 @@
+{
+  "entry.png": "5e1d9eb7fc32cae32b3caf8fb683403b96c659a74521a805e4f97daa3ad5160c",
+  "sofa-room.png": "d1e75a25820d146e072c3e71336c46e614ab3b9d6e5b7acba6f3e81841b514e5",
+  "wall-detail.png": "d6334d99d7d5e6ba6619d37222ae9d6abe57bb8b7b5b7124286702b154e10cd9",
+  "sofa-study.png": "eebb4f1af24e3316e37771bef9e0e9b8be9bbe644ad6867241610eff5f7174db",
+  "sofa-study.model.json": "c2efd71d8a8f2a66d718c36d32bec8cb8d2e381d5ba2f74ff69e59476c51babd",
+  "sofa-reference.png": "3db2dc28f1c7823f97db393e6e01457d44f07f8c1dd1347b41aacf6739935b41",
+  "colour-comparison.png": "22430f0df80faaabc1487c4f5c81d1786c7eb195ab32455bc072597ec9591100",
+  "colour-calibration.json": "0baa27f573f7236b074164ac09dd1e8c115f4eeda2f7728e3cf11b1e5d05f751",
+  "two-views.jpg": "4121f864765be5fd81761522b2437e265062dc6b40b48eb1924a6171e0654d9d",
+  "selection-materials.png": "4118e766bf183ad8593ef42894ca1745b52bf072eee097e7de01a988c00e6b9b",
+  "layout.svg": "ca97bbacfa4c6efabfddc81e19ad9c0387429d1e02e4ed9862ecdc28aed2e522",
+  "layout.png": "bb68651dd85cc3a5a4036825236d980ecb59a0ff3a3f4e4720a3565c43b99e2f",
+  "layout.json": "9ee7e2ce8625f872a5c23139d75fc076bf97f7fd10cd5d9d2da2f1998e926e63",
+  "additional-products.json": "58f9071001abf0a63cec2db1390b55cbbd1045da82242ea545d0abf529ee18c3",
+  "sources.json": "9aef67a5d5d14b017d0603533821ce00337451ee61cc456d142fb4fc0a5488cf",
+  "README.txt": "6cd76004d67d673c1fed767ce96337038579895987daefb78ff96d5fbac8fc48"
+}

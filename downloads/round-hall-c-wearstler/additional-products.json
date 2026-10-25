@@ -1,0 +1,205 @@
+{
+  "title": "C / Wearstler direction · selected real product additions",
+  "products": [
+    {
+      "id": "KW_Echo_NaturalDouglasFir",
+      "name_cn": "Kelly Wearstler Echo 自然木雕刻空腔边几",
+      "quantity": 1,
+      "asset": "assets/round-hall-c-wearstler/originals/kw-echo-natural.jpg",
+      "source_preview": "assets/round-hall-c-wearstler/originals/kw-echo-natural.jpg",
+      "source_urls": [
+        "https://www.kellywearstler.com/products/echo-side-table"
+      ],
+      "manufacturer": "Kelly Wearstler",
+      "manufacturer_verification_status": "Current manufacturer product page read directly; published 18in W x 18in D x 17in H, solid reclaimed Douglas Fir, Natural finish. Photograph is the official Natural product image, not recoloured to Ebonized or White Gesso.",
+      "dimensions_mm": {
+        "width": 457.2,
+        "depth": 457.2,
+        "height": 431.8
+      },
+      "dimension_status": "published manufacturer overall size, converted exactly from inches",
+      "planning_dimensions_mm": {
+        "width": 457.2,
+        "depth": 457.2,
+        "height": 431.8
+      },
+      "material": "原厂天然回收道格拉斯冷杉实木，手工雕刻、可见端纹。不是洞石，不做黑色染图。",
+      "selectionreason": "整块木的空腔和三重拱槽取代细黑腿石台；与焦糖皮椅、烟熏木墙、古铜主几建立深浅木色与实体/虚空间关系。",
+      "source_image_url": "https://www.kellywearstler.com/cdn/shop/files/Echo_SideTable_Natural_1.jpg?v=1786471827&width=1024",
+      "source_kind": "Official manufacturer product photography; original studio background retained.",
+      "model_treatment": "Physical hand-modelled monolith with a through arch and three recessed bands, using original wood/endgrain crops. Cut profile, reverse side and tool-mark amplitude are inferred; not original factory CNC/CAD.",
+      "asset_pixels": [
+        1000,
+        1000
+      ],
+      "asset_mode": "RGB",
+      "asset_sha256": "f3be34190d7daeaa23a0abc771590abdb5534bf6123149c34eeba3d1e1cc75d7",
+      "source_checked_on": "2026-10-25",
+      "no_new_ai_imagery": true
+    },
+    {
+      "id": "O16_side",
+      "name_cn": "古铜锥体叠层边几",
+      "quantity": 1,
+      "asset": "assets/O16_side.webp",
+      "source_preview": "sources/924cfcdecea83981.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/12PStUOX8gWW0zlVwejyhMJRPtbbWlmWd/view"
+      ],
+      "manufacturer": "Unverified existing catalogue item",
+      "manufacturer_verification_status": "Existing catalogue cutout and original local source inspected. Real brand, alloy, finish process and maker dimensions remain unverified.",
+      "dimensions_mm": null,
+      "dimension_status": "unverified product dimensions; the following is only a digital planning envelope",
+      "planning_dimensions_mm": {
+        "diameter": 430,
+        "height": 520
+      },
+      "material": "拉丝金属观感；未核实真实材质、品牌或型号。",
+      "selectionreason": "一件古铜锥体叠层带出更强雕塑轮廓，衔接O06铜浪与相邻酒红屏风；不再重复白石圆盘黑柱。",
+      "source_kind": "Existing prepared catalogue image; original source record preserved.",
+      "existing_library_notes": "与O12酒红版形体类似但饰面不同保留独立。",
+      "concept_reconstruction": false,
+      "model_treatment": "Manual lower cone / dark waist / upper flared cone reconstruction with original bronze-image crop. Hidden faces and 430x520 planning size are inferred.",
+      "asset_pixels": [
+        1200,
+        1310
+      ],
+      "asset_mode": "RGBA",
+      "asset_sha256": "af3dc80f5437280e51b28f58f4966d3b39488f23421f3e9e62bdf84c291c0c77",
+      "source_checked_on": "2026-10-25",
+      "no_new_ai_imagery": true
+    },
+    {
+      "id": "O47_side1",
+      "name_cn": "炭黑多面柱边几",
+      "quantity": 1,
+      "asset": "assets/O47_side1.webp",
+      "source_preview": "sources/88779abd53b46b77.jpg",
+      "source_urls": [
+        "https://drive.google.com/file/d/1ru9jKJBMXmg4OlGoBt766j322DyOPr7R/view"
+      ],
+      "manufacturer": "Unverified existing catalogue item",
+      "manufacturer_verification_status": "Existing catalogue photograph and original source inspected; maker dimensions and exact substrate remain unverified.",
+      "dimensions_mm": null,
+      "dimension_status": "digital planning envelope, not factory specification",
+      "planning_dimensions_mm": {
+        "maximumDiagonal": 500,
+        "acrossFlats": 433.013,
+        "height": 450
+      },
+      "material": "哑黑多面块体观感；真实基材未核。",
+      "selectionreason": "保留一件纯黑实体，与Kline黑白笔势对应；与Echo空腔、O16铜面形成三种不同的体量。",
+      "existing_library_notes": "",
+      "concept_reconstruction": false,
+      "model_treatment": "Existing original-photo UV hexagonal builder reused, including black inferred reverse faces. Small bevel makes evaluated maximum diagonal slightly under500mm.",
+      "asset_pixels": [
+        1330,
+        1183
+      ],
+      "asset_mode": "RGBA",
+      "asset_sha256": "107440afe601a2c3058ed2d1fad8200338be6fbf4ae3323642167d65d9f7b8ef",
+      "source_checked_on": "2026-10-25",
+      "no_new_ai_imagery": true
+    },
+    {
+      "id": "CPH_FaceMini_DarkGrey",
+      "name_cn": "101 Copenhagen Sculpt Art Face Mini 深灰壁挂雕塑",
+      "quantity": 1,
+      "asset": "assets/round-hall-c-wearstler/originals/101-face-mini.jpg",
+      "source_preview": "assets/round-hall-c-wearstler/originals/101-face-mini.jpg",
+      "source_urls": [
+        "https://www.danishdesignstore.com/collections/brand-101-copenhagen/products/hansen-hyldahl-sculpt-art-wall-decor-101-copenhagen",
+        "https://www.monobrand.online/user/documents/upload/101%20Copenhagen/203055%20-%20Sculpt%20Wall%20Art%2C%20Face%20-%20Dark%20Grey%20-%20Style%20Sheet.pdf"
+      ],
+      "manufacturer": "101 Copenhagen",
+      "product_no": "203055",
+      "designer": "Kristian Sofus Hansen & Tommy Hyldahl",
+      "manufacturer_verification_status": "Manufacturer-authored203055 style sheet downloaded and image extracted; dimensions375W x520H x100Dmm and3.5kg confirmed. The sheet explicitly gives screws/brackets for wall hanging. A live dealer page for SKU101-203055 was verified. Current stock/delivery not independently confirmed.",
+      "dimensions_mm": {
+        "width": 375,
+        "height": 520,
+        "depth": 100
+      },
+      "dimension_status": "published manufacturer style-sheet dimensions",
+      "planning_dimensions_mm": {
+        "width": 375,
+        "height": 520,
+        "depth": 100
+      },
+      "material": "硬质回收纸、砂与粉笔粉的复合浇注材，深灰手涂表面；非洞石、非软毛织物。",
+      "selectionreason": "单块深灰有明显弧面起伏和投影，给左侧木墙一个黑色雕塑节点；不另做六圆盘或石片组，也不使用镜子。",
+      "mounting": "Original product is designed for wall hanging. Keep its back flat; curved-wall stand-off and original mounting hardware must be resolved on site.",
+      "source_kind": "Original product photograph extracted unchanged from manufacturer-authored203055 specification PDF, not AI or a rendered replacement.",
+      "obsolete_manufacturer_url": "https://101cph.com/products/sculpt-art-face-mini-dark-grey",
+      "obsolete_url_status": "Search archive remains readable; direct current fetch404. Not used as user product link.",
+      "model_treatment": "Three physical broad coved bands with100mm maximum relief, cast edge thickness and rear body. Exact hidden section and small surface variation inferred from the photograph and45/100mm section drawing.",
+      "asset_pixels": [
+        1303,
+        1238
+      ],
+      "asset_mode": "CMYK",
+      "asset_sha256": "36d12656558c59012d335723de049c07a8b032a761488a03f6b057850ad3eb73",
+      "source_checked_on": "2026-10-25",
+      "no_new_ai_imagery": true
+    },
+    {
+      "id": "KD_SerifReliefL_OffWhite",
+      "name_cn": "Kristina Dam Serif Relief L 米白几何叠层壁饰",
+      "quantity": 1,
+      "asset": "assets/round-hall-c-wearstler/originals/serif-relief-l.jpg",
+      "source_preview": "assets/round-hall-c-wearstler/originals/serif-relief-l.jpg",
+      "source_urls": [
+        "https://kristinadamstudio.com/products/132000221"
+      ],
+      "manufacturer": "Kristina Dam Studio",
+      "product_no": "132000221",
+      "manufacturer_verification_status": "Current manufacturer product page read directly. Published450W x1130H x60Dmm,2.78kg, Off White, recycled Katran cotton pulp. Vertical mounting is explicitly specified.",
+      "dimensions_mm": {
+        "width": 450,
+        "height": 1130,
+        "depth": 60
+      },
+      "dimension_status": "published manufacturer specifications",
+      "planning_dimensions_mm": {
+        "width": 450,
+        "height": 1130,
+        "depth": 60
+      },
+      "material": "硬质回收Katran棉浆浇注，米白色；不是毛茸、羊羔绒或洞石。",
+      "selectionreason": "以大块叠层和两个转折弧槽替代旧O13密集细波纹；单件竖向几何体在右实体墙形成真实厚度和明暗层次。",
+      "source_image_url": "https://kristinadamstudio.com/cdn/shop/files/132000221.jpg?v=1756995652&width=1024",
+      "source_kind": "Unchanged official white-background manufacturer photograph.",
+      "mounting": "Designed for vertical wall hanging. Do not bend it to match the curved wall; use appropriate local stand-off and original mounting points.",
+      "model_treatment": "Four actual solid overlapping slab/curved-contour volumes, with original paper-pulp photo crop. Hidden fasteners and fine casting variation inferred, not a flat picture board.",
+      "asset_pixels": [
+        1024,
+        1024
+      ],
+      "asset_mode": "RGB",
+      "asset_sha256": "7151b154625a8d8459b4a5257072f8f1424246cb54f06e5dea314ba542ed1006",
+      "source_checked_on": "2026-10-25",
+      "no_new_ai_imagery": true
+    }
+  ],
+  "removed": [
+    "O60_side1 x2",
+    "O13_art",
+    "P01_mirror",
+    "all other mirrors",
+    "white backing board beneath six original LT23_07 wall lights"
+  ],
+  "retained": [
+    "P01 cloud green custom large arc",
+    "O11 caramel chairs x3",
+    "O06 bronze-wave main table",
+    "W23_03 burgundy three-head pendant",
+    "Kline01",
+    "six original LT23_07 wall-light pieces"
+  ],
+  "noVR": true,
+  "status": "Static design proposal; no purchasing or installation performed.",
+  "geometry_module": "work/c-wearstler-additions.py",
+  "geometry_audit": "work/c-wearstler-selection/component-audit.json",
+  "texture_processing": "work/c-wearstler-selection/textures/processing.json",
+  "source_distinction": "Published manufacturer overall dimensions are retained for Echo and both wall accessories. O16/O47 trial envelopes are not maker specifications. Product photographs and manual rendering studies must not be conflated with factory CAD or site photography."
+}

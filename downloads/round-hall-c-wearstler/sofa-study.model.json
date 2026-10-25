@@ -1,0 +1,35 @@
+{
+  "spec": {
+    "outerRadius": 2.66,
+    "innerRadius": 1.61,
+    "startDegrees": -30.0,
+    "endDegrees": 165.0,
+    "seatCount": 5,
+    "seatHeight": 0.43,
+    "overallHeight": 0.88,
+    "armAngleDegrees": 10.74
+  },
+  "boundsMetres": [
+    [
+      -2.518850088119507,
+      -1.2828137874603271,
+      0.004999999888241291
+    ],
+    [
+      2.6566476821899414,
+      2.6357038021087646,
+      0.8799999952316284
+    ]
+  ],
+  "radialEnvelopeMetres": [
+    1.6099999524951296,
+    2.660000070081557
+  ],
+  "sourceReference": "work\\c-wearstler-materials\\P01-user-colour-reference.png",
+  "representation": "Custom design based on photographed P01; manufacturer detailing needed. Not source manufacturer CAD.",
+  "armDetail": "400mm tangential thick outer arm; approx10.74deg at radius2135mm. Soft overlap with terminal seat cushions requires upholstery detailing; angle allocation is not clear usable seating width.",
+  "seatDetail": "Crowned seating top430mm; approximate cushion bottom111mm; same-textile inset upholstered foundation50..190mm; recessed espresso base5..65mm. Back pillows535mm high /265mm thick, overall top880mm.",
+  "textileProjection": "12percent blended triplanar, ordinary REPEAT.100px opposite-edge pixel joining; output-informed CIELAB colour curve on original cloud pattern. No generated or AI pixels.",
+  "colourCalibration": "work\\c-wearstler-materials\\colour-calibration.json",
+  "noAIPixels": true
+}
